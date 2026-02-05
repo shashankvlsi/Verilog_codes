@@ -1,9 +1,8 @@
-# Simulator logs / junk
+# Simulator / tool junk
 transcript
-*.wlf
 *.log
+*.wlf
 *.vcd
 *.fsdb
 *.jou
 work/
-vsim.wlf
