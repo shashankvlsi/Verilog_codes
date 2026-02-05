@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/Memories/RAM/Full-Empty
+T_opt
+!s110 1758379058
+VYeo<G<RWm^R9EGXBf[M]l2
+Z1 04 2 4 work tb fast 0
+=1-4c0f3ec0fd23-68cebc32-262-4c34
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1758362058
+VVdcg[PEgKTGHKWJEIV[1A3
+R1
+=1-4c0f3ec0fd23-68ce79ca-1f6-3108
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+R0
+vram
+Z4 !s110 1758431002
+!i10b 1
+!s100 _TFFZ6D]W>LEBX:WOhH_c0
+Iod`PYceIfk:o;68ihP6>H0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1758379049
+Z7 8ram.v
+Z8 Fram.v
+L0 2
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1758431002.000000
+!s107 ram.v|
+Z11 !s90 -reportprogress|300|ram.v|+acc|
+!i113 0
+Z12 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb
+R4
+!i10b 1
+!s100 WaA4PRnMbO]MlPN=IPK_N0
+I@FalfE7RPE5PNcNOkfnVQ3
+R5
+R0
+R6
+R7
+R8
+L0 44
+R9
+r1
+!s85 0
+31
+R10
+Z13 !s107 ram.v|
+R11
+!i113 0
+R12
+R2

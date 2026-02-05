@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Switch-Level style/NAND GATE
+T_opt
+!s110 1755503555
+V1SO960ZU4Jkm7k^5AeY^o1
+04 11 4 work and_gate_tb fast 0
+=1-4c0f3ec0fd23-68a2dbc3-245-52b4
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755503733
+Vf]mzPN^KEZdPKcN9XMO_52
+04 7 4 work and1_tb fast 0
+=1-4c0f3ec0fd23-68a2dc75-107-5638
+o-quiet -auto_acc_if_foreign -work work
+R1
+n@_opt1
+R2
+vand1
+Z3 !s110 1755503712
+!i10b 1
+!s100 O_;;Wl7NM`=?8UXhI_<TE1
+I3<NMVI5gQRY_0]`^Nj[PQ0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/VLSI/Verilog/Switch-Level style/AND GATE
+w1755503685
+Z6 8D:/VLSI/Verilog/Switch-Level style/AND GATE/and_gate.v
+Z7 FD:/VLSI/Verilog/Switch-Level style/AND GATE/and_gate.v
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1755503712.000000
+Z10 !s107 D:/VLSI/Verilog/Switch-Level style/AND GATE/and_gate.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/AND GATE/and_gate.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vand1_tb
+R3
+!i10b 1
+!s100 WEh`PMADD[C`GDSkiWf0P2
+IS@hU:^fR1iW4abn6Vb8:02
+R4
+R5
+w1755503700
+Z13 8D:\VLSI\Verilog\Switch-Level style\AND GATE\and_gate_tb.v
+Z14 FD:\VLSI\Verilog\Switch-Level style\AND GATE\and_gate_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z15 !s107 D:\VLSI\Verilog\Switch-Level style\AND GATE\and_gate_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\VLSI\Verilog\Switch-Level style\AND GATE\and_gate_tb.v|
+!i113 0
+R12
+R1
+vand_gate
+Z17 !s110 1755503535
+!i10b 1
+!s100 QDOhkD0`lK3Qzk=diNLGa2
+Ii3VbOX`>9I<IaXcL7dZ3G2
+R4
+R5
+w1755503278
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+Z18 !s108 1755503535.000000
+R10
+R11
+!i113 0
+R12
+R1
+vand_gate_tb
+R17
+!i10b 1
+!s100 Bb^<nB73>HX9@TkiAPSEH2
+Iz7QmJ:[P08RcM`[2df<bI2
+R4
+R5
+w1755503523
+R13
+R14
+L0 1
+R8
+r1
+!s85 0
+31
+R18
+R15
+R16
+!i113 0
+R12
+R1

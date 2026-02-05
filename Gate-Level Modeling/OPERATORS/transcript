@@ -1,0 +1,538 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# operators.v  transcript  vsim.wlf  work        
+ls
+# operators.v  run.do  transcript  vsim.wlf  work      
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:24:42 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# ** Error (suppressible): operators.v(36): (vlog-13158) Operator '~&' is not supported by default.
+# ** Error (suppressible): operators.v(38): (vlog-13158) Operator '~|' is not supported by default.
+# End time: 19:24:42 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog operators.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:26:16 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:26:16 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim operators 
+# Start time: 19:26:17 on Aug 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit operators.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+ls
+# operators.v  run.do  transcript  vsim.wlf  work      
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:27:01 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:27:01 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim operator 
+# Start time: 19:26:17 on Aug 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=    17
+# sub y=     5
+# multi y=    66
+# divide y=     1
+# mod y=     5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=00000000000000001
+# or a=1011 b=0110 y=00000000000000001
+# not a=1011 b=0110 y=00000000000000000
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=00000000000000010
+# or a=1011 b=0110 y=00000000000001111
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111101
+# nor a=1011 b=0110 y=11111111111110000
+# xor a=1011 b=0110 y=00000000000001101
+# xnor a=1011 b=0110 y=11111111111110010
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:28:41 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:28:41 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:28:42 on Aug 29,2025, Elapsed time: 0:02:25
+# Errors: 1, Warnings: 0
+# vsim operator 
+# Start time: 19:28:42 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=    17
+# sub y=     5
+# multi y=    66
+# divide y=     1
+# mod y=     5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=00000000000000001
+# or a=1011 b=0110 y=00000000000000001
+# not a=1011 b=0110 y=00000000000000000
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=0010
+# or a=1011 b=0110 y=00000000000001111
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111101
+# nor a=1011 b=0110 y=11111111111110000
+# xor a=1011 b=0110 y=00000000000001101
+# xnor a=1011 b=0110 y=11111111111110010
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:29:36 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:29:36 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:29:37 on Aug 29,2025, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim operator 
+# Start time: 19:29:37 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=    17
+# sub y=     5
+# multi y=    66
+# divide y=     1
+# mod y=     5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=00000000000000001
+# or a=1011 b=0110 y=00000000000000001
+# not a=1011 b=0110 y=00000000000000000
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=0010
+# or a=1011 b=0110 y=1111
+# not a=1011 b=0110 y=0100
+# nand a=1011 b=0110 y=1101
+# nor a=1011 b=0110 y=0000
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=0010
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:31:25 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:31:25 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:31:25 on Aug 29,2025, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 0
+# vsim operator 
+# Start time: 19:31:25 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=17
+# sub y=5
+# multi y=66
+# divide y=1
+# mod y=5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=0001
+# or a=1011 b=0110 y=0001
+# not a=1011 b=0110 y=0000
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=0010
+# or a=1011 b=0110 y=1111
+# not a=1011 b=0110 y=0100
+# nand a=1011 b=0110 y=1101
+# nor a=1011 b=0110 y=0000
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=0010
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:32:09 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:32:09 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:32:09 on Aug 29,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim operator 
+# Start time: 19:32:09 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=17
+# sub y=5
+# multi y=66
+# divide y=1
+# mod y=5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=1
+# or a=1011 b=0110 y=0001
+# not a=1011 b=0110 y=0000
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=0010
+# or a=1011 b=0110 y=1111
+# not a=1011 b=0110 y=0100
+# nand a=1011 b=0110 y=1101
+# nor a=1011 b=0110 y=0000
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=0010
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:33:38 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:33:38 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:33:38 on Aug 29,2025, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 0
+# vsim operator 
+# Start time: 19:33:38 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=17
+# sub y=5
+# multi y=66
+# divide y=1
+# mod y=5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=1
+# or a=1011 b=0110 y=1
+# not a=1011 b=0110 y=0
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=10
+# or a=1011 b=0110 y=1111
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111101
+# nor a=1011 b=0110 y=0
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=10
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:35:12 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# ** Error: (vlog-13069) operators.v(39): near ";": syntax error, unexpected ';', expecting ')' or ','.
+# End time: 19:35:12 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog operators.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:35:29 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:35:29 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:35:30 on Aug 29,2025, Elapsed time: 0:01:52
+# Errors: 4, Warnings: 0
+# vsim operator 
+# Start time: 19:35:30 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=17
+# sub y=5
+# multi y=66
+# divide y=1
+# mod y=5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=1
+# or a=1011 b=0110 y=1
+# not a=1011 b=0110 y=0
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=10
+# or a=1011 b=0110 y=1111
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111101
+# nor a=1011 b=0110 y=11111111111110000
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=10
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:53:31 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 19:53:31 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:53:32 on Aug 29,2025, Elapsed time: 0:18:02
+# Errors: 0, Warnings: 0
+# vsim operator 
+# Start time: 19:53:33 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=17
+# sub y=5
+# multi y=66
+# divide y=1
+# mod y=5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=1
+# or a=1011 b=0110 y=1
+# not a=1011 b=0110 y=0
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=10
+# or a=1011 b=0110 y=1111
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111101
+# nor a=1011 b=0110 y=11111111111110000
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=11111111111110010
+# --------------------------------------------------------------------------------------------------------
+# Relational Operator
+# less a=1011 b=0110 y=0
+# greater a=1011 b=0110 y=1
+# LE a=1011 b=0110 y=0
+# GE a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Equality Operator
+# E a=1011 b=0110 y=0
+# NE a=1011 b=0110 y=1
+# CE a=1011 b=0110 y=0
+# CNE a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Reductional Operators
+# and a=1011 b=0110 y=0
+# or a=1011 b=0110 y=1
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111111
+# nor a=1011 b=0110 y=11111111111111110
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Shifting Operator
+# lls a=1011 b=0110 y=11000
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:06:50 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# ** Error: operators.v(92): (vlog-2730) Undefined variable: 's'.
+# End time: 20:06:50 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog operators.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:07:20 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 20:07:20 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:07:21 on Aug 29,2025, Elapsed time: 0:13:48
+# Errors: 4, Warnings: 0
+# vsim operator 
+# Start time: 20:07:21 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$dispaly' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /operator File: operators.v Line: 99
+# Airthmatic Operators
+# add y=17
+# sub y=5
+# multi y=66
+# divide y=1
+# mod y=5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=1
+# or a=1011 b=0110 y=1
+# not a=1011 b=0110 y=0
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=10
+# or a=1011 b=0110 y=1111
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111101
+# nor a=1011 b=0110 y=11111111111110000
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=11111111111110010
+# --------------------------------------------------------------------------------------------------------
+# Relational Operator
+# less a=1011 b=0110 y=0
+# greater a=1011 b=0110 y=1
+# LE a=1011 b=0110 y=0
+# GE a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Equality Operator
+# E a=1011 b=0110 y=0
+# NE a=1011 b=0110 y=1
+# CE a=1011 b=0110 y=0
+# CNE a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Reductional Operators
+# and a=1011 b=0110 y=0
+# or a=1011 b=0110 y=1
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111111
+# nor a=1011 b=0110 y=11111111111111110
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Shifting Operator
+# lls a=1011 b=0110 y=11000
+# lrs a=1011 b=0110 y=1
+# als a=1011 b=0110 y=101100
+# ars a=1011 b=0110 y=10
+# --------------------------------------------------------------------------------------------------------
+# Conditional Operator
+# CO a=1011 b=0110 s=1 y=1011
+# CO a=1011 b=0110 s=0 y=110
+# --------------------------------------------------------------------------------------------------------
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 10 ns  Iteration: 0  Process: /operator/#INITIAL#5 File: operators.v Line: 99
+# concatenation a=1011 b=0110 y=1011011010110110
+# Replication a=1011 b=0110 y=1011101110111011
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:08:32 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operator
+# 
+# Top level modules:
+# 	operator
+# End time: 20:08:32 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:08:33 on Aug 29,2025, Elapsed time: 0:01:12
+# Errors: 1, Warnings: 1
+# vsim operator 
+# Start time: 20:08:33 on Aug 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.operator(fast)
+# Airthmatic Operators
+# add y=17
+# sub y=5
+# multi y=66
+# divide y=1
+# mod y=5
+# --------------------------------------------------------------------------------------------------------
+# Logical Operators
+# and a=1011 b=0110 y=1
+# or a=1011 b=0110 y=1
+# not a=1011 b=0110 y=0
+# --------------------------------------------------------------------------------------------------------
+# Bitwise Operators
+# and a=1011 b=0110 y=10
+# or a=1011 b=0110 y=1111
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111101
+# nor a=1011 b=0110 y=11111111111110000
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=11111111111110010
+# --------------------------------------------------------------------------------------------------------
+# Relational Operator
+# less a=1011 b=0110 y=0
+# greater a=1011 b=0110 y=1
+# LE a=1011 b=0110 y=0
+# GE a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Equality Operator
+# E a=1011 b=0110 y=0
+# NE a=1011 b=0110 y=1
+# CE a=1011 b=0110 y=0
+# CNE a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Reductional Operators
+# and a=1011 b=0110 y=0
+# or a=1011 b=0110 y=1
+# not a=1011 b=0110 y=11111111111110100
+# nand a=1011 b=0110 y=11111111111111111
+# nor a=1011 b=0110 y=11111111111111110
+# xor a=1011 b=0110 y=1101
+# xnor a=1011 b=0110 y=1
+# --------------------------------------------------------------------------------------------------------
+# Shifting Operator
+# lls a=1011 b=0110 y=11000
+# lrs a=1011 b=0110 y=1
+# als a=1011 b=0110 y=101100
+# ars a=1011 b=0110 y=10
+# --------------------------------------------------------------------------------------------------------
+# Conditional Operator
+# CO a=1011 b=0110 s=1 y=1011
+# CO a=1011 b=0110 s=0 y=110
+# --------------------------------------------------------------------------------------------------------
+# Concatenation AND Replication
+# concatenation a=1011 b=0110 y=1011011010110110
+# Replication a=1011 b=0110 y=1011101110111011
+# End time: 20:14:05 on Aug 29,2025, Elapsed time: 0:05:32
+# Errors: 0, Warnings: 0

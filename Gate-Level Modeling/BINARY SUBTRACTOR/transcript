@@ -1,0 +1,112 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# fulladder.v  rcs.v  transcript          
+ls
+# fulladder.v  rcs.v  run.do  transcript        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:03:05 on Aug 28,2025
+# vlog -reportprogress 300 rcs.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module rcs
+# -- Compiling module rcs_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	rcs_tb
+# End time: 18:03:05 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim rcs_tb 
+# Start time: 18:03:06 on Aug 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.rcs_tb(fast)
+# Loading work.rcs(fast)
+# Loading work.fulladder1(fast)
+# a= 7  b= 3  bin=0 diff= 3  bout=1  Time=0 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:09:08 on Aug 28,2025
+# vlog -reportprogress 300 rcs.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module rcs
+# -- Compiling module rcs_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	rcs_tb
+# End time: 18:09:08 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:09:09 on Aug 28,2025, Elapsed time: 0:06:03
+# Errors: 0, Warnings: 0
+# vsim rcs_tb 
+# Start time: 18:09:09 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rcs_tb(fast)
+# Loading work.rcs(fast)
+# Loading work.fulladder1(fast)
+# a= 7  b= 3  bin=0 diff=10  bout=0  Time=0 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:11:35 on Aug 28,2025
+# vlog -reportprogress 300 rcs.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module rcs
+# -- Compiling module rcs_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	rcs_tb
+# End time: 18:11:35 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:11:36 on Aug 28,2025, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 0
+# vsim rcs_tb 
+# Start time: 18:11:36 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rcs_tb(fast)
+# Loading work.rcs(fast)
+# Loading work.fulladder1(fast)
+# a= 7  b= 3  cin=0 diff= 3  bout=1  Time=0 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:11:59 on Aug 28,2025
+# vlog -reportprogress 300 rcs.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module rcs
+# -- Compiling module rcs_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	rcs_tb
+# End time: 18:11:59 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:12:00 on Aug 28,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# vsim rcs_tb 
+# Start time: 18:12:00 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rcs_tb(fast)
+# Loading work.rcs(fast)
+# Loading work.fulladder1(fast)
+# a= 7  b= 3  cin=1 diff= 4  bout=1  Time=0 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/Verilog/Gate-Level Modeling/BINARY SUBTRACTOR/wave.do}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/Verilog/Gate-Level Modeling/BINARY SUBTRACTOR/wave.do}
+# End time: 18:18:02 on Aug 28,2025, Elapsed time: 0:06:02
+# Errors: 0, Warnings: 0

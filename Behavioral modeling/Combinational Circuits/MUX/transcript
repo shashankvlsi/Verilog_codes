@@ -1,0 +1,508 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:08:47 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# ** Error: (vlog-13069) mux.v(17): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: mux.v(27): (vlog-2730) Undefined variable: 's'.
+# ** Error: (vlog-13069) mux.v(34): near "end": syntax error, unexpected end.
+# End time: 19:08:47 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:09:12 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# ** Error: (vlog-13069) mux.v(35): near "end": syntax error, unexpected end.
+# End time: 19:09:12 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:10:16 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# ** Error: (vlog-13069) mux.v(35): near "end": syntax error, unexpected end.
+# End time: 19:10:16 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:11:08 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:11:08 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:11:08 on Sep 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'gate'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/gate File: mux.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 's'. The port definition is at: mux.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/gate File: mux.v Line: 22
+# ** Warning: (vsim-3722) mux.v(22): [TFMPC] - Missing connection for port 'y'.
+# i0=x i1=x i2=x i3=x s=xx y=z Time=0
+# i0=0 i1=1 i2=1 i3=1 s=xx y=z Time=10
+# i0=1 i1=1 i2=1 i3=0 s=xx y=z Time=20
+# i0=1 i1=1 i2=0 i3=1 s=xx y=z Time=30
+# i0=1 i1=0 i2=1 i3=0 s=xx y=z Time=40
+# i0=1 i1=0 i2=1 i3=1 s=xx y=z Time=50
+# i0=0 i1=1 i2=0 i3=0 s=xx y=z Time=60
+# i0=0 i1=1 i2=0 i3=1 s=xx y=z Time=70
+# i0=1 i1=1 i2=1 i3=0 s=xx y=z Time=80
+# i0=0 i1=0 i2=0 i3=1 s=xx y=z Time=90
+# i0=0 i1=1 i2=1 i3=1 s=xx y=z Time=100
+# i0=1 i1=1 i2=0 i3=0 s=xx y=z Time=110
+# i0=1 i1=1 i2=1 i3=0 s=xx y=z Time=120
+# i0=0 i1=0 i2=0 i3=0 s=xx y=z Time=130
+# i0=1 i1=0 i2=0 i3=1 s=xx y=z Time=140
+# i0=1 i1=0 i2=0 i3=0 s=xx y=z Time=150
+# i0=0 i1=0 i2=1 i3=1 s=xx y=z Time=160
+# i0=1 i1=1 i2=1 i3=0 s=xx y=z Time=170
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:12:48 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:12:48 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:12:49 on Sep 10,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 3
+# vsim tb 
+# Start time: 19:12:49 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'gate'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/gate File: mux.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 's'. The port definition is at: mux.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/gate File: mux.v Line: 22
+# ** Warning: (vsim-3722) mux.v(22): [TFMPC] - Missing connection for port 'y'.
+# i0=0 i1=1 i2=1 i3=1 s=xx y=z Time=0
+# i0=1 i1=1 i2=1 i3=0 s=xx y=z Time=10
+# i0=1 i1=1 i2=0 i3=1 s=xx y=z Time=20
+# i0=1 i1=0 i2=1 i3=0 s=xx y=z Time=30
+# i0=1 i1=0 i2=1 i3=1 s=xx y=z Time=40
+# i0=0 i1=1 i2=0 i3=0 s=xx y=z Time=50
+# i0=0 i1=1 i2=0 i3=1 s=xx y=z Time=60
+# i0=1 i1=1 i2=1 i3=0 s=xx y=z Time=70
+# i0=0 i1=0 i2=0 i3=1 s=xx y=z Time=80
+# i0=0 i1=1 i2=1 i3=1 s=xx y=z Time=90
+# i0=1 i1=1 i2=0 i3=0 s=xx y=z Time=100
+# i0=1 i1=1 i2=1 i3=0 s=xx y=z Time=110
+# i0=0 i1=0 i2=0 i3=0 s=xx y=z Time=120
+# i0=1 i1=0 i2=0 i3=1 s=xx y=z Time=130
+# i0=1 i1=0 i2=0 i3=0 s=xx y=z Time=140
+# i0=0 i1=0 i2=1 i3=1 s=xx y=z Time=150
+# i0=1 i1=1 i2=1 i3=0 s=xx y=z Time=160
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:17:09 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:17:09 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:17:09 on Sep 10,2025, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 3
+# vsim tb 
+# Start time: 19:17:09 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# i0=0 i1=1 i2=1 i3=1 s=xx y=1 Time=0
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=10
+# i0=1 i1=1 i2=0 i3=1 s=xx y=1 Time=20
+# i0=1 i1=0 i2=1 i3=0 s=xx y=0 Time=30
+# i0=1 i1=0 i2=1 i3=1 s=xx y=1 Time=40
+# i0=0 i1=1 i2=0 i3=0 s=xx y=0 Time=50
+# i0=0 i1=1 i2=0 i3=1 s=xx y=1 Time=60
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=70
+# i0=0 i1=0 i2=0 i3=1 s=xx y=1 Time=80
+# i0=0 i1=1 i2=1 i3=1 s=xx y=1 Time=90
+# i0=1 i1=1 i2=0 i3=0 s=xx y=0 Time=100
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=110
+# i0=0 i1=0 i2=0 i3=0 s=xx y=0 Time=120
+# i0=1 i1=0 i2=0 i3=1 s=xx y=1 Time=130
+# i0=1 i1=0 i2=0 i3=0 s=xx y=0 Time=140
+# i0=0 i1=0 i2=1 i3=1 s=xx y=1 Time=150
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=160
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:18:05 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:18:05 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:18:05 on Sep 10,2025, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:18:06 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# i0=x i1=x i2=x i3=x s=xx y=x Time=0
+# i0=0 i1=1 i2=1 i3=1 s=xx y=1 Time=10
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=20
+# i0=1 i1=1 i2=0 i3=1 s=xx y=1 Time=30
+# i0=1 i1=0 i2=1 i3=0 s=xx y=0 Time=40
+# i0=1 i1=0 i2=1 i3=1 s=xx y=1 Time=50
+# i0=0 i1=1 i2=0 i3=0 s=xx y=0 Time=60
+# i0=0 i1=1 i2=0 i3=1 s=xx y=1 Time=70
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=80
+# i0=0 i1=0 i2=0 i3=1 s=xx y=1 Time=90
+# i0=0 i1=1 i2=1 i3=1 s=xx y=1 Time=100
+# i0=1 i1=1 i2=0 i3=0 s=xx y=0 Time=110
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=120
+# i0=0 i1=0 i2=0 i3=0 s=xx y=0 Time=130
+# i0=1 i1=0 i2=0 i3=1 s=xx y=1 Time=140
+# i0=1 i1=0 i2=0 i3=0 s=xx y=0 Time=150
+# i0=0 i1=0 i2=1 i3=1 s=xx y=1 Time=160
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=170
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:18:38 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# ** Error: (vlog-13069) mux.v(28): near "==": syntax error, unexpected ==.
+# End time: 19:18:38 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:19:00 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:19:00 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:19:00 on Sep 10,2025, Elapsed time: 0:00:54
+# Errors: 4, Warnings: 0
+# vsim tb 
+# Start time: 19:19:00 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# i0=x i1=x i2=x i3=x s=00 y=x Time=0
+# i0=x i1=x i2=x i3=x s=01 y=x Time=10
+# i0=x i1=x i2=x i3=x s=10 y=x Time=20
+# i0=x i1=x i2=x i3=x s=11 y=x Time=30
+# i0=0 i1=1 i2=1 i3=1 s=11 y=1 Time=40
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=50
+# i0=1 i1=1 i2=0 i3=1 s=11 y=1 Time=60
+# i0=1 i1=0 i2=1 i3=0 s=11 y=0 Time=70
+# i0=1 i1=0 i2=1 i3=1 s=11 y=1 Time=80
+# i0=0 i1=1 i2=0 i3=0 s=11 y=0 Time=90
+# i0=0 i1=1 i2=0 i3=1 s=11 y=1 Time=100
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=110
+# i0=0 i1=0 i2=0 i3=1 s=11 y=1 Time=120
+# i0=0 i1=1 i2=1 i3=1 s=11 y=1 Time=130
+# i0=1 i1=1 i2=0 i3=0 s=11 y=0 Time=140
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=150
+# i0=0 i1=0 i2=0 i3=0 s=11 y=0 Time=160
+# i0=1 i1=0 i2=0 i3=1 s=11 y=1 Time=170
+# i0=1 i1=0 i2=0 i3=0 s=11 y=0 Time=180
+# i0=0 i1=0 i2=1 i3=1 s=11 y=1 Time=190
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=200
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:19:33 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:19:33 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:19:33 on Sep 10,2025, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:19:34 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# i0=0 i1=1 i2=1 i3=1 s=11 y=1 Time=0
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=10
+# i0=1 i1=1 i2=0 i3=1 s=11 y=1 Time=20
+# i0=1 i1=0 i2=1 i3=0 s=11 y=0 Time=30
+# i0=1 i1=0 i2=1 i3=1 s=11 y=1 Time=40
+# i0=0 i1=1 i2=0 i3=0 s=11 y=0 Time=50
+# i0=0 i1=1 i2=0 i3=1 s=11 y=1 Time=60
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=70
+# i0=0 i1=0 i2=0 i3=1 s=11 y=1 Time=80
+# i0=0 i1=1 i2=1 i3=1 s=11 y=1 Time=90
+# i0=1 i1=1 i2=0 i3=0 s=11 y=0 Time=100
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=110
+# i0=0 i1=0 i2=0 i3=0 s=11 y=0 Time=120
+# i0=1 i1=0 i2=0 i3=1 s=11 y=1 Time=130
+# i0=1 i1=0 i2=0 i3=0 s=11 y=0 Time=140
+# i0=0 i1=0 i2=1 i3=1 s=11 y=1 Time=150
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=160
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:20:19 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:20:19 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:20:19 on Sep 10,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:20:20 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# i0=0 i1=1 i2=1 i3=1 s=xx y=1 Time=0
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=10
+# i0=1 i1=1 i2=0 i3=1 s=xx y=1 Time=20
+# i0=1 i1=0 i2=1 i3=0 s=xx y=0 Time=30
+# i0=1 i1=0 i2=1 i3=1 s=xx y=1 Time=40
+# i0=0 i1=1 i2=0 i3=0 s=xx y=0 Time=50
+# i0=0 i1=1 i2=0 i3=1 s=xx y=1 Time=60
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=70
+# i0=0 i1=0 i2=0 i3=1 s=xx y=1 Time=80
+# i0=0 i1=1 i2=1 i3=1 s=xx y=1 Time=90
+# i0=1 i1=1 i2=0 i3=0 s=xx y=0 Time=100
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=110
+# i0=0 i1=0 i2=0 i3=0 s=xx y=0 Time=120
+# i0=1 i1=0 i2=0 i3=1 s=xx y=1 Time=130
+# i0=1 i1=0 i2=0 i3=0 s=xx y=0 Time=140
+# i0=0 i1=0 i2=1 i3=1 s=xx y=1 Time=150
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=160
+# i0=1 i1=1 i2=1 i3=0 s=00 y=1 Time=170
+# i0=1 i1=1 i2=1 i3=0 s=01 y=1 Time=180
+# i0=1 i1=1 i2=1 i3=0 s=10 y=1 Time=190
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=200
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:54 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# ** Error: (vlog-13069) mux.v(41): near "initial": syntax error, unexpected initial.
+# End time: 19:23:54 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:24:40 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:24:40 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:24:41 on Sep 10,2025, Elapsed time: 0:04:21
+# Errors: 4, Warnings: 0
+# vsim tb 
+# Start time: 19:24:41 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# i0=0 i1=1 i2=1 i3=1 s=00 y=0 Time=0
+# i0=0 i1=1 i2=1 i3=1 s=01 y=1 Time=10
+# i0=0 i1=1 i2=1 i3=1 s=10 y=1 Time=20
+# i0=0 i1=1 i2=1 i3=1 s=11 y=1 Time=30
+# i0=1 i1=1 i2=1 i3=0 s=00 y=1 Time=40
+# i0=1 i1=1 i2=1 i3=0 s=01 y=1 Time=50
+# i0=1 i1=1 i2=1 i3=0 s=10 y=1 Time=60
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=70
+# i0=1 i1=1 i2=0 i3=1 s=00 y=1 Time=80
+# i0=1 i1=1 i2=0 i3=1 s=01 y=1 Time=90
+# i0=1 i1=1 i2=0 i3=1 s=10 y=0 Time=100
+# i0=1 i1=1 i2=0 i3=1 s=11 y=1 Time=110
+# i0=1 i1=0 i2=1 i3=0 s=00 y=1 Time=120
+# i0=1 i1=0 i2=1 i3=0 s=01 y=0 Time=130
+# i0=1 i1=0 i2=1 i3=0 s=10 y=1 Time=140
+# i0=1 i1=0 i2=1 i3=0 s=11 y=0 Time=150
+# i0=1 i1=0 i2=1 i3=1 s=00 y=1 Time=160
+# i0=1 i1=0 i2=1 i3=1 s=01 y=0 Time=170
+# i0=1 i1=0 i2=1 i3=1 s=10 y=1 Time=180
+# i0=1 i1=0 i2=1 i3=1 s=11 y=1 Time=190
+# i0=0 i1=1 i2=0 i3=0 s=00 y=0 Time=200
+# i0=0 i1=1 i2=0 i3=0 s=01 y=1 Time=210
+# i0=0 i1=1 i2=0 i3=0 s=10 y=0 Time=220
+# i0=0 i1=1 i2=0 i3=0 s=11 y=0 Time=230
+# i0=0 i1=1 i2=0 i3=1 s=00 y=0 Time=240
+# i0=0 i1=1 i2=0 i3=1 s=01 y=1 Time=250
+# i0=0 i1=1 i2=0 i3=1 s=10 y=0 Time=260
+# i0=0 i1=1 i2=0 i3=1 s=11 y=1 Time=270
+# i0=1 i1=1 i2=1 i3=0 s=00 y=1 Time=280
+# i0=1 i1=1 i2=1 i3=0 s=01 y=1 Time=290
+# i0=1 i1=1 i2=1 i3=0 s=10 y=1 Time=300
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=310
+# i0=0 i1=0 i2=0 i3=1 s=00 y=0 Time=320
+# i0=0 i1=0 i2=0 i3=1 s=01 y=0 Time=330
+# i0=0 i1=0 i2=0 i3=1 s=10 y=0 Time=340
+# i0=0 i1=0 i2=0 i3=1 s=11 y=1 Time=350
+# i0=0 i1=1 i2=1 i3=1 s=00 y=0 Time=360
+# i0=0 i1=1 i2=1 i3=1 s=01 y=1 Time=370
+# i0=0 i1=1 i2=1 i3=1 s=10 y=1 Time=380
+# i0=0 i1=1 i2=1 i3=1 s=11 y=1 Time=390
+# i0=1 i1=1 i2=0 i3=0 s=00 y=1 Time=400
+# i0=1 i1=1 i2=0 i3=0 s=01 y=1 Time=410
+# i0=1 i1=1 i2=0 i3=0 s=10 y=0 Time=420
+# i0=1 i1=1 i2=0 i3=0 s=11 y=0 Time=430
+# i0=1 i1=1 i2=1 i3=0 s=00 y=1 Time=440
+# i0=1 i1=1 i2=1 i3=0 s=01 y=1 Time=450
+# i0=1 i1=1 i2=1 i3=0 s=10 y=1 Time=460
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=470
+# i0=0 i1=0 i2=0 i3=0 s=00 y=0 Time=480
+# i0=0 i1=0 i2=0 i3=0 s=01 y=0 Time=490
+# i0=0 i1=0 i2=0 i3=0 s=10 y=0 Time=500
+# i0=0 i1=0 i2=0 i3=0 s=11 y=0 Time=510
+# i0=1 i1=0 i2=0 i3=1 s=00 y=1 Time=520
+# i0=1 i1=0 i2=0 i3=1 s=01 y=0 Time=530
+# i0=1 i1=0 i2=0 i3=1 s=10 y=0 Time=540
+# i0=1 i1=0 i2=0 i3=1 s=11 y=1 Time=550
+# i0=1 i1=0 i2=0 i3=0 s=00 y=1 Time=560
+# i0=1 i1=0 i2=0 i3=0 s=01 y=0 Time=570
+# i0=1 i1=0 i2=0 i3=0 s=10 y=0 Time=580
+# i0=1 i1=0 i2=0 i3=0 s=11 y=0 Time=590
+# i0=0 i1=0 i2=1 i3=1 s=00 y=0 Time=600
+# i0=0 i1=0 i2=1 i3=1 s=01 y=0 Time=610
+# i0=0 i1=0 i2=1 i3=1 s=10 y=1 Time=620
+# i0=0 i1=0 i2=1 i3=1 s=11 y=1 Time=630
+# i0=1 i1=1 i2=1 i3=0 s=00 y=1 Time=640
+# i0=1 i1=1 i2=1 i3=0 s=01 y=1 Time=650
+# i0=1 i1=1 i2=1 i3=0 s=10 y=1 Time=660
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=670
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:30:45 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:30:45 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:30:46 on Sep 10,2025, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:30:46 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# i0=0 i1=1 i2=1 i3=1 s=xx y=1 Time=0
+# i0=1 i1=1 i2=1 i3=0 s=xx y=0 Time=10
+# i0=1 i1=1 i2=0 i3=1 s=xx y=1 Time=20
+# i0=1 i1=0 i2=1 i3=0 s=xx y=0 Time=30
+# i0=1 i1=0 i2=1 i3=1 s=xx y=1 Time=40
+# i0=0 i1=1 i2=0 i3=0 s=xx y=0 Time=50
+# i0=0 i1=1 i2=0 i3=1 s=xx y=1 Time=60
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:31:05 on Sep 10,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:31:05 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:31:05 on Sep 10,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:31:05 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.mux(fast)
+# i0=0 i1=1 i2=1 i3=1 s=00 y=0 Time=0
+# i0=0 i1=1 i2=1 i3=1 s=01 y=1 Time=10
+# i0=0 i1=1 i2=1 i3=1 s=10 y=1 Time=20
+# i0=0 i1=1 i2=1 i3=1 s=11 y=1 Time=30
+# i0=1 i1=1 i2=1 i3=0 s=00 y=1 Time=40
+# i0=1 i1=1 i2=1 i3=0 s=01 y=1 Time=50
+# i0=1 i1=1 i2=1 i3=0 s=10 y=1 Time=60
+# i0=1 i1=1 i2=1 i3=0 s=11 y=0 Time=70
+# i0=1 i1=1 i2=0 i3=1 s=00 y=1 Time=80
+# i0=1 i1=1 i2=0 i3=1 s=01 y=1 Time=90
+# i0=1 i1=1 i2=0 i3=1 s=10 y=0 Time=100
+# i0=1 i1=1 i2=0 i3=1 s=11 y=1 Time=110
+# i0=1 i1=0 i2=1 i3=0 s=00 y=1 Time=120
+# i0=1 i1=0 i2=1 i3=0 s=01 y=0 Time=130
+# i0=1 i1=0 i2=1 i3=0 s=10 y=1 Time=140
+# i0=1 i1=0 i2=1 i3=0 s=11 y=0 Time=150
+# i0=1 i1=0 i2=1 i3=1 s=00 y=1 Time=160
+# i0=1 i1=0 i2=1 i3=1 s=01 y=0 Time=170
+# i0=1 i1=0 i2=1 i3=1 s=10 y=1 Time=180
+# i0=1 i1=0 i2=1 i3=1 s=11 y=1 Time=190
+# i0=0 i1=1 i2=0 i3=0 s=00 y=0 Time=200
+# i0=0 i1=1 i2=0 i3=0 s=01 y=1 Time=210
+# i0=0 i1=1 i2=0 i3=0 s=10 y=0 Time=220
+# i0=0 i1=1 i2=0 i3=0 s=11 y=0 Time=230
+# i0=0 i1=1 i2=0 i3=1 s=00 y=0 Time=240
+# i0=0 i1=1 i2=0 i3=1 s=01 y=1 Time=250
+# i0=0 i1=1 i2=0 i3=1 s=10 y=0 Time=260
+# i0=0 i1=1 i2=0 i3=1 s=11 y=1 Time=270
+# End time: 19:32:48 on Sep 10,2025, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 0

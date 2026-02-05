@@ -1,0 +1,422 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:04:39 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module sss
+# -- Compiling module fun
+# 
+# Top level modules:
+# 	sss
+# End time: 15:04:39 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sss 
+# Start time: 15:04:39 on Sep 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): test.v(8): (vopt-7063) Failed to find 'addition' in hierarchical name 'addition'.
+#         Region: sss
+# ** Error (suppressible): test.v(8): (vopt-7063) Failed to find 'addition' in hierarchical name 'addition'.
+#         Region: sss
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:15:41 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module sss
+# ** Error: ** while parsing file included at test.v(2)
+# ** at f.v(3): (vlog-2730) Undefined variable: 'a'.
+# ** Error: ** while parsing file included at test.v(2)
+# ** at f.v(3): (vlog-2730) Undefined variable: 'b'.
+# End time: 15:15:41 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:16:01 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module sss
+# 
+# Top level modules:
+# 	sss
+# End time: 15:16:01 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sss 
+# Start time: 15:04:39 on Sep 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.sss(fast)
+# e=2 f=4 add=6
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:17:00 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# ** Error: ** while parsing file included at test.v(1)
+# ** at f.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
+# -- Compiling module sss
+# End time: 15:17:01 on Sep 12,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:17:41 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module sss
+# 
+# Top level modules:
+# 	sss
+# End time: 15:17:41 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:17:42 on Sep 12,2025, Elapsed time: 0:13:03
+# Errors: 6, Warnings: 0
+# vsim sss 
+# Start time: 15:17:42 on Sep 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.sss(fast)
+# e=2 f=4 add=6
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:19:15 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module sss
+# ** Error: ** while parsing file included at test.v(3)
+# ** at f.v(10): (vlog-2730) Undefined variable: 'subtraction'.
+# ** Error: (vlog-13069) ** while parsing file included at test.v(3)
+# ** at f.v(11): near ";": syntax error, unexpected ';', expecting ')' or ','.
+# End time: 15:19:15 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:20:05 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module sss
+# ** Error: (vlog-13069) ** while parsing file included at test.v(3)
+# ** at f.v(11): near ";": syntax error, unexpected ';', expecting ')' or ','.
+# End time: 15:20:05 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:20:42 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module sss
+# 
+# Top level modules:
+# 	sss
+# End time: 15:20:42 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:20:43 on Sep 12,2025, Elapsed time: 0:03:01
+# Errors: 9, Warnings: 0
+# vsim sss 
+# Start time: 15:20:43 on Sep 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.sss(fast)
+# e=2 f=4 add=6
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:21:37 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module sss
+# 
+# Top level modules:
+# 	sss
+# End time: 15:21:37 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:21:37 on Sep 12,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim sss 
+# Start time: 15:21:37 on Sep 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.sss(fast)
+# e=2 f=4 add=6
+# g=20 h=4 sub=16
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:22:01 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# ** Error: ** while parsing file included at test.v(1)
+# ** at f.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
+# -- Compiling module sss
+# End time: 15:22:01 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:22:46 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:22:46 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:22:47 on Sep 12,2025, Elapsed time: 0:01:10
+# Errors: 4, Warnings: 0
+# vsim test 
+# Start time: 15:22:47 on Sep 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+# e=2 f=4 add=6
+# g=20 h=4 sub=16
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:23:11 on Sep 12,2025
+# vlog -reportprogress 300 fun.v "+acc" 
+# -- Compiling module fun
+# ** Error: fun.v(33): 'add' already exists; must not be redefined as a named block
+# ** Error: (vlog-13069) fun.v(33): near "=": syntax error, unexpected '='.
+# End time: 15:23:11 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:24:01 on Sep 12,2025
+# vlog -reportprogress 300 fun.v "+acc" 
+# -- Compiling module fun
+# ** Error: fun.v(33): 'add' already exists; must not be redefined as a named block
+# ** Error: (vlog-13069) fun.v(33): near "=": syntax error, unexpected '='.
+# End time: 15:24:02 on Sep 12,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:27:25 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:27:25 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:27:25 on Sep 12,2025, Elapsed time: 0:04:38
+# Errors: 10, Warnings: 0
+# vsim test 
+# Start time: 15:27:26 on Sep 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): test.v(8): (vopt-7063) Failed to find 'add' in hierarchical name 'add'.
+#         Region: test
+# ** Error (suppressible): test.v(8): (vopt-7063) Failed to find 'add' in hierarchical name 'add'.
+#         Region: test
+# ** Error (suppressible): test.v(9): (vopt-7063) Failed to find 'sub' in hierarchical name 'sub'.
+#         Region: test
+# ** Error (suppressible): test.v(9): (vopt-7063) Failed to find 'sub' in hierarchical name 'sub'.
+#         Region: test
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:27:55 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:27:55 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 15:27:26 on Sep 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+# e=2 f=4 addition=6
+# g=20 h=4 subtraction=16
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:28:25 on Sep 12,2025
+# vlog -reportprogress 300 fun.v "+acc" 
+# -- Compiling module fun
+# ** Error: fun.v(33): 'add' already exists; must not be redefined as a named block
+# ** Error: (vlog-13069) fun.v(33): near "=": syntax error, unexpected '='.
+# End time: 15:28:25 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:31:41 on Sep 12,2025
+# vlog -reportprogress 300 fun.v "+acc" 
+# -- Compiling module fun
+# 
+# Top level modules:
+# 	fun
+# End time: 15:31:41 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:31:41 on Sep 12,2025, Elapsed time: 0:04:15
+# Errors: 9, Warnings: 0
+# vsim fun 
+# Start time: 15:31:41 on Sep 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fun(fast)
+# a=356 b=2790 addition=3146
+# a=122 b=43 subtraction=79
+# a=134 b=456 multiply=61104
+# a=56 b=11 division=5
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:34:34 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:34:34 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:34:35 on Sep 12,2025, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 15:34:35 on Sep 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): test.v(8): (vopt-7063) Failed to find 'addd' in hierarchical name 'addd'.
+#         Region: test
+# ** Error (suppressible): test.v(8): (vopt-7063) Failed to find 'addd' in hierarchical name 'addd'.
+#         Region: test
+# ** Error (suppressible): test.v(9): (vopt-7063) Failed to find 'subb' in hierarchical name 'subb'.
+#         Region: test
+# ** Error (suppressible): test.v(9): (vopt-7063) Failed to find 'subb' in hierarchical name 'subb'.
+#         Region: test
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:34:50 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:34:50 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 15:34:35 on Sep 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+# a=2 b=4 addition=6
+# a=20 b=4 subtraction=16
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:35:32 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:35:32 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:35:32 on Sep 12,2025, Elapsed time: 0:00:57
+# Errors: 4, Warnings: 0
+# vsim test 
+# Start time: 15:35:32 on Sep 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# a=1000 b=4444 addition=5444
+# a=20 b=4 subtraction=16
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:35:51 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) ** while parsing file included at test.v(2)
+# ** at f.v(1): near "reg": syntax error, unexpected reg.
+# ** Error: (vlog-13069) ** while parsing file included at test.v(2)
+# ** at f.v(3): near "=": syntax error, unexpected '='.
+# ** Error: ** while parsing file included at test.v(2)
+# ** at f.v(3): (vlog-13205) Syntax error found in the scope following 'add'. Is there a missing '::'?
+# End time: 15:35:51 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:36:21 on Sep 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 15:36:21 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:36:22 on Sep 12,2025, Elapsed time: 0:00:50
+# Errors: 6, Warnings: 0
+# vsim test 
+# Start time: 15:36:22 on Sep 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.test(fast)
+# a=1000 b=4444 addition=5444
+# a=20 b=4 subtraction=16
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:36:46 on Sep 12,2025
+# vlog -reportprogress 300 fun.v "+acc" 
+# -- Compiling module fun
+# 
+# Top level modules:
+# 	fun
+# End time: 15:36:46 on Sep 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:36:47 on Sep 12,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim fun 
+# Start time: 15:36:47 on Sep 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.fun(fast)
+# a=356 b=2790 addition=3146
+# a=122 b=43 subtraction=79
+# a=134 b=456 multiply=61104
+# a=56 b=11 division=5
+# End time: 15:41:06 on Sep 12,2025, Elapsed time: 0:04:19
+# Errors: 0, Warnings: 0

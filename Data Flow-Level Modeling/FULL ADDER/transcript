@@ -1,0 +1,128 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:18:33 on Jan 22,2026
+# vlog -reportprogress 300 fulladder.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module fa_tb
+# 
+# Top level modules:
+# 	fa_tb
+# End time: 20:18:33 on Jan 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim fa_tb 
+# Start time: 20:18:33 on Jan 22,2026
+# ** Error: (vsim-7) Failed to open info file "D:/VLSI/Verilog/Data Flow-Level Modeling/FULL ADDER/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: (vopt-7) Failed to open info file "D:/VLSI/Verilog/Data Flow-Level Modeling/FULL ADDER/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# Optimization failed
+# ** Error: (vopt-1933) Unable to create temporary directory D:/VLSI/Verilog/Data Flow-Level Modeling/FULL ADDER/work/_tempmsg
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+ls
+# fulladder.v  run.do  transcript  vsim.wlf  work      
+vlog fulladder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:18:50 on Jan 22,2026
+# vlog -reportprogress 300 fulladder.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module fa_tb
+# 
+# Top level modules:
+# 	fa_tb
+# End time: 20:18:50 on Jan 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim fa_tb
+# vsim fa_tb 
+# Start time: 20:18:33 on Jan 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fa_tb(fast)
+# Loading work.fa(fast)
+add wave *
+run -all
+# a=0 b=1 cin=1 sum=0 carry=1 time=0
+# a=1 b=1 cin=1 sum=1 carry=1 time=10
+# a=1 b=0 cin=1 sum=0 carry=1 time=20
+# a=0 b=1 cin=0 sum=1 carry=0 time=50
+# a=1 b=1 cin=0 sum=0 carry=1 time=60
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:19:16 on Jan 22,2026
+# vlog -reportprogress 300 fulladder.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module fa_tb
+# 
+# Top level modules:
+# 	fa_tb
+# End time: 20:19:16 on Jan 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:19:17 on Jan 22,2026, Elapsed time: 0:00:44
+# Errors: 1, Warnings: 0
+# vsim fa_tb 
+# Start time: 20:19:17 on Jan 22,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.fa_tb(fast)
+# Loading work.fa(fast)
+# a=0 b=1 cin=1 sum=0 carry=1 time=0
+# a=1 b=1 cin=1 sum=1 carry=1 time=10
+# a=1 b=0 cin=1 sum=0 carry=1 time=20
+# a=0 b=1 cin=0 sum=1 carry=0 time=50
+# a=1 b=1 cin=0 sum=0 carry=1 time=60
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:19:30 on Jan 22,2026
+# vlog -reportprogress 300 fulladder.v "+acc" 
+# -- Compiling module fa
+# ** Error: fulladder.v(2): Register is illegal in left-hand side of continuous assignment
+# ** Error: fulladder.v(3): Register is illegal in left-hand side of continuous assignment
+# -- Compiling module fa_tb
+# End time: 20:19:30 on Jan 22,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog fulladder.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:20:12 on Jan 22,2026
+# vlog -reportprogress 300 fulladder.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module fa_tb
+# 
+# Top level modules:
+# 	fa_tb
+# End time: 20:20:12 on Jan 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:20:13 on Jan 22,2026, Elapsed time: 0:00:56
+# Errors: 5, Warnings: 0
+# vsim fa_tb 
+# Start time: 20:20:13 on Jan 22,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.fa_tb(fast)
+# Loading work.fa(fast)
+# a=0 b=1 cin=1 sum=0 carry=1 time=0
+# a=1 b=1 cin=1 sum=1 carry=1 time=10
+# a=1 b=0 cin=1 sum=0 carry=1 time=20
+# a=0 b=1 cin=0 sum=1 carry=0 time=50
+# a=1 b=1 cin=0 sum=0 carry=1 time=60
+# End time: 20:20:38 on Jan 22,2026, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0

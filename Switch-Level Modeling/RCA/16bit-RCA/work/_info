@@ -1,0 +1,230 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Switch-Level style/RCA/16bit-RCA
+T_opt
+Z1 !s110 1755837230
+VRahAcDeE<GcY^7WPonCYR0
+04 7 4 work rca2_tb fast 0
+=1-4c0f3ec0fd23-68a7f32e-1e0-3c10
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vand1
+Z3 !s110 1755837379
+!i10b 1
+!s100 O_;;Wl7NM`=?8UXhI_<TE1
+I59OEj1?HQAUbOV?FK[co80
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1755616866
+8andgate.v
+Fandgate.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1755837379.000000
+Z7 !s107 halfadder1.v|andgate.v|xorgate1.v|orgate1.v|fulladder3.v|rca1.v|rca2.v|
+Z8 !s90 -reportprogress|300|rca2.v|+acc|
+!i113 0
+Z9 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfulladder3
+R3
+!i10b 1
+!s100 h[_6W<[RG3AEe=Lm4Zh=Y2
+IZ@3^YVNcBd;b7K_bVABi?1
+R4
+R0
+Z10 w1755677357
+Z11 8fulladder3.v
+Z12 Ffulladder3.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vfulladder3_tb
+R3
+!i10b 1
+!s100 KXjf4;aEO[Zch^KHFh9L@3
+Ib?5PNOjP;T_?;S=2jA1z20
+R4
+R0
+R10
+R11
+R12
+L0 28
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vhalfadder
+R3
+!i10b 1
+!s100 3PF0Jgh^;YKR2dVAd3oDG0
+IH<M3ET[z5O5N0hV=2z>>W1
+R4
+R0
+w1755674262
+8halfadder1.v
+Fhalfadder1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vor1
+R3
+!i10b 1
+!s100 5`bB3Wiz`Fzab>`B?S:J90
+IzUSi:BzKN3XQYNf0P;L4X0
+R4
+R0
+Z13 w1755614022
+8orgate1.v
+Forgate1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vrac1_tb
+R3
+!i10b 1
+!s100 <<ERJVlGNgUKUFN16`R1T1
+IZ:m]Mk_hkG7XWR>OgE<8Z3
+R4
+R0
+Z14 w1755689760
+Z15 8rca1.v
+Z16 Frca1.v
+L0 42
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vrca1
+R3
+!i10b 1
+!s100 K>INZcPk15`ZkRg]d1noA3
+ICYk38^iZa[c5JiJYDLXFC2
+R4
+R0
+R14
+R15
+R16
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vrca2
+R1
+!i10b 1
+!s100 ^O:mj6XdVP^jo_oZ@RJD`1
+Ieg1f6KRmXNPb;B8BLlcn?0
+R4
+R0
+w1755837208
+Z17 8rca2.v
+Z18 Frca2.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1755837230.000000
+R7
+R8
+!i113 0
+R9
+R2
+vrca2_tb
+R3
+!i10b 1
+!s100 Hi51J?Xo9_?QWE;<6F5Nz2
+I@A1da28TnA<LUf`oSk0;W2
+R4
+R0
+w1755837370
+R17
+R18
+L0 40
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vxor1
+R3
+!i10b 1
+!s100 m4lShG[::kTm]IU8SW?N13
+IEFTCSi:2JnMH1S?V<YVNh0
+R4
+R0
+R13
+8xorgate1.v
+Fxorgate1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2

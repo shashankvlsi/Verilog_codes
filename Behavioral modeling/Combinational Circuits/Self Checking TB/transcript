@@ -1,0 +1,419 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:35:07 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# ** Error: (vlog-13053) top.v(1): near "'i": Illegal base specifier in numeric constant.
+# ** Error: (vlog-13069) top.v(1): near "'i": syntax error, unexpected BASE, expecting class.
+# End time: 15:35:07 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:36:10 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# ** Error: ** while parsing file included at top.v(1)
+# ** at dut.v(7): (vlog-2730) Undefined variable: 'i0'.
+# ** Error: ** while parsing file included at top.v(1)
+# ** at dut.v(7): (vlog-2730) Undefined variable: 'i1'.
+# ** Error: ** while parsing file included at top.v(1)
+# ** at dut.v(7): (vlog-2730) Undefined variable: 'i2'.
+# ** Error: ** while parsing file included at top.v(1)
+# ** at dut.v(7): (vlog-2730) Undefined variable: 'i3'.
+# ** Error: ** while parsing file included at top.v(1)
+# ** at dut.v(7): (vlog-2730) Undefined variable: 'i4'.
+# ** Error: ** while parsing file included at top.v(1)
+# ** at dut.v(7): (vlog-2730) Undefined variable: 'i5'.
+# ** Error: ** while parsing file included at top.v(1)
+# ** at dut.v(7): (vlog-2730) Undefined variable: 'i6'.
+# ** Error: ** while parsing file included at top.v(1)
+# ** at dut.v(7): (vlog-2730) Undefined variable: 'i7'.
+# -- Compiling module tb
+# ** Error: ** while parsing file included at top.v(2)
+# ** at tb.v(22): (vlog-2730) Undefined variable: 'y'.
+# -- Compiling module top
+# End time: 15:36:10 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:37:06 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# ** Error: ** while parsing file included at top.v(2)
+# ** at tb.v(22): (vlog-2730) Undefined variable: 'y'.
+# -- Compiling module top
+# End time: 15:37:06 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:38:39 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# ** Error: ** while parsing file included at top.v(2)
+# ** at tb.v(10): (vlog-2110) Illegal reference to net "I".
+# ** Error: ** while parsing file included at top.v(2)
+# ** at tb.v(11): (vlog-2110) Illegal reference to net "S".
+# ** Error: ** while parsing file included at top.v(2)
+# ** at tb.v(17): (vlog-2110) Illegal reference to net "Y".
+# -- Compiling module top
+# End time: 15:38:39 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:39:34 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# ** Error: ** while parsing file included at top.v(2)
+# ** at tb.v(17): (vlog-2110) Illegal reference to net "Y".
+# -- Compiling module top
+# End time: 15:39:34 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:39:57 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:39:58 on Nov 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 15:39:58 on Nov 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'i'. The port definition is at: dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl1 File: top.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 's'. The port definition is at: dut.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl1 File: top.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'I'. The port definition is at: tb.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl2 File: top.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'S'. The port definition is at: tb.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl2 File: top.v Line: 12
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:41:19 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:41:19 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:41:20 on Nov 12,2025, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 15:41:20 on Nov 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 's'. The port definition is at: dut.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl1 File: top.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'S'. The port definition is at: tb.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl2 File: top.v Line: 13
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:41:47 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:41:47 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:41:48 on Nov 12,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 15:41:48 on Nov 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 's'. The port definition is at: dut.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl1 File: top.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'S'. The port definition is at: tb.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl2 File: top.v Line: 13
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:42:24 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:42:24 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:42:25 on Nov 12,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2
+# vsim top 
+# Start time: 15:42:25 on Nov 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 's'. The port definition is at: dut.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl1 File: top.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'y'. The port definition is at: dut.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl1 File: top.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'S'. The port definition is at: tb.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl2 File: top.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'Y'. The port definition is at: tb.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /top/rtl2 File: top.v Line: 14
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:43:58 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:43:58 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:43:58 on Nov 12,2025, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 4
+# vsim top 
+# Start time: 15:43:58 on Nov 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:44:46 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:44:46 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:44:47 on Nov 12,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 15:44:47 on Nov 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# display==it is good
+# ** Info: good
+#    Time: 10 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 10 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 10 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:47:26 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:47:26 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:47:26 on Nov 12,2025, Elapsed time: 0:02:39
+# Errors: 1, Warnings: 1
+# vsim top 
+# Start time: 15:47:26 on Nov 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# display==it is good
+# ** Info: good
+#    Time: 10 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 10 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 10 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 20 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 20 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 20 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 30 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 30 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 30 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 40 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 40 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 40 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 50 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 50 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 50 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 60 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 60 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 60 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 70 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 70 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 70 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 80 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 80 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 80 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 90 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 90 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 90 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 100 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 100 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 100 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:48:13 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:48:13 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:48:13 on Nov 12,2025, Elapsed time: 0:00:47
+# Errors: 10, Warnings: 10
+# vsim top 
+# Start time: 15:48:13 on Nov 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# display==it is good
+# ** Info: good
+#    Time: 1 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 1 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 1 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# display==it is good
+# ** Info: good
+#    Time: 2 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 2 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 2 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:52:30 on Nov 12,2025
+# vlog -reportprogress 300 top.v "+acc" 
+# -- Compiling module dut
+# -- Compiling module tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:52:30 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:52:31 on Nov 12,2025, Elapsed time: 0:04:18
+# Errors: 2, Warnings: 2
+# vsim top 
+# Start time: 15:52:31 on Nov 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# display==it is good
+# ** Info: good
+#    Time: 1 ns  Scope: top.rtl2.sb File: tb.v Line: 26
+# ** Error: matched
+#    Time: 1 ns  Scope: top.rtl2.sb File: tb.v Line: 27
+# ** Warning: Finished
+#    Time: 1 ns  Scope: top.rtl2.sb File: tb.v Line: 28
+# ** Warning: (vsim-PLI-8496) $fatal : Argument number 1 is invalid. Expecting 0, 1, or 2. Using default value of 1
+#    Time: 1 ns  Iteration: 0  Process: /top/rtl2/#INITIAL#34 File: tb.v Line: 29
+# ** Fatal: fatal
+#    Time: 1 ns  Scope: top.rtl2.sb File: tb.v Line: 29
+# ** Note: $finish    : tb.v(29)
+#    Time: 1 ns  Iteration: 0  Instance: /top/rtl2
+# 1
+# Break in Task sb at tb.v line 29

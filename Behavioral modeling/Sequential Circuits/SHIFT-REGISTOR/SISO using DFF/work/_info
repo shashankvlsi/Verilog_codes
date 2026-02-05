@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/SHIFT-REGISTOR/SISO using DFF
+T_opt
+Z1 !s110 1760254636
+V:SBd[YB5EIP4TNb1P:]XC0
+04 2 4 work tb fast 0
+=2-4c0f3ec0fd23-68eb5aac-2e9-3764
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdff
+R1
+!i10b 1
+!s100 SagT9^V69Rdz7_2PGTa?_2
+IbiQzLDj5d52gh:00V[74m1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757607986
+8dff.v
+Fdff.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1760254636.000000
+Z6 !s107 dff.v|siso.v|
+Z7 !s90 -reportprogress|300|siso.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vsiso
+R1
+!i10b 1
+!s100 0Cj9]=02YDR>jWAK0d>S32
+IZb^mO1M>R_1Ha@ZbLR3[h1
+R3
+R0
+Z9 w1757609623
+Z10 8siso.v
+Z11 Fsiso.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R2
+vtb
+R1
+!i10b 1
+!s100 3XQ;Em<>]bJajOn8DWzB32
+IAddRWdK[^^2gD8gC;<9WR1
+R3
+R0
+R9
+R10
+R11
+L0 13
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R2

@@ -1,0 +1,253 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:29:14 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# ** Error: (vlog-13036) palin.v(6): near "++": Operator only allowed in SystemVerilog.
+# -- Compiling module tb
+# ** Error: (vlog-13069) palin.v(21): near "rtl": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# End time: 13:29:14 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog palin.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:29:31 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# ** Error: (vlog-13069) palin.v(21): near "rtl": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# End time: 13:29:31 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog palin.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:29:56 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:29:56 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:29:56 on Sep 19,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.palin(fast)
+# NUMBER=1101 PALINDROME=0 Time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:30:22 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:30:22 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:30:23 on Sep 19,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:30:24 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.palin(fast)
+# NUMBER=0100 PALINDROME=0 Time=0
+# NUMBER=0001 PALINDROME=1 Time=10
+# NUMBER=1001 PALINDROME=1 Time=20
+# NUMBER=0011 PALINDROME=0 Time=30
+# NUMBER=1101 PALINDROME=0 Time=40
+# NUMBER=0101 PALINDROME=0 Time=60
+# NUMBER=0010 PALINDROME=0 Time=70
+# NUMBER=0001 PALINDROME=1 Time=80
+# NUMBER=1101 PALINDROME=0 Time=90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:33:27 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:33:27 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:33:28 on Sep 19,2025, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:33:28 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.palin(fast)
+# NUMBER=0100 PALINDROME=0 Time=0
+# NUMBER=0001 PALINDROME=1 Time=10
+# NUMBER=1001 PALINDROME=1 Time=20
+# NUMBER=0011 PALINDROME=0 Time=30
+# NUMBER=1101 PALINDROME=0 Time=40
+# NUMBER=0101 PALINDROME=0 Time=60
+# NUMBER=0010 PALINDROME=0 Time=70
+# NUMBER=0001 PALINDROME=1 Time=80
+# NUMBER=1101 PALINDROME=0 Time=90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:33:56 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:33:56 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:33:57 on Sep 19,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:33:57 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.palin(fast)
+# NUMBER=00100100 PALINDROME=1 Time=0
+# NUMBER=10000001 PALINDROME=1 Time=10
+# NUMBER=00001001 PALINDROME=0 Time=20
+# NUMBER=01100011 PALINDROME=1 Time=30
+# NUMBER=00001101 PALINDROME=0 Time=40
+# NUMBER=10001101 PALINDROME=0 Time=50
+# NUMBER=01100101 PALINDROME=1 Time=60
+# NUMBER=00010010 PALINDROME=0 Time=70
+# NUMBER=00000001 PALINDROME=1 Time=80
+# NUMBER=00001101 PALINDROME=0 Time=90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:39:10 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:39:10 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:39:10 on Sep 19,2025, Elapsed time: 0:05:13
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:39:11 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.palin(fast)
+# NUMBER=0100 PALINDROME=1 Time=0
+# NUMBER=0001 PALINDROME=1 Time=10
+# NUMBER=1001 PALINDROME=1 Time=20
+# NUMBER=0011 PALINDROME=0 Time=30
+# NUMBER=1101 PALINDROME=1 Time=40
+# NUMBER=0101 PALINDROME=0 Time=60
+# NUMBER=0010 PALINDROME=1 Time=70
+# NUMBER=0001 PALINDROME=1 Time=80
+# NUMBER=1101 PALINDROME=1 Time=90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:39:48 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:39:48 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:39:49 on Sep 19,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:39:49 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.palin(fast)
+# NUMBER=0100 PALINDROME=0 Time=0
+# NUMBER=0001 PALINDROME=0 Time=10
+# NUMBER=1001 PALINDROME=1 Time=20
+# NUMBER=0011 PALINDROME=0 Time=30
+# NUMBER=1101 PALINDROME=0 Time=40
+# NUMBER=0101 PALINDROME=0 Time=60
+# NUMBER=0010 PALINDROME=0 Time=70
+# NUMBER=0001 PALINDROME=0 Time=80
+# NUMBER=1101 PALINDROME=0 Time=90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:40:15 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:40:16 on Sep 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:40:16 on Sep 19,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:40:16 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.palin(fast)
+# NUMBER=00100100 PALINDROME=1 Time=0
+# NUMBER=10000001 PALINDROME=1 Time=10
+# NUMBER=00001001 PALINDROME=0 Time=20
+# NUMBER=01100011 PALINDROME=0 Time=30
+# NUMBER=00001101 PALINDROME=0 Time=40
+# NUMBER=10001101 PALINDROME=0 Time=50
+# NUMBER=01100101 PALINDROME=0 Time=60
+# NUMBER=00010010 PALINDROME=0 Time=70
+# NUMBER=00000001 PALINDROME=0 Time=80
+# NUMBER=00001101 PALINDROME=0 Time=90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:40:37 on Sep 19,2025
+# vlog -reportprogress 300 palin.v "+acc" 
+# -- Compiling module palin
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:40:37 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:40:38 on Sep 19,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:40:38 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.palin(fast)
+# NUMBER=0100100 PALINDROME=0 Time=0
+# NUMBER=0000001 PALINDROME=0 Time=10
+# NUMBER=0001001 PALINDROME=0 Time=20
+# NUMBER=1100011 PALINDROME=1 Time=30
+# NUMBER=0001101 PALINDROME=0 Time=40
+# NUMBER=1100101 PALINDROME=0 Time=60
+# NUMBER=0010010 PALINDROME=0 Time=70
+# NUMBER=0000001 PALINDROME=0 Time=80
+# NUMBER=0001101 PALINDROME=0 Time=90
+# End time: 13:40:47 on Sep 19,2025, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

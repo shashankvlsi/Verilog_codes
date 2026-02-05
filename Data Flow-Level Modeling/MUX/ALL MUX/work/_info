@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Data Flow-Level Modeling/MUX/ALL MUX
+T_opt
+!s110 1756714697
+VS[<^@cQ3B<lSfO^A@]PI>3
+Z1 04 3 4 work top fast 0
+=1-4c0f3ec0fd23-68b556c9-2d2-29a8
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+T_opt1
+!s110 1756714562
+VeCo5eFY2hQnkz@Z1IB5JY1
+R1
+=1-4c0f3ec0fd23-68b55641-32a-50f8
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+R0
+vallmux
+Z4 !s110 1756714696
+!i10b 1
+!s100 aTJ@2LmzkgOP268<Q=<0b0
+IgCnflBgmQWIPb6`DZTcRz0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1756714676
+Z7 8allmux.v
+Z8 Fallmux.v
+L0 2
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1756714696.000000
+Z11 !s107 allmux.v|
+Z12 !s90 -reportprogress|300|allmux.v|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vallmux_tb
+R4
+!i10b 1
+!s100 CRz:<^<X;^zQC7JI>C@0U0
+I:WRk8^6FbQi7ei^MLcl=G1
+R5
+R0
+R6
+R7
+R8
+L0 8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+vtop
+R4
+!i10b 1
+!s100 QoWa[D@kN@T6gYn]a?EG73
+Ifcn5MnRLC6Robz9B:eMfE2
+R5
+R0
+R6
+R7
+R8
+L0 26
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2

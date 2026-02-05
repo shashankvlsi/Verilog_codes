@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Data Flow-Level Modeling/COMPARATORS/ALL COMPARATORS
+T_opt
+Z1 !s110 1758178885
+V1Hkf7XXP_d0IY5=6_dF[53
+04 3 4 work top fast 0
+=1-4c0f3ec0fd23-68cbae45-199-1494
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vallcomp
+R1
+!i10b 1
+!s100 ?iTeFe7BQfj031iA9OkRo2
+ILiKV6BD1oZc=`AJ<VZd492
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756724226
+Z5 8allcomp.v
+Z6 Fallcomp.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758178885.000000
+Z9 !s107 allcomp.v|
+Z10 !s90 -reportprogress|300|allcomp.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vallcomp_tb
+R1
+!i10b 1
+!s100 h4^<R>=`1VTD4EZMIBMEl1
+IzgK3nKG9;JTl3j@Je3F]N2
+R3
+R0
+R4
+R5
+R6
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vtop
+R1
+!i10b 1
+!s100 bSJ[S_I:==gH5<=Jj9U<l3
+IQGco71a[bn2QJ?hQh_NPj1
+R3
+R0
+R4
+R5
+R6
+L0 28
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2

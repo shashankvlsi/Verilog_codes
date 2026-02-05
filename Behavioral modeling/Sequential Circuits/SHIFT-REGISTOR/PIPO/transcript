@@ -1,0 +1,137 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:45:59 on Sep 16,2025
+# vlog -reportprogress 300 pipo.v "+acc" 
+# -- Compiling module pipo
+# ** Error: pipo.v(9): (vlog-2110) Illegal reference to net "out".
+# ** Error: pipo.v(14): (vlog-2110) Illegal reference to net "out".
+# -- Compiling module tb
+# End time: 16:45:59 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog pipo.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:46:18 on Sep 16,2025
+# vlog -reportprogress 300 pipo.v "+acc" 
+# -- Compiling module pipo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:46:18 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:46:18 on Sep 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.pipo(fast)
+# clk=0 rst=0 in=1011  out=0 Time=0
+# clk=0 rst=1 in=1011  out=0 Time=5
+# clk=1 rst=1 in=1011  out=0 Time=10
+# clk=0 rst=1 in=1011  out=0 Time=20
+# clk=1 rst=1 in=1011  out=1011 Time=30
+# clk=0 rst=1 in=1011  out=1011 Time=40
+# ** Note: $stop    : pipo.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at pipo.v line 45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:46:57 on Sep 16,2025
+# vlog -reportprogress 300 pipo.v "+acc" 
+# -- Compiling module pipo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:46:57 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:46:59 on Sep 16,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:46:59 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.pipo(fast)
+# clk=0 rst=0 in=1011  out=0 Time=0
+# clk=0 rst=1 in=1011  out=0 Time=5
+# clk=1 rst=1 in=1011  out=1011 Time=10
+# clk=0 rst=1 in=1011  out=1011 Time=20
+# clk=1 rst=1 in=1011  out=1011 Time=30
+# clk=0 rst=1 in=1011  out=1011 Time=40
+# ** Note: $stop    : pipo.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at pipo.v line 45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:47:18 on Sep 16,2025
+# vlog -reportprogress 300 pipo.v "+acc" 
+# -- Compiling module pipo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:47:18 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:47:20 on Sep 16,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:47:20 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.pipo(fast)
+# clk=0 rst=0 in=1011  out=0 Time=0
+# clk=0 rst=1 in=1011  out=0 Time=5
+# clk=1 rst=1 in=1011  out=0 Time=10
+# clk=0 rst=1 in=1011  out=0 Time=20
+# clk=1 rst=1 in=1011  out=1011 Time=30
+# clk=0 rst=1 in=1011  out=1011 Time=40
+# ** Note: $stop    : pipo.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at pipo.v line 45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:47:43 on Sep 16,2025
+# vlog -reportprogress 300 pipo.v "+acc" 
+# -- Compiling module pipo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:47:43 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:47:46 on Sep 16,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:47:46 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.pipo(fast)
+# clk=0 rst=0 in=1011  out=0 Time=0
+# clk=0 rst=1 in=1011  out=0 Time=5
+# clk=1 rst=1 in=1011  out=1011 Time=10
+# clk=0 rst=1 in=1011  out=1011 Time=20
+# clk=1 rst=1 in=1011  out=1011 Time=30
+# clk=0 rst=1 in=1011  out=1011 Time=40
+# ** Note: $stop    : pipo.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at pipo.v line 45
+# End time: 16:47:55 on Sep 16,2025, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

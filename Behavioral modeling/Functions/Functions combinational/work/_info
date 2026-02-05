@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/Assignment
+T_opt
+!s110 1757675893
+VX3[2HiE[dCoIThZm3oE;O2
+04 3 4 work sss fast 0
+=1-4c0f3ec0fd23-68c40175-1c0-1934
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1757681889
+VhgY@g<DZ8]>QmT:ZLg`DK0
+04 3 4 work fun fast 0
+=1-4c0f3ec0fd23-68c418e1-22a-2fcc
+R1
+R2
+n@_opt1
+R3
+vfun
+!s110 1757681888
+!i10b 1
+!s100 7;aIdIHLB0L[Y[K9QGZ8A0
+IU`B@7_WeP5?IOkIjL01Uj3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+dD:/VLSI/Verilog/Behavioral modeling/Functions/Functions combinational
+w1757681882
+8fun.v
+Ffun.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1757681888.000000
+!s107 fun.v|
+!s90 -reportprogress|300|fun.v|+acc|
+!i113 0
+Z6 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vsss
+!s110 1757675892
+!i10b 1
+!s100 G0Ea5TjghL2;aW3Q6P>bd1
+IfN]^G_^bk5>^Sk;0i9@^z2
+R4
+R0
+w1757675886
+8sss.v
+Fsss.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1757675892.000000
+!s107 sss.v|
+!s90 -reportprogress|300|sss.v|+acc|
+!i113 0
+R6
+R2

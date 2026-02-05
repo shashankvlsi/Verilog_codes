@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/Functions +-
+T_opt1
+!s110 1757671533
+V;=ILM^n9<Yg7iDlfFn[YX2
+04 4 4 work test fast 0
+=1-4c0f3ec0fd23-68c3f06c-381-584
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt1
+Z3 OL;O;10.7c;67
+R0
+T_opt2
+!s110 1757671302
+VDLlRKDm@T_lSbz47dZe@91
+04 3 4 work fun fast 0
+=1-4c0f3ec0fd23-68c3ef86-78-3230
+R1
+R2
+n@_opt2
+R3
+R0
+vfun
+!s110 1757671606
+!i10b 1
+!s100 W7Li@lRk4ZEmRa3=b:3Of2
+I5JJFlZmf@^?6hBf=<kzK30
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757671296
+8fun.v
+Ffun.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1757671606.000000
+!s107 fun.v|
+!s90 -reportprogress|300|fun.v|+acc|
+!i113 0
+Z6 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vsss
+!s110 1757670697
+!i10b 1
+!s100 ]No^j?Q2meogHzzk_LhZh0
+IXLZCFoDn__Lczb6B`gJ]W1
+R4
+R0
+w1757670693
+Z7 8test.v
+Z8 Ftest.v
+Ff.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1757670697.000000
+Z9 !s107 f.v|test.v|
+Z10 !s90 -reportprogress|300|test.v|+acc|
+!i113 0
+R6
+R2
+vtest
+!s110 1757671581
+!i10b 1
+!s100 Ek]bf0kU<>gSGLg[PGN;c2
+I<335TD`3VohV85VnM^TSM3
+R4
+R0
+w1757671577
+R7
+R8
+Ff.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1757671581.000000
+R9
+R10
+!i113 0
+R6
+R2

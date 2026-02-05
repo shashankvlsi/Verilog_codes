@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/questasim-64 10.7c/examples
+T_opt
+!s110 1755501907
+VY@bS1FOnM?4gCd>OUnmMO1
+Z1 04 12 4 work nand_gate_tb fast 0
+=1-4c0f3ec0fd23-68a2d553-1c3-1234
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755502077
+VZBdYWV1iP`i_;>fM0Nf^Q2
+R1
+=1-4c0f3ec0fd23-68a2d5fd-1db-55a8
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vnand_gate
+Z4 !s110 1755501891
+!i10b 1
+!s100 EaL_5Oo?SGPP`HhNIPjZJ3
+IRAEC[mifi[52OYV6:KeNa1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/VLSI/Verilog/Switch-Level style/NAND GATE
+w1755501710
+8D:/VLSI/Verilog/Switch-Level style/NAND GATE/nand_gate.v
+FD:/VLSI/Verilog/Switch-Level style/NAND GATE/nand_gate.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1755501891.000000
+!s107 D:/VLSI/Verilog/Switch-Level style/NAND GATE/nand_gate.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/NAND GATE/nand_gate.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vnand_gate_tb
+R4
+!i10b 1
+!s100 AKkZPoJjXlg=3=5GFcHUI0
+ISDnCMVn<[2>;gCDILAOFo1
+R5
+R6
+w1755501884
+8D:/VLSI/Verilog/Switch-Level style/NAND GATE/nand_gate_tb.v
+FD:/VLSI/Verilog/Switch-Level style/NAND GATE/nand_gate_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/VLSI/Verilog/Switch-Level style/NAND GATE/nand_gate_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/NAND GATE/nand_gate_tb.v|
+!i113 0
+R9
+R2

@@ -1,0 +1,565 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:49:27 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# ** Error: fifo.v(17): (vlog-2730) Undefined variable: 'data'.
+# -- Compiling module tb
+# ** Error: (vlog-13069) fifo.v(88): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) fifo.v(97): near "end": syntax error, unexpected end.
+# End time: 20:49:27 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog fifo.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:50:15 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# ** Error: fifo.v(17): (vlog-2110) Illegal reference to net "dataout".
+# ** Error: fifo.v(18): (vlog-2110) Illegal reference to net "empty".
+# ** Error: fifo.v(19): (vlog-2110) Illegal reference to net "full".
+# ** Error: fifo.v(36): (vlog-2110) Illegal reference to net "dataout".
+# ** Error: fifo.v(45): (vlog-2110) Illegal reference to net "dataout".
+# -- Compiling module tb
+# End time: 20:50:16 on Sep 26,2025, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog fifo.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:50:48 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# ** Error: fifo.v(10): Register is illegal in left-hand side of continuous assignment
+# ** Error: fifo.v(11): Register is illegal in left-hand side of continuous assignment
+# -- Compiling module tb
+# End time: 20:50:48 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog fifo.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:51:04 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# ** Error: fifo.v(18): (vlog-2110) Illegal reference to net "empty".
+# ** Error: fifo.v(19): (vlog-2110) Illegal reference to net "full".
+# -- Compiling module tb
+# End time: 20:51:04 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog fifo.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:51:43 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:51:43 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 20:51:43 on Sep 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): fifo.v(60): (vopt-8884) Illegal output port connection for 'dataout' (8th connection) to reg type. 
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:52:16 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:52:17 on Sep 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 20:51:43 on Sep 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 wr=1 rd=0 datain= 36 dataout=  0 empty=1 full=0 Time=0
+# clk=1 rst=0 wr=1 rd=0 datain= 36 dataout=  0 empty=1 full=0 Time=5
+# clk=0 rst=0 wr=1 rd=0 datain=129 dataout=  0 empty=1 full=0 Time=10
+# clk=1 rst=0 wr=1 rd=0 datain=129 dataout=  0 empty=1 full=0 Time=15
+# clk=0 rst=1 wr=1 rd=0 datain=  9 dataout=  0 empty=1 full=0 Time=20
+# clk=1 rst=1 wr=1 rd=0 datain=  9 dataout=  0 empty=0 full=0 Time=25
+# clk=0 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=30
+# clk=1 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=35
+# clk=0 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=40
+# clk=1 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=45
+# clk=0 rst=1 wr=1 rd=0 datain=141 dataout=  0 empty=0 full=0 Time=50
+# clk=1 rst=1 wr=1 rd=0 datain=141 dataout=  0 empty=0 full=0 Time=55
+# clk=0 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=60
+# clk=1 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=65
+# clk=0 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=70
+# clk=1 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=75
+# clk=0 rst=1 wr=1 rd=0 datain=  1 dataout=  0 empty=0 full=0 Time=80
+# clk=1 rst=1 wr=1 rd=0 datain=  1 dataout=  0 empty=0 full=0 Time=85
+# clk=0 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=90
+# clk=1 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=95
+# clk=0 rst=1 wr=1 rd=0 datain=118 dataout=  0 empty=0 full=0 Time=100
+# clk=1 rst=1 wr=1 rd=0 datain=118 dataout=  0 empty=0 full=0 Time=105
+# clk=0 rst=1 wr=1 rd=0 datain= 61 dataout=  0 empty=0 full=0 Time=110
+# clk=1 rst=1 wr=1 rd=0 datain= 61 dataout=  0 empty=0 full=0 Time=115
+# clk=0 rst=1 wr=1 rd=0 datain=237 dataout=  0 empty=0 full=0 Time=120
+# clk=1 rst=1 wr=1 rd=0 datain=237 dataout=  0 empty=0 full=0 Time=125
+# clk=0 rst=1 wr=1 rd=0 datain=140 dataout=  0 empty=0 full=0 Time=130
+# clk=1 rst=1 wr=1 rd=0 datain=140 dataout=  0 empty=0 full=0 Time=135
+# clk=0 rst=1 wr=1 rd=0 datain=249 dataout=  0 empty=0 full=0 Time=140
+# clk=1 rst=1 wr=1 rd=0 datain=249 dataout=  0 empty=0 full=0 Time=145
+# clk=0 rst=1 wr=1 rd=0 datain=198 dataout=  0 empty=0 full=0 Time=150
+# clk=1 rst=1 wr=1 rd=0 datain=198 dataout=  0 empty=0 full=0 Time=155
+# clk=0 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=160
+# clk=1 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=165
+# clk=0 rst=1 wr=1 rd=0 datain=170 dataout=  0 empty=0 full=0 Time=170
+# clk=1 rst=1 wr=1 rd=0 datain=170 dataout=  0 empty=0 full=0 Time=175
+# clk=0 rst=1 wr=1 rd=0 datain=229 dataout=  0 empty=0 full=0 Time=180
+# clk=1 rst=1 wr=1 rd=0 datain=229 dataout=  0 empty=0 full=0 Time=185
+# clk=0 rst=1 wr=1 rd=0 datain=119 dataout=  0 empty=0 full=0 Time=190
+# clk=1 rst=1 wr=1 rd=0 datain=119 dataout=  0 empty=0 full=0 Time=195
+# clk=0 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=200
+# clk=1 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=205
+# clk=0 rst=1 wr=1 rd=0 datain=143 dataout=  0 empty=0 full=0 Time=210
+# clk=1 rst=1 wr=1 rd=0 datain=143 dataout=  0 empty=0 full=0 Time=215
+# clk=0 rst=1 wr=1 rd=0 datain=242 dataout=  0 empty=0 full=0 Time=220
+# clk=1 rst=1 wr=1 rd=0 datain=242 dataout=  0 empty=0 full=0 Time=225
+# clk=0 rst=1 wr=1 rd=0 datain=206 dataout=  0 empty=0 full=0 Time=230
+# clk=1 rst=1 wr=1 rd=0 datain=206 dataout=  0 empty=0 full=0 Time=235
+# clk=0 rst=1 wr=1 rd=0 datain=232 dataout=  0 empty=0 full=0 Time=240
+# clk=1 rst=1 wr=1 rd=0 datain=232 dataout=  0 empty=0 full=0 Time=245
+# clk=0 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=250
+# clk=1 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=255
+# clk=0 rst=1 wr=1 rd=0 datain= 92 dataout=  0 empty=0 full=0 Time=260
+# clk=1 rst=1 wr=1 rd=0 datain= 92 dataout=  0 empty=0 full=0 Time=265
+# clk=0 rst=1 wr=1 rd=0 datain=189 dataout=  0 empty=0 full=0 Time=270
+# clk=1 rst=1 wr=1 rd=0 datain=189 dataout=  0 empty=0 full=0 Time=275
+# clk=0 rst=1 wr=1 rd=0 datain= 45 dataout=  0 empty=0 full=0 Time=280
+# clk=1 rst=1 wr=1 rd=0 datain= 45 dataout=  0 empty=0 full=0 Time=285
+# clk=0 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=290
+# clk=1 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=295
+# clk=0 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=300
+# clk=1 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=305
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=310
+# clk=1 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=315
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=320
+# clk=1 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=325
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=330
+# ** Note: $stop    : fifo.v(97)
+#    Time: 335 ns  Iteration: 3  Instance: /tb
+# Break in Module tb at fifo.v line 97
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:53:04 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 20:53:04 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:53:07 on Sep 26,2025, Elapsed time: 0:01:24
+# Errors: 1, Warnings: 0
+# vsim tb 
+# Start time: 20:53:07 on Sep 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 wr=1 rd=0 datain= 36 dataout=  0 empty=1 full=0 Time=0
+# clk=1 rst=0 wr=1 rd=0 datain= 36 dataout=  0 empty=1 full=0 Time=5
+# clk=0 rst=0 wr=1 rd=0 datain=129 dataout=  0 empty=1 full=0 Time=10
+# clk=1 rst=0 wr=1 rd=0 datain=129 dataout=  0 empty=1 full=0 Time=15
+# clk=0 rst=1 wr=1 rd=0 datain=  9 dataout=  0 empty=1 full=0 Time=20
+# clk=1 rst=1 wr=1 rd=0 datain=  9 dataout=  0 empty=0 full=0 Time=25
+# clk=0 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=30
+# clk=1 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=35
+# clk=0 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=40
+# clk=1 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=45
+# clk=0 rst=1 wr=1 rd=0 datain=141 dataout=  0 empty=0 full=0 Time=50
+# clk=1 rst=1 wr=1 rd=0 datain=141 dataout=  0 empty=0 full=0 Time=55
+# clk=0 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=60
+# clk=1 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=65
+# clk=0 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=70
+# clk=1 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=75
+# clk=0 rst=1 wr=1 rd=0 datain=  1 dataout=  0 empty=0 full=0 Time=80
+# clk=1 rst=1 wr=1 rd=0 datain=  1 dataout=  0 empty=0 full=0 Time=85
+# clk=0 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=90
+# clk=1 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=95
+# clk=0 rst=1 wr=1 rd=0 datain=118 dataout=  0 empty=0 full=0 Time=100
+# clk=1 rst=1 wr=1 rd=0 datain=118 dataout=  0 empty=0 full=0 Time=105
+# clk=0 rst=1 wr=1 rd=0 datain= 61 dataout=  0 empty=0 full=0 Time=110
+# clk=1 rst=1 wr=1 rd=0 datain= 61 dataout=  0 empty=0 full=0 Time=115
+# clk=0 rst=1 wr=1 rd=0 datain=237 dataout=  0 empty=0 full=0 Time=120
+# clk=1 rst=1 wr=1 rd=0 datain=237 dataout=  0 empty=0 full=0 Time=125
+# clk=0 rst=1 wr=1 rd=0 datain=140 dataout=  0 empty=0 full=0 Time=130
+# clk=1 rst=1 wr=1 rd=0 datain=140 dataout=  0 empty=0 full=0 Time=135
+# clk=0 rst=1 wr=1 rd=0 datain=249 dataout=  0 empty=0 full=0 Time=140
+# clk=1 rst=1 wr=1 rd=0 datain=249 dataout=  0 empty=0 full=0 Time=145
+# clk=0 rst=1 wr=1 rd=0 datain=198 dataout=  0 empty=0 full=0 Time=150
+# clk=1 rst=1 wr=1 rd=0 datain=198 dataout=  0 empty=0 full=0 Time=155
+# clk=0 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=160
+# clk=1 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=165
+# clk=0 rst=1 wr=1 rd=0 datain=170 dataout=  0 empty=0 full=0 Time=170
+# clk=1 rst=1 wr=1 rd=0 datain=170 dataout=  0 empty=0 full=0 Time=175
+# clk=0 rst=1 wr=1 rd=0 datain=229 dataout=  0 empty=0 full=0 Time=180
+# clk=1 rst=1 wr=1 rd=0 datain=229 dataout=  0 empty=0 full=0 Time=185
+# clk=0 rst=1 wr=1 rd=0 datain=119 dataout=  0 empty=0 full=0 Time=190
+# clk=1 rst=1 wr=1 rd=0 datain=119 dataout=  0 empty=0 full=0 Time=195
+# clk=0 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=200
+# clk=1 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=205
+# clk=0 rst=1 wr=1 rd=0 datain=143 dataout=  0 empty=0 full=0 Time=210
+# clk=1 rst=1 wr=1 rd=0 datain=143 dataout=  0 empty=0 full=0 Time=215
+# clk=0 rst=1 wr=1 rd=0 datain=242 dataout=  0 empty=0 full=0 Time=220
+# clk=1 rst=1 wr=1 rd=0 datain=242 dataout=  0 empty=0 full=0 Time=225
+# clk=0 rst=1 wr=1 rd=0 datain=206 dataout=  0 empty=0 full=0 Time=230
+# clk=1 rst=1 wr=1 rd=0 datain=206 dataout=  0 empty=0 full=0 Time=235
+# clk=0 rst=1 wr=1 rd=0 datain=232 dataout=  0 empty=0 full=0 Time=240
+# clk=1 rst=1 wr=1 rd=0 datain=232 dataout=  0 empty=0 full=0 Time=245
+# clk=0 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=250
+# clk=1 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=255
+# clk=0 rst=1 wr=1 rd=0 datain= 92 dataout=  0 empty=0 full=0 Time=260
+# clk=1 rst=1 wr=1 rd=0 datain= 92 dataout=  0 empty=0 full=0 Time=265
+# clk=0 rst=1 wr=1 rd=0 datain=189 dataout=  0 empty=0 full=0 Time=270
+# clk=1 rst=1 wr=1 rd=0 datain=189 dataout=  0 empty=0 full=0 Time=275
+# clk=0 rst=1 wr=1 rd=0 datain= 45 dataout=  0 empty=0 full=0 Time=280
+# clk=1 rst=1 wr=1 rd=0 datain= 45 dataout=  0 empty=0 full=0 Time=285
+# clk=0 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=290
+# clk=1 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=295
+# clk=0 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=300
+# clk=1 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=305
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=310
+# clk=1 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=315
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=320
+# clk=1 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=325
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=330
+# clk=1 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=1 Time=335
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=1 Time=340
+# clk=1 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=1 Time=345
+# ** Note: $stop    : fifo.v(97)
+#    Time: 350 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at fifo.v line 97
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:05:39 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:05:39 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:05:45 on Sep 26,2025, Elapsed time: 0:12:38
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 21:05:45 on Sep 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 wr=1 rd=0 datain= 36 dataout=  0 empty=1 full=0 Time=0
+# clk=1 rst=0 wr=1 rd=0 datain= 36 dataout=  0 empty=1 full=0 Time=5
+# clk=0 rst=0 wr=1 rd=0 datain=129 dataout=  0 empty=1 full=0 Time=10
+# clk=1 rst=0 wr=1 rd=0 datain=129 dataout=  0 empty=1 full=0 Time=15
+# clk=0 rst=1 wr=1 rd=0 datain=  9 dataout=  0 empty=1 full=0 Time=20
+# clk=1 rst=1 wr=1 rd=0 datain=  9 dataout=  0 empty=0 full=0 Time=25
+# clk=0 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=30
+# clk=1 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=35
+# clk=0 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=40
+# clk=1 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=45
+# clk=0 rst=1 wr=1 rd=0 datain=141 dataout=  0 empty=0 full=0 Time=50
+# clk=1 rst=1 wr=1 rd=0 datain=141 dataout=  0 empty=0 full=0 Time=55
+# clk=0 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=60
+# clk=1 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=65
+# clk=0 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=70
+# clk=1 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=75
+# clk=0 rst=1 wr=1 rd=0 datain=  1 dataout=  0 empty=0 full=0 Time=80
+# clk=1 rst=1 wr=1 rd=0 datain=  1 dataout=  0 empty=0 full=0 Time=85
+# clk=0 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=90
+# clk=1 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=95
+# clk=0 rst=1 wr=1 rd=0 datain=118 dataout=  0 empty=0 full=0 Time=100
+# clk=1 rst=1 wr=1 rd=0 datain=118 dataout=  0 empty=0 full=0 Time=105
+# clk=0 rst=1 wr=1 rd=0 datain= 61 dataout=  0 empty=0 full=0 Time=110
+# clk=1 rst=1 wr=1 rd=0 datain= 61 dataout=  0 empty=0 full=0 Time=115
+# clk=0 rst=1 wr=1 rd=0 datain=237 dataout=  0 empty=0 full=0 Time=120
+# clk=1 rst=1 wr=1 rd=0 datain=237 dataout=  0 empty=0 full=0 Time=125
+# clk=0 rst=1 wr=1 rd=0 datain=140 dataout=  0 empty=0 full=0 Time=130
+# clk=1 rst=1 wr=1 rd=0 datain=140 dataout=  0 empty=0 full=0 Time=135
+# clk=0 rst=1 wr=1 rd=0 datain=249 dataout=  0 empty=0 full=0 Time=140
+# clk=1 rst=1 wr=1 rd=0 datain=249 dataout=  0 empty=0 full=0 Time=145
+# clk=0 rst=1 wr=1 rd=0 datain=198 dataout=  0 empty=0 full=0 Time=150
+# clk=1 rst=1 wr=1 rd=0 datain=198 dataout=  0 empty=0 full=0 Time=155
+# clk=0 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=160
+# clk=1 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=165
+# clk=0 rst=1 wr=1 rd=0 datain=170 dataout=  0 empty=0 full=0 Time=170
+# clk=1 rst=1 wr=1 rd=0 datain=170 dataout=  0 empty=0 full=0 Time=175
+# clk=0 rst=1 wr=1 rd=0 datain=229 dataout=  0 empty=0 full=0 Time=180
+# clk=1 rst=1 wr=1 rd=0 datain=229 dataout=  0 empty=0 full=0 Time=185
+# clk=0 rst=1 wr=1 rd=0 datain=119 dataout=  0 empty=0 full=0 Time=190
+# clk=1 rst=1 wr=1 rd=0 datain=119 dataout=  0 empty=0 full=0 Time=195
+# clk=0 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=200
+# clk=1 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=205
+# clk=0 rst=1 wr=1 rd=0 datain=143 dataout=  0 empty=0 full=0 Time=210
+# clk=1 rst=1 wr=1 rd=0 datain=143 dataout=  0 empty=0 full=0 Time=215
+# clk=0 rst=1 wr=1 rd=0 datain=242 dataout=  0 empty=0 full=0 Time=220
+# clk=1 rst=1 wr=1 rd=0 datain=242 dataout=  0 empty=0 full=0 Time=225
+# clk=0 rst=1 wr=1 rd=0 datain=206 dataout=  0 empty=0 full=0 Time=230
+# clk=1 rst=1 wr=1 rd=0 datain=206 dataout=  0 empty=0 full=0 Time=235
+# clk=0 rst=1 wr=1 rd=0 datain=232 dataout=  0 empty=0 full=0 Time=240
+# clk=1 rst=1 wr=1 rd=0 datain=232 dataout=  0 empty=0 full=0 Time=245
+# clk=0 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=250
+# clk=1 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=255
+# clk=0 rst=1 wr=1 rd=0 datain= 92 dataout=  0 empty=0 full=0 Time=260
+# clk=1 rst=1 wr=1 rd=0 datain= 92 dataout=  0 empty=0 full=0 Time=265
+# clk=0 rst=1 wr=1 rd=0 datain=189 dataout=  0 empty=0 full=0 Time=270
+# clk=1 rst=1 wr=1 rd=0 datain=189 dataout=  0 empty=0 full=0 Time=275
+# clk=0 rst=1 wr=1 rd=0 datain= 45 dataout=  0 empty=0 full=0 Time=280
+# clk=1 rst=1 wr=1 rd=0 datain= 45 dataout=  0 empty=0 full=0 Time=285
+# clk=0 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=290
+# clk=1 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=295
+# clk=0 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=300
+# clk=1 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=305
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=310
+# clk=1 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=315
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=  0 empty=0 full=0 Time=320
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=  9 empty=0 full=0 Time=325
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=  9 empty=0 full=0 Time=330
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 99 empty=0 full=0 Time=335
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 99 empty=0 full=0 Time=340
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 13 empty=0 full=0 Time=345
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 13 empty=0 full=0 Time=350
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=141 empty=0 full=0 Time=355
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=141 empty=0 full=0 Time=360
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=101 empty=0 full=0 Time=365
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=101 empty=0 full=0 Time=370
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 18 empty=0 full=0 Time=375
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 18 empty=0 full=0 Time=380
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=  1 empty=0 full=0 Time=385
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=  1 empty=0 full=0 Time=390
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 13 empty=0 full=0 Time=395
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 13 empty=0 full=0 Time=400
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=118 empty=0 full=0 Time=405
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=118 empty=0 full=0 Time=410
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 61 empty=0 full=0 Time=415
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 61 empty=0 full=0 Time=420
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=237 empty=0 full=0 Time=425
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=237 empty=0 full=0 Time=430
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=140 empty=0 full=0 Time=435
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=140 empty=0 full=0 Time=440
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=249 empty=0 full=0 Time=445
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=249 empty=0 full=0 Time=450
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=198 empty=0 full=0 Time=455
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=198 empty=0 full=0 Time=460
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=197 empty=0 full=0 Time=465
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=197 empty=0 full=0 Time=470
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=170 empty=0 full=0 Time=475
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=170 empty=0 full=0 Time=480
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=229 empty=0 full=0 Time=485
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=229 empty=0 full=0 Time=490
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=119 empty=0 full=0 Time=495
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=119 empty=0 full=0 Time=500
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 18 empty=0 full=0 Time=505
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 18 empty=0 full=0 Time=510
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=143 empty=0 full=0 Time=515
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=143 empty=0 full=0 Time=520
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=242 empty=0 full=0 Time=525
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=242 empty=0 full=0 Time=530
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=206 empty=0 full=0 Time=535
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=206 empty=0 full=0 Time=540
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=232 empty=0 full=0 Time=545
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=232 empty=0 full=0 Time=550
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=197 empty=0 full=0 Time=555
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=197 empty=0 full=0 Time=560
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 92 empty=0 full=0 Time=565
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 92 empty=0 full=0 Time=570
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=189 empty=0 full=0 Time=575
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=189 empty=0 full=0 Time=580
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 45 empty=0 full=0 Time=585
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 45 empty=0 full=0 Time=590
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=101 empty=0 full=0 Time=595
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=101 empty=0 full=0 Time=600
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 99 empty=0 full=0 Time=605
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 99 empty=0 full=0 Time=610
+# ** Note: $stop    : fifo.v(99)
+#    Time: 615 ns  Iteration: 3  Instance: /tb
+# Break in Module tb at fifo.v line 99
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:06:52 on Sep 26,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:06:52 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:06:52 on Sep 26,2025, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 21:06:52 on Sep 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 wr=1 rd=0 datain= 36 dataout=  0 empty=1 full=0 Time=0
+# clk=1 rst=0 wr=1 rd=0 datain= 36 dataout=  0 empty=1 full=0 Time=5
+# clk=0 rst=0 wr=1 rd=0 datain=129 dataout=  0 empty=1 full=0 Time=10
+# clk=1 rst=0 wr=1 rd=0 datain=129 dataout=  0 empty=1 full=0 Time=15
+# clk=0 rst=1 wr=1 rd=0 datain=  9 dataout=  0 empty=1 full=0 Time=20
+# clk=1 rst=1 wr=1 rd=0 datain=  9 dataout=  0 empty=0 full=0 Time=25
+# clk=0 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=30
+# clk=1 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=35
+# clk=0 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=40
+# clk=1 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=45
+# clk=0 rst=1 wr=1 rd=0 datain=141 dataout=  0 empty=0 full=0 Time=50
+# clk=1 rst=1 wr=1 rd=0 datain=141 dataout=  0 empty=0 full=0 Time=55
+# clk=0 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=60
+# clk=1 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=65
+# clk=0 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=70
+# clk=1 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=75
+# clk=0 rst=1 wr=1 rd=0 datain=  1 dataout=  0 empty=0 full=0 Time=80
+# clk=1 rst=1 wr=1 rd=0 datain=  1 dataout=  0 empty=0 full=0 Time=85
+# clk=0 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=90
+# clk=1 rst=1 wr=1 rd=0 datain= 13 dataout=  0 empty=0 full=0 Time=95
+# clk=0 rst=1 wr=1 rd=0 datain=118 dataout=  0 empty=0 full=0 Time=100
+# clk=1 rst=1 wr=1 rd=0 datain=118 dataout=  0 empty=0 full=0 Time=105
+# clk=0 rst=1 wr=1 rd=0 datain= 61 dataout=  0 empty=0 full=0 Time=110
+# clk=1 rst=1 wr=1 rd=0 datain= 61 dataout=  0 empty=0 full=0 Time=115
+# clk=0 rst=1 wr=1 rd=0 datain=237 dataout=  0 empty=0 full=0 Time=120
+# clk=1 rst=1 wr=1 rd=0 datain=237 dataout=  0 empty=0 full=0 Time=125
+# clk=0 rst=1 wr=1 rd=0 datain=140 dataout=  0 empty=0 full=0 Time=130
+# clk=1 rst=1 wr=1 rd=0 datain=140 dataout=  0 empty=0 full=0 Time=135
+# clk=0 rst=1 wr=1 rd=0 datain=249 dataout=  0 empty=0 full=0 Time=140
+# clk=1 rst=1 wr=1 rd=0 datain=249 dataout=  0 empty=0 full=0 Time=145
+# clk=0 rst=1 wr=1 rd=0 datain=198 dataout=  0 empty=0 full=0 Time=150
+# clk=1 rst=1 wr=1 rd=0 datain=198 dataout=  0 empty=0 full=0 Time=155
+# clk=0 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=160
+# clk=1 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=165
+# clk=0 rst=1 wr=1 rd=0 datain=170 dataout=  0 empty=0 full=0 Time=170
+# clk=1 rst=1 wr=1 rd=0 datain=170 dataout=  0 empty=0 full=0 Time=175
+# clk=0 rst=1 wr=1 rd=0 datain=229 dataout=  0 empty=0 full=0 Time=180
+# clk=1 rst=1 wr=1 rd=0 datain=229 dataout=  0 empty=0 full=0 Time=185
+# clk=0 rst=1 wr=1 rd=0 datain=119 dataout=  0 empty=0 full=0 Time=190
+# clk=1 rst=1 wr=1 rd=0 datain=119 dataout=  0 empty=0 full=0 Time=195
+# clk=0 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=200
+# clk=1 rst=1 wr=1 rd=0 datain= 18 dataout=  0 empty=0 full=0 Time=205
+# clk=0 rst=1 wr=1 rd=0 datain=143 dataout=  0 empty=0 full=0 Time=210
+# clk=1 rst=1 wr=1 rd=0 datain=143 dataout=  0 empty=0 full=0 Time=215
+# clk=0 rst=1 wr=1 rd=0 datain=242 dataout=  0 empty=0 full=0 Time=220
+# clk=1 rst=1 wr=1 rd=0 datain=242 dataout=  0 empty=0 full=0 Time=225
+# clk=0 rst=1 wr=1 rd=0 datain=206 dataout=  0 empty=0 full=0 Time=230
+# clk=1 rst=1 wr=1 rd=0 datain=206 dataout=  0 empty=0 full=0 Time=235
+# clk=0 rst=1 wr=1 rd=0 datain=232 dataout=  0 empty=0 full=0 Time=240
+# clk=1 rst=1 wr=1 rd=0 datain=232 dataout=  0 empty=0 full=0 Time=245
+# clk=0 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=250
+# clk=1 rst=1 wr=1 rd=0 datain=197 dataout=  0 empty=0 full=0 Time=255
+# clk=0 rst=1 wr=1 rd=0 datain= 92 dataout=  0 empty=0 full=0 Time=260
+# clk=1 rst=1 wr=1 rd=0 datain= 92 dataout=  0 empty=0 full=0 Time=265
+# clk=0 rst=1 wr=1 rd=0 datain=189 dataout=  0 empty=0 full=0 Time=270
+# clk=1 rst=1 wr=1 rd=0 datain=189 dataout=  0 empty=0 full=0 Time=275
+# clk=0 rst=1 wr=1 rd=0 datain= 45 dataout=  0 empty=0 full=0 Time=280
+# clk=1 rst=1 wr=1 rd=0 datain= 45 dataout=  0 empty=0 full=0 Time=285
+# clk=0 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=290
+# clk=1 rst=1 wr=1 rd=0 datain=101 dataout=  0 empty=0 full=0 Time=295
+# clk=0 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=300
+# clk=1 rst=1 wr=1 rd=0 datain= 99 dataout=  0 empty=0 full=0 Time=305
+# clk=0 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=310
+# clk=1 rst=1 wr=1 rd=0 datain= 10 dataout=  0 empty=0 full=0 Time=315
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=  0 empty=0 full=0 Time=320
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=  9 empty=0 full=0 Time=325
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=  9 empty=0 full=0 Time=330
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 99 empty=0 full=0 Time=335
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 99 empty=0 full=0 Time=340
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 13 empty=0 full=0 Time=345
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 13 empty=0 full=0 Time=350
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=141 empty=0 full=0 Time=355
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=141 empty=0 full=0 Time=360
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=101 empty=0 full=0 Time=365
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=101 empty=0 full=0 Time=370
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 18 empty=0 full=0 Time=375
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 18 empty=0 full=0 Time=380
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=  1 empty=0 full=0 Time=385
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=  1 empty=0 full=0 Time=390
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 13 empty=0 full=0 Time=395
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 13 empty=0 full=0 Time=400
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=118 empty=0 full=0 Time=405
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=118 empty=0 full=0 Time=410
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 61 empty=0 full=0 Time=415
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 61 empty=0 full=0 Time=420
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=237 empty=0 full=0 Time=425
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=237 empty=0 full=0 Time=430
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=140 empty=0 full=0 Time=435
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=140 empty=0 full=0 Time=440
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=249 empty=0 full=0 Time=445
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=249 empty=0 full=0 Time=450
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=198 empty=0 full=0 Time=455
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=198 empty=0 full=0 Time=460
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=197 empty=0 full=0 Time=465
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=197 empty=0 full=0 Time=470
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=170 empty=0 full=0 Time=475
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=170 empty=0 full=0 Time=480
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=229 empty=0 full=0 Time=485
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=229 empty=0 full=0 Time=490
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=119 empty=0 full=0 Time=495
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=119 empty=0 full=0 Time=500
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 18 empty=0 full=0 Time=505
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 18 empty=0 full=0 Time=510
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=143 empty=0 full=0 Time=515
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=143 empty=0 full=0 Time=520
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=242 empty=0 full=0 Time=525
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=242 empty=0 full=0 Time=530
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=206 empty=0 full=0 Time=535
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=206 empty=0 full=0 Time=540
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=232 empty=0 full=0 Time=545
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=232 empty=0 full=0 Time=550
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=197 empty=0 full=0 Time=555
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=197 empty=0 full=0 Time=560
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 92 empty=0 full=0 Time=565
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 92 empty=0 full=0 Time=570
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=189 empty=0 full=0 Time=575
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=189 empty=0 full=0 Time=580
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 45 empty=0 full=0 Time=585
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 45 empty=0 full=0 Time=590
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout=101 empty=0 full=0 Time=595
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout=101 empty=0 full=0 Time=600
+# clk=1 rst=1 wr=0 rd=1 datain= 10 dataout= 99 empty=0 full=0 Time=605
+# clk=0 rst=1 wr=0 rd=1 datain= 10 dataout= 99 empty=0 full=0 Time=610
+# ** Note: $stop    : fifo.v(99)
+#    Time: 615 ns  Iteration: 3  Instance: /tb
+# Break in Module tb at fifo.v line 99
+# End time: 21:07:53 on Sep 26,2025, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0

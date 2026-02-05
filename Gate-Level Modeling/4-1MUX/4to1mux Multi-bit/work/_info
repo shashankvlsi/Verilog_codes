@@ -1,0 +1,108 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Gate-Level Modeling/4-1MUX/4to1mux Multi-bit
+v_4to1mux1
+Z1 !s110 1756547488
+!i10b 1
+!s100 he7k>nKVcfU8h^Q97B?Cn0
+Ii21AKeE1UT6I7oJmE<1zH0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1756106376
+Z4 8_4to1mux1.v
+Z5 F_4to1mux1.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1756547488.000000
+!s107 _4to1mux1.v|_4to1mux2.v|
+Z8 !s90 -reportprogress|300|_4to1mux2.v|+acc|
+!i113 0
+Z9 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+n@_4to1mux1
+v_4to1mux1_tb
+R1
+!i10b 1
+!s100 _IEhHee1UQUJ>z66:aN9D3
+If71JWFh;Ud`DQeOVS;YY53
+R2
+R0
+R3
+R4
+R5
+L0 12
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 _4to1mux1.v|_4to1mux2.v|
+R8
+!i113 0
+R9
+R10
+n@_4to1mux1_tb
+v_4to1mux2
+R1
+!i10b 1
+!s100 _BIG]^elQZVGLGPMz`DC42
+IfQ2NSX>=gI7?0>`aGM=D:1
+R2
+R0
+Z12 w1756108690
+Z13 8_4to1mux2.v
+Z14 F_4to1mux2.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+n@_4to1mux2
+v_4to1mux2_tb
+R1
+!i10b 1
+!s100 i_1[oQCEAXz:<>cfFOVB<2
+IiBbA_mUhbm56e[X4Q>IZj2
+R2
+R0
+R12
+R13
+R14
+L0 13
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+n@_4to1mux2_tb
+T_opt
+!s110 1756108701
+VCKYJl3^>;ZQj_ciB^C^Jn1
+04 12 4 work _4to1mux2_tb fast 0
+=1-4c0f3ec0fd23-68ac179d-16f-b98
+o-quiet -auto_acc_if_foreign -work work
+R10
+n@_opt
+OL;O;10.7c;67
+R0

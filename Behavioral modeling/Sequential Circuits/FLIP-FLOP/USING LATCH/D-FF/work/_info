@@ -1,0 +1,83 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/FLIP-FLOP/USING LATCH/D-FF
+T_opt
+!s110 1757500458
+V]_6gzdCH^e1`PlfgW<]lj0
+04 2 4 work tb fast 0
+=1-4c0f3ec0fd23-68c1542a-1a-a28
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdff
+Z2 !s110 1757508740
+!i10b 1
+!s100 MVR3HASf@PZBK[a>^fUf^0
+ILLS]@fLZ>;1IC41Y;X@5P3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757500446
+Z5 8dff.v
+Z6 Fdff.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757508740.000000
+!s107 dl.v|dff.v|
+Z9 !s90 -reportprogress|300|dff.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdl
+R2
+!i10b 1
+!s100 6[TUA1;;>j1;6dJGZFUQ?0
+IQP9=5S2?AHVTDizkbbJ<`0
+R3
+R0
+w1757500183
+8dl.v
+Fdl.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 dl.v|dff.v|
+R9
+!i113 0
+R10
+R1
+vtb
+R2
+!i10b 1
+!s100 iRSabiC`gzZX4b7[o]KR<2
+IYUC?M@Mjba[O5@C9zNGgN0
+R3
+R0
+R4
+R5
+R6
+L0 8
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1

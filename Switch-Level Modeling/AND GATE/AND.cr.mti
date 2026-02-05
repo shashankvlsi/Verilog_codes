@@ -1,0 +1,15 @@
+{D:/VLSI/Verilog/Switch-Level style/AND GATE/and_gate.v} {1 {vlog -work work -vopt -stats=none {D:/VLSI/Verilog/Switch-Level style/AND GATE/and_gate.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module and1
+
+Top level modules:
+	and1
+
+} {} {}} {D:/VLSI/Verilog/Switch-Level style/AND GATE/and_gate_tb.v} {1 {vlog -work work -vopt -stats=none {D:\VLSI\Verilog\Switch-Level style\AND GATE\and_gate_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module and1_tb
+
+Top level modules:
+	and1_tb
+
+} {} {}}

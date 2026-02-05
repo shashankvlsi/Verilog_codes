@@ -1,0 +1,90 @@
+//-------------------------------------------------------DESIGN--------------------------------------------------------------------// 128*16 bit memeory  
+module ram #(parameter width=8,depth=32) (input clk,rst,wr_re,[width-1:0]din,[$clog2(depth)-1:0]add,output reg [width-1:0]dout);
+
+reg[$clog2(depth):0] i;
+reg [width-1:0]mem[depth-1:0];
+
+always @(posedge clk or negedge rst)
+      begin
+           if(!rst)
+               begin
+               dout<=0;
+              for(i=0;i<depth;i=i+1)
+                   mem[i]<=0;
+               end
+           else
+               if(wr_re)
+                   mem[add]<=din;
+               else
+                   dout<=mem[add];
+      end
+
+endmodule
+
+//--------------------------------------------------------------TB----------------------------------------------------------------
+
+module tb();
+parameter width=16,depth=128;
+reg clk,rst,wr_re;
+reg [width-1:0]din;
+reg [$clog2(depth)-1:0]add;
+wire[width-1:0]dout;
+
+reg[$clog2(depth):0] i;
+reg finish;
+
+ram rtl(.*);
+defparam rtl.width=width;
+defparam rtl.depth=depth;
+
+initial clk=0;
+always #5 clk=~clk;
+
+initial
+      begin
+           rst=0;
+           #20;rst=1;
+      end
+
+task write();
+     begin
+          wr_re=1;
+          for(i=0;i<depth;i=i+1)
+              begin
+                  add=i;
+                  din=$random;
+                  #10;
+
+              end
+     end
+endtask
+
+task read();
+     begin
+          wr_re=0;
+          for(i=0;i<depth;i=i+1)
+             begin
+                  add=i;
+                  #10;
+             end
+              finish=1;
+     end
+endtask
+
+initial
+      begin
+      wait(rst==1);
+      write();
+      read();
+      end
+
+initial 
+       begin
+       wait(finish==1);
+       $stop;
+       end
+
+initial
+$monitor("clk=%b rst=%b wr_re=%b address=%0d din=%0d dout=%0d Time=%0t",clk,rst,wr_re,add,din,dout,$time);
+endmodule
+

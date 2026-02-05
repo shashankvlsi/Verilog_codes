@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Gate-Level Modeling/BINARY-BINARY
+T_opt
+!s110 1756366645
+VPJYaJl[jfNKz5P@Z[^d>I1
+04 11 4 work bintobin_tb fast 0
+=1-4c0f3ec0fd23-68b00734-3da-1070
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vbintobin
+Z2 !s110 1756367333
+!i10b 1
+!s100 QHaCj7G;V_@PWNZGkHc_`0
+IJ0f3`P:_H]3C8@GZ5Ubl01
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756366272
+Z5 8bintobin.v
+Z6 Fbintobin.v
+L0 3
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756367333.000000
+!s107 graytobinary.v|bintogray.v|bintobin.v|
+Z9 !s90 -reportprogress|300|bintobin.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbintobin_tb
+R2
+!i10b 1
+!s100 5Y=TLFaRP]i>4flf2VYbd0
+IE<Oo=1eo>TiTV?HDhLQeK1
+R3
+R0
+R4
+R5
+R6
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 graytobinary.v|bintogray.v|bintobin.v|
+R9
+!i113 0
+R10
+R1
+vbintogray
+R2
+!i10b 1
+!s100 ec>BSWE6<L]bLT1GC4XZe1
+IIXQmL_eOBmidK`d1dQIZd2
+R3
+R0
+Z12 w1756366633
+Z13 8bintogray.v
+Z14 Fbintogray.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vbintogray_tb
+R2
+!i10b 1
+!s100 2DZ7f[6jL8c13D0d^gU?W2
+I^R]f7P40e@WA?a8N41n6[2
+R3
+R0
+R12
+R13
+R14
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vgraytobinary
+R2
+!i10b 1
+!s100 ^2il4ce7hYa]^`kOG`V^R2
+IH7@6110VVDV_CTAFLi]2T1
+R3
+R0
+Z15 w1756365349
+Z16 8graytobinary.v
+Z17 Fgraytobinary.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vgraytobinary_tb
+R2
+!i10b 1
+!s100 >?`Y_C5kz[]YRAz3P4?aR2
+Idj]RSDhD3cc@iYiC0_dLN2
+R3
+R0
+R15
+R16
+R17
+L0 11
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1

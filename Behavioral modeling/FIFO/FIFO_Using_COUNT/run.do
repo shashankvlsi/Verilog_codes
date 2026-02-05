@@ -1,0 +1,4 @@
+vlog fifo.v +acc
+vsim tb
+add wave *
+run -all

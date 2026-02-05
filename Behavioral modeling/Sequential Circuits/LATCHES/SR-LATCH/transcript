@@ -1,0 +1,508 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# run.do  srl.v  tb.v  transcript  vsim.wlf  wlft936sc5  work    
+vlog srl.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:50:24 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# ** Error: (vlog-13069) srl.v(48): near "end": syntax error, unexpected end.
+# End time: 12:50:24 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# E:/questasim-64 10.7c/win64/vlog failed.
+vlog srl.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:50:45 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:50:45 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# vsim tb 
+# Start time: 12:50:53 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+add wave *
+run -all
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=0 s=0 r=0 q=0 qbar=1 Time=11
+# clk=0 s=1 r=0 q=0 qbar=1 Time=13
+# clk=0 s=1 r=1 q=0 qbar=1 Time=16
+# clk=1 s=1 r=1 q=x qbar=x Time=20
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:52:16 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:52:16 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:52:16 on Sep 10,2025, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:52:16 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=0 s=0 r=0 q=0 qbar=1 Time=11
+# clk=0 s=1 r=0 q=0 qbar=1 Time=13
+# clk=0 s=1 r=1 q=0 qbar=1 Time=16
+# clk=1 s=1 r=1 q=x qbar=x Time=20
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:53:15 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:53:15 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:53:16 on Sep 10,2025, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:53:16 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=0 s=0 r=0 q=0 qbar=1 Time=11
+# clk=0 s=1 r=0 q=0 qbar=1 Time=13
+# clk=0 s=1 r=1 q=0 qbar=1 Time=16
+# clk=1 s=1 r=1 q=x qbar=x Time=20
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:54:08 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:54:08 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:54:09 on Sep 10,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:54:09 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=0 s=0 r=0 q=0 qbar=1 Time=11
+# clk=0 s=1 r=0 q=0 qbar=1 Time=13
+# clk=0 s=1 r=1 q=0 qbar=1 Time=16
+# clk=1 s=1 r=1 q=x qbar=x Time=20
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:40 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:55:40 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:55:40 on Sep 10,2025, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:55:40 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=0 s=0 r=0 q=0 qbar=1 Time=11
+# clk=0 s=1 r=0 q=0 qbar=1 Time=13
+# clk=0 s=1 r=1 q=0 qbar=1 Time=16
+# clk=1 s=1 r=1 q=x qbar=x Time=20
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+vlog srl.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:59 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:55:59 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# End time: 12:56:05 on Sep 10,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:56:05 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+add wave *
+run -all
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=0 s=0 r=0 q=0 qbar=1 Time=11
+# clk=0 s=1 r=0 q=0 qbar=1 Time=13
+# clk=0 s=1 r=1 q=0 qbar=1 Time=16
+# clk=1 s=1 r=1 q=x qbar=x Time=20
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:02 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:58:02 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:58:03 on Sep 10,2025, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:58:03 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=0 s=0 r=0 q=0 qbar=1 Time=11
+# clk=0 s=1 r=0 q=0 qbar=1 Time=13
+# clk=0 s=1 r=1 q=0 qbar=1 Time=16
+# clk=1 s=1 r=1 q=x qbar=x Time=20
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:51 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:00:51 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:00:52 on Sep 10,2025, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:00:52 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=1 s=x r=x q=x qbar=x Time=20
+# clk=0 s=0 r=0 q=x qbar=x Time=30
+# clk=0 s=1 r=0 q=x qbar=x Time=32
+# clk=0 s=1 r=1 q=x qbar=x Time=34
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:01:25 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:01:25 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:01:32 on Sep 10,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:01:32 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=1 s=x r=x q=x qbar=x Time=20
+# clk=1 s=0 r=0 q=x qbar=x Time=25
+# clk=1 s=1 r=0 q=x qbar=x Time=27
+# clk=1 s=1 r=1 q=x qbar=x Time=29
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:02:19 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:02:19 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:02:19 on Sep 10,2025, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:02:19 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=1 s=x r=x q=x qbar=x Time=20
+# clk=1 s=0 r=0 q=x qbar=x Time=25
+# clk=1 s=1 r=0 q=x qbar=x Time=27
+# clk=1 s=1 r=1 q=x qbar=x Time=29
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:02:45 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:02:45 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:02:47 on Sep 10,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:02:47 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=1 s=x r=x q=x qbar=x Time=20
+# clk=1 s=0 r=0 q=x qbar=x Time=25
+# clk=1 s=1 r=0 q=1 qbar=0 Time=27
+# clk=1 s=1 r=1 q=x qbar=x Time=29
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(50)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:05:08 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:05:08 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:05:13 on Sep 10,2025, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:05:13 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=1 s=0 r=0 q=0 qbar=1 Time=20
+# clk=1 s=0 r=1 q=0 qbar=1 Time=24
+# clk=1 s=1 r=0 q=1 qbar=0 Time=28
+# clk=0 s=1 r=1 q=1 qbar=0 Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(51)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 51
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:32 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:06:32 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:06:34 on Sep 10,2025, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:06:34 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=1 s=0 r=0 q=0 qbar=1 Time=20
+# clk=1 s=0 r=1 q=0 qbar=1 Time=24
+# clk=1 s=1 r=0 q=1 qbar=0 Time=27
+# clk=1 s=1 r=1 q=x qbar=x Time=29
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(51)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 51
+# Causality operation skipped due to absence of debug database file
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:09:22 on Sep 10,2025
+# vlog -reportprogress 300 srl.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:09:22 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:09:26 on Sep 10,2025, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 1
+# vsim tb 
+# Start time: 13:09:27 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x q=0 qbar=1 Time=0
+# clk=0 s=x r=x q=0 qbar=1 Time=10
+# clk=1 s=0 r=0 q=0 qbar=1 Time=20
+# clk=1 s=0 r=1 q=0 qbar=1 Time=24
+# clk=1 s=1 r=0 q=1 qbar=0 Time=27
+# clk=1 s=1 r=1 q=x qbar=x Time=29
+# clk=0 s=1 r=1 q=x qbar=x Time=30
+# clk=1 s=1 r=1 q=x qbar=x Time=40
+# clk=0 s=1 r=1 q=x qbar=x Time=50
+# clk=1 s=1 r=1 q=x qbar=x Time=60
+# clk=0 s=1 r=1 q=x qbar=x Time=70
+# clk=1 s=1 r=1 q=x qbar=x Time=80
+# clk=0 s=1 r=1 q=x qbar=x Time=90
+# ** Note: $stop    : srl.v(52)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srl.v line 52
+# Quit canceled
+# End time: 13:12:34 on Sep 10,2025, Elapsed time: 0:03:07
+# Errors: 1, Warnings: 0

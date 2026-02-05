@@ -1,0 +1,229 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Switch-Level style/RCA1
+T_opt
+!s110 1755690603
+V;LDNT0hm[?PmegnmDQK<43
+Z1 04 7 4 work rac1_tb fast 0
+=1-4c0f3ec0fd23-68a5b66b-ef-3de4
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755690672
+VCC@1k9]Eh9QDUm;Xd>K?A3
+R1
+=1-4c0f3ec0fd23-68a5b6af-3ad-391c
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1755842140
+VcSXn@zoMNP?gB0ml5fFJQ2
+04 7 4 work rca1_tb fast 0
+=1-4c0f3ec0fd23-68a8065c-97-774
+R2
+R3
+n@_opt2
+R4
+R0
+vand1
+Z5 !s110 1755842179
+!i10b 1
+!s100 O_;;Wl7NM`=?8UXhI_<TE1
+I59OEj1?HQAUbOV?FK[co80
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 dD:/VLSI/Verilog/Switch-Level style/RCA/4bit-RCA
+w1755616866
+8andgate.v
+Fandgate.v
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1755842179.000000
+Z10 !s107 halfadder1.v|andgate.v|xorgate1.v|orgate1.v|fulladder3.v|rca1.v|
+Z11 !s90 -reportprogress|300|rca1.v|+acc|
+!i113 0
+Z12 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfulladder3
+R5
+!i10b 1
+!s100 h[_6W<[RG3AEe=Lm4Zh=Y2
+IZ@3^YVNcBd;b7K_bVABi?1
+R6
+R7
+Z13 w1755677357
+Z14 8fulladder3.v
+Z15 Ffulladder3.v
+L0 5
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vfulladder3_tb
+R5
+!i10b 1
+!s100 KXjf4;aEO[Zch^KHFh9L@3
+Ib?5PNOjP;T_?;S=2jA1z20
+R6
+R7
+R13
+R14
+R15
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vhalfadder
+R5
+!i10b 1
+!s100 3PF0Jgh^;YKR2dVAd3oDG0
+IH<M3ET[z5O5N0hV=2z>>W1
+R6
+R7
+w1755674262
+8halfadder1.v
+Fhalfadder1.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vor1
+R5
+!i10b 1
+!s100 5`bB3Wiz`Fzab>`B?S:J90
+IzUSi:BzKN3XQYNf0P;L4X0
+R6
+R7
+Z16 w1755614022
+8orgate1.v
+Forgate1.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vrac1_tb
+!s110 1755837564
+!i10b 1
+!s100 <<ERJVlGNgUKUFN16`R1T1
+IZ:m]Mk_hkG7XWR>OgE<8Z3
+R6
+R7
+w1755689760
+Z17 8rca1.v
+Z18 Frca1.v
+Z19 L0 42
+R8
+r1
+!s85 0
+31
+!s108 1755837564.000000
+R10
+R11
+!i113 0
+R12
+R3
+vrca1
+R5
+!i10b 1
+!s100 K>INZcPk15`ZkRg]d1noA3
+ICYk38^iZa[c5JiJYDLXFC2
+R6
+R7
+Z20 w1755842130
+R17
+R18
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vrca1_tb
+R5
+!i10b 1
+!s100 WOc1:DjC[l@5P1XoSOJ4L1
+IBMa3iF=aVQ>MX2TkU504`0
+R6
+R7
+R20
+R17
+R18
+R19
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vxor1
+R5
+!i10b 1
+!s100 m4lShG[::kTm]IU8SW?N13
+IEFTCSi:2JnMH1S?V<YVNh0
+R6
+R7
+R16
+8xorgate1.v
+Fxorgate1.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3

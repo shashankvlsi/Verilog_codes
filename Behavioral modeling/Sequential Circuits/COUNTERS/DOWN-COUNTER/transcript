@@ -1,0 +1,563 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:19:59 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# ** Error: down.v(6): (vlog-2730) Undefined variable: 'count'.
+# -- Compiling module tb
+# ** Error: (vlog-13069) down.v(29): near "end": syntax error, unexpected end, expecting ';'.
+# End time: 12:19:59 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog down.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:20:29 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# ** Error: (vlog-13069) down.v(29): near "end": syntax error, unexpected end, expecting ';'.
+# End time: 12:20:29 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog down.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:20:48 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:20:48 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:20:48 on Sep 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'count'. The port definition is at: down.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/gate File: down.v Line: 16
+# count=1
+# count=0
+# count=1
+# count=0
+# count=1
+# count=0
+# count=1
+# count=0
+# count=1
+# count=0
+# count=1
+# count=0
+# count=1
+# count=0
+# count=1
+# count=0
+# count=1
+# count=0
+# count=1
+# count=0
+# ** Note: $stop    : down.v(35)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:21:15 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:21:15 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:21:18 on Sep 16,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 1
+# vsim tb 
+# Start time: 12:21:18 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=15
+# count=14
+# count=13
+# count=12
+# count=11
+# count=10
+# count=9
+# count=8
+# count=7
+# count=6
+# count=5
+# count=4
+# count=3
+# count=2
+# count=1
+# count=0
+# count=-1
+# count=-2
+# count=-3
+# count=-4
+# ** Note: $stop    : down.v(35)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:22:51 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:22:51 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:22:53 on Sep 16,2025, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:22:53 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=0
+# count=-1
+# count=-2
+# count=-3
+# count=-4
+# count=-5
+# count=-6
+# count=-7
+# count=-8
+# count=-9
+# count=-10
+# count=-11
+# count=-12
+# count=-13
+# count=-14
+# count=-15
+# count=-16
+# count=-17
+# count=-18
+# count=-19
+# ** Note: $stop    : down.v(35)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:23:20 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:23:20 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:23:21 on Sep 16,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:23:22 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=200
+# count=199
+# count=198
+# count=197
+# count=196
+# count=195
+# count=194
+# count=193
+# count=192
+# count=191
+# count=190
+# count=189
+# count=188
+# count=187
+# count=186
+# count=185
+# count=184
+# count=183
+# count=182
+# count=181
+# ** Note: $stop    : down.v(35)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:23:38 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:23:38 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:23:40 on Sep 16,2025, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:23:40 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=200
+# count=199
+# count=198
+# count=197
+# count=196
+# count=195
+# count=194
+# count=193
+# count=192
+# count=191
+# count=190
+# count=189
+# count=188
+# count=187
+# count=186
+# count=185
+# count=184
+# count=183
+# count=182
+# count=181
+# count=180
+# count=179
+# count=178
+# count=177
+# count=176
+# count=175
+# count=174
+# count=173
+# count=172
+# count=171
+# count=170
+# count=169
+# count=168
+# count=167
+# count=166
+# count=165
+# count=164
+# count=163
+# count=162
+# count=161
+# count=160
+# count=159
+# count=158
+# count=157
+# count=156
+# count=155
+# count=154
+# count=153
+# count=152
+# count=151
+# count=150
+# count=149
+# count=148
+# count=147
+# count=146
+# count=145
+# count=144
+# count=143
+# count=142
+# count=141
+# count=140
+# count=139
+# count=138
+# count=137
+# count=136
+# count=135
+# count=134
+# count=133
+# count=132
+# count=131
+# count=130
+# count=129
+# count=128
+# count=127
+# count=126
+# count=125
+# count=124
+# count=123
+# count=122
+# count=121
+# count=120
+# count=119
+# count=118
+# count=117
+# count=116
+# count=115
+# count=114
+# count=113
+# count=112
+# count=111
+# count=110
+# count=109
+# count=108
+# count=107
+# count=106
+# count=105
+# count=104
+# count=103
+# count=102
+# count=101
+# count=100
+# count=99
+# count=98
+# count=97
+# count=96
+# count=95
+# count=94
+# count=93
+# count=92
+# count=91
+# count=90
+# count=89
+# count=88
+# count=87
+# count=86
+# count=85
+# count=84
+# count=83
+# count=82
+# count=81
+# count=80
+# count=79
+# count=78
+# count=77
+# count=76
+# count=75
+# count=74
+# count=73
+# count=72
+# count=71
+# count=70
+# count=69
+# count=68
+# count=67
+# count=66
+# count=65
+# count=64
+# count=63
+# count=62
+# count=61
+# count=60
+# count=59
+# count=58
+# count=57
+# count=56
+# count=55
+# count=54
+# count=53
+# count=52
+# count=51
+# count=50
+# count=49
+# count=48
+# count=47
+# count=46
+# count=45
+# count=44
+# count=43
+# count=42
+# count=41
+# count=40
+# count=39
+# count=38
+# count=37
+# count=36
+# count=35
+# count=34
+# count=33
+# count=32
+# count=31
+# count=30
+# count=29
+# count=28
+# count=27
+# count=26
+# count=25
+# count=24
+# count=23
+# count=22
+# count=21
+# count=20
+# count=19
+# count=18
+# count=17
+# count=16
+# count=15
+# count=14
+# count=13
+# count=12
+# count=11
+# count=10
+# count=9
+# count=8
+# count=7
+# count=6
+# count=5
+# count=4
+# count=3
+# count=2
+# count=1
+# ** Note: $stop    : down.v(35)
+#    Time: 2 us  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:26:31 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:26:31 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:26:32 on Sep 16,2025, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:26:32 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=15
+# count=14
+# count=13
+# count=12
+# count=11
+# count=10
+# count=9
+# count=8
+# count=7
+# count=6
+# count=5
+# count=4
+# count=3
+# count=2
+# count=1
+# ** Note: $stop    : down.v(35)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:27:13 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:27:13 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:27:14 on Sep 16,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:27:15 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=x
+# count=15
+# count=14
+# count=13
+# count=12
+# count=11
+# count=10
+# count=9
+# count=8
+# count=7
+# count=6
+# count=5
+# count=4
+# count=3
+# count=2
+# count=1
+# count=0
+# ** Note: $stop    : down.v(35)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:28:39 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:28:39 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:28:41 on Sep 16,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:28:41 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=x
+# count=15
+# ** Note: $stop    : down.v(35)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:29:07 on Sep 16,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:29:07 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:29:08 on Sep 16,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:29:08 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=15
+# count=14
+# count=13
+# count=12
+# count=11
+# count=10
+# count=9
+# count=8
+# count=7
+# count=6
+# count=5
+# count=4
+# count=3
+# count=2
+# count=1
+# ** Note: $stop    : down.v(35)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+# End time: 12:30:11 on Sep 16,2025, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0

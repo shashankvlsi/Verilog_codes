@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/VLSI/Verilog/Switch-Level style/Full Adder1
+T_opt
+!s110 1755614731
+V>D6Gjz;Z4l3^e=O@ljVQ82
+04 13 4 work fulladder1_tb fast 0
+=1-4c0f3ec0fd23-68a48e0b-195-6e0
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vand1
+Z1 !s110 1755614711
+!i10b 1
+!s100 O_;;Wl7NM`=?8UXhI_<TE1
+I^6HblDPB3=h3fj[M5jF:<1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/VLSI/Verilog/Switch-Level style/Full Adder2
+Z4 w1755614022
+8D:/VLSI/Verilog/Switch-Level style/Full Adder1/andgate1.v
+FD:/VLSI/Verilog/Switch-Level style/Full Adder1/andgate1.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1755614711.000000
+!s107 D:/VLSI/Verilog/Switch-Level style/Full Adder1/andgate1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/Full Adder1/andgate1.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vfulladder1
+R1
+!i10b 1
+!s100 eEWG`ZS6kAQ<z:B3oa91^2
+I[0`VDSkE>HPf6<L@A5`AE1
+R2
+R3
+w1755614706
+8D:/VLSI/Verilog/Switch-Level style/Full Adder1/Fulladder1.v
+FD:/VLSI/Verilog/Switch-Level style/Full Adder1/Fulladder1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/VLSI/Verilog/Switch-Level style/Full Adder1/Fulladder1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/Full Adder1/Fulladder1.v|
+!i113 0
+R7
+R0
+vfulladder1_tb
+Z8 !s110 1755614712
+!i10b 1
+!s100 RXZ[oKQb]G3<UHECm]AhR2
+I6Zi:<nC>Vc7fQ=B8gF0Xb0
+R2
+R3
+w1755614703
+8D:/VLSI/Verilog/Switch-Level style/Full Adder2/Fulladder1_tb.v
+FD:/VLSI/Verilog/Switch-Level style/Full Adder2/Fulladder1_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+Z9 !s108 1755614712.000000
+!s107 D:/VLSI/Verilog/Switch-Level style/Full Adder2/Fulladder1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/Full Adder2/Fulladder1_tb.v|
+!i113 0
+R7
+R0
+vhalfadder1
+R1
+!i10b 1
+!s100 c<>15@b;Q=SBb:YbM8N?Y2
+IialYTDRMbFbKC3=3B4:;50
+R2
+R3
+R4
+8D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder1.v
+FD:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder1.v|
+!i113 0
+R7
+R0
+vhalfadder2
+R1
+!i10b 1
+!s100 l^E:EETAO9=P>n51=lLB=3
+IKRC4=C4Fe6cTa:]dFB?c30
+R2
+R3
+R4
+8D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder2.v
+FD:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder2.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder2.v|
+!i113 0
+R7
+R0
+vor1
+R8
+!i10b 1
+!s100 5`bB3Wiz`Fzab>`B?S:J90
+IQ?3_h<aE:5C8em75l]^G53
+R2
+R3
+R4
+8D:/VLSI/Verilog/Switch-Level style/Full Adder1/orgate1.v
+FD:/VLSI/Verilog/Switch-Level style/Full Adder1/orgate1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/VLSI/Verilog/Switch-Level style/Full Adder1/orgate1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/Full Adder1/orgate1.v|
+!i113 0
+R7
+R0
+vxor1
+R8
+!i10b 1
+!s100 m4lShG[::kTm]IU8SW?N13
+I6c[h>9gYF==Kn59A`oPDY1
+R2
+R3
+R4
+8D:/VLSI/Verilog/Switch-Level style/Full Adder1/xorgate1.v
+FD:/VLSI/Verilog/Switch-Level style/Full Adder1/xorgate1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/VLSI/Verilog/Switch-Level style/Full Adder1/xorgate1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/Full Adder1/xorgate1.v|
+!i113 0
+R7
+R0

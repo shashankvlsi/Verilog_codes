@@ -1,0 +1,167 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:33:22 on Sep 21,2025
+# vlog -reportprogress 300 ram.v "+acc" 
+# -- Compiling module ram
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:33:22 on Sep 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 10:33:22 on Sep 21,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.ram(fast)
+# clk=0 rst=0 wr_re=x address=x din=x dout=0 Empty=x Full=x Time=0
+# clk=1 rst=0 wr_re=x address=x din=x dout=0 Empty=1 Full=0 Time=5
+# clk=0 rst=0 wr_re=x address=x din=x dout=0 Empty=1 Full=0 Time=10
+# clk=1 rst=0 wr_re=x address=x din=x dout=0 Empty=1 Full=0 Time=15
+# clk=0 rst=1 wr_re=1 address=0 din=36 dout=0 Empty=1 Full=0 Time=20
+# clk=1 rst=1 wr_re=1 address=0 din=36 dout=0 Empty=0 Full=0 Time=25
+# clk=0 rst=1 wr_re=1 address=1 din=129 dout=0 Empty=0 Full=0 Time=30
+# clk=1 rst=1 wr_re=1 address=1 din=129 dout=0 Empty=0 Full=0 Time=35
+# clk=0 rst=1 wr_re=1 address=2 din=9 dout=0 Empty=0 Full=0 Time=40
+# clk=1 rst=1 wr_re=1 address=2 din=9 dout=0 Empty=0 Full=0 Time=45
+# clk=0 rst=1 wr_re=1 address=3 din=99 dout=0 Empty=0 Full=0 Time=50
+# clk=1 rst=1 wr_re=1 address=3 din=99 dout=0 Empty=0 Full=0 Time=55
+# clk=0 rst=1 wr_re=1 address=4 din=13 dout=0 Empty=0 Full=0 Time=60
+# clk=1 rst=1 wr_re=1 address=4 din=13 dout=0 Empty=0 Full=0 Time=65
+# clk=0 rst=1 wr_re=1 address=5 din=141 dout=0 Empty=0 Full=0 Time=70
+# clk=1 rst=1 wr_re=1 address=5 din=141 dout=0 Empty=0 Full=0 Time=75
+# clk=0 rst=1 wr_re=1 address=6 din=101 dout=0 Empty=0 Full=0 Time=80
+# clk=1 rst=1 wr_re=1 address=6 din=101 dout=0 Empty=0 Full=0 Time=85
+# clk=0 rst=1 wr_re=1 address=7 din=18 dout=0 Empty=0 Full=0 Time=90
+# clk=1 rst=1 wr_re=1 address=7 din=18 dout=0 Empty=0 Full=0 Time=95
+# clk=0 rst=1 wr_re=1 address=8 din=1 dout=0 Empty=0 Full=0 Time=100
+# clk=1 rst=1 wr_re=1 address=8 din=1 dout=0 Empty=0 Full=0 Time=105
+# clk=0 rst=1 wr_re=1 address=9 din=13 dout=0 Empty=0 Full=0 Time=110
+# clk=1 rst=1 wr_re=1 address=9 din=13 dout=0 Empty=0 Full=0 Time=115
+# clk=0 rst=1 wr_re=1 address=10 din=118 dout=0 Empty=0 Full=0 Time=120
+# clk=1 rst=1 wr_re=1 address=10 din=118 dout=0 Empty=0 Full=0 Time=125
+# clk=0 rst=1 wr_re=1 address=11 din=61 dout=0 Empty=0 Full=0 Time=130
+# clk=1 rst=1 wr_re=1 address=11 din=61 dout=0 Empty=0 Full=0 Time=135
+# clk=0 rst=1 wr_re=1 address=12 din=237 dout=0 Empty=0 Full=0 Time=140
+# clk=1 rst=1 wr_re=1 address=12 din=237 dout=0 Empty=0 Full=0 Time=145
+# clk=0 rst=1 wr_re=1 address=13 din=140 dout=0 Empty=0 Full=0 Time=150
+# clk=1 rst=1 wr_re=1 address=13 din=140 dout=0 Empty=0 Full=0 Time=155
+# clk=0 rst=1 wr_re=1 address=14 din=249 dout=0 Empty=0 Full=0 Time=160
+# clk=1 rst=1 wr_re=1 address=14 din=249 dout=0 Empty=0 Full=0 Time=165
+# clk=0 rst=1 wr_re=1 address=15 din=198 dout=0 Empty=0 Full=0 Time=170
+# clk=1 rst=1 wr_re=1 address=15 din=198 dout=0 Empty=0 Full=0 Time=175
+# clk=0 rst=1 wr_re=1 address=16 din=197 dout=0 Empty=0 Full=0 Time=180
+# clk=1 rst=1 wr_re=1 address=16 din=197 dout=0 Empty=0 Full=0 Time=185
+# clk=0 rst=1 wr_re=1 address=17 din=170 dout=0 Empty=0 Full=0 Time=190
+# clk=1 rst=1 wr_re=1 address=17 din=170 dout=0 Empty=0 Full=0 Time=195
+# clk=0 rst=1 wr_re=1 address=18 din=229 dout=0 Empty=0 Full=0 Time=200
+# clk=1 rst=1 wr_re=1 address=18 din=229 dout=0 Empty=0 Full=0 Time=205
+# clk=0 rst=1 wr_re=1 address=19 din=119 dout=0 Empty=0 Full=0 Time=210
+# clk=1 rst=1 wr_re=1 address=19 din=119 dout=0 Empty=0 Full=0 Time=215
+# clk=0 rst=1 wr_re=1 address=20 din=18 dout=0 Empty=0 Full=0 Time=220
+# clk=1 rst=1 wr_re=1 address=20 din=18 dout=0 Empty=0 Full=0 Time=225
+# clk=0 rst=1 wr_re=1 address=21 din=143 dout=0 Empty=0 Full=0 Time=230
+# clk=1 rst=1 wr_re=1 address=21 din=143 dout=0 Empty=0 Full=0 Time=235
+# clk=0 rst=1 wr_re=1 address=22 din=242 dout=0 Empty=0 Full=0 Time=240
+# clk=1 rst=1 wr_re=1 address=22 din=242 dout=0 Empty=0 Full=0 Time=245
+# clk=0 rst=1 wr_re=1 address=23 din=206 dout=0 Empty=0 Full=0 Time=250
+# clk=1 rst=1 wr_re=1 address=23 din=206 dout=0 Empty=0 Full=0 Time=255
+# clk=0 rst=1 wr_re=1 address=24 din=232 dout=0 Empty=0 Full=0 Time=260
+# clk=1 rst=1 wr_re=1 address=24 din=232 dout=0 Empty=0 Full=0 Time=265
+# clk=0 rst=1 wr_re=1 address=25 din=197 dout=0 Empty=0 Full=0 Time=270
+# clk=1 rst=1 wr_re=1 address=25 din=197 dout=0 Empty=0 Full=0 Time=275
+# clk=0 rst=1 wr_re=1 address=26 din=92 dout=0 Empty=0 Full=0 Time=280
+# clk=1 rst=1 wr_re=1 address=26 din=92 dout=0 Empty=0 Full=0 Time=285
+# clk=0 rst=1 wr_re=1 address=27 din=189 dout=0 Empty=0 Full=0 Time=290
+# clk=1 rst=1 wr_re=1 address=27 din=189 dout=0 Empty=0 Full=0 Time=295
+# clk=0 rst=1 wr_re=1 address=28 din=45 dout=0 Empty=0 Full=0 Time=300
+# clk=1 rst=1 wr_re=1 address=28 din=45 dout=0 Empty=0 Full=0 Time=305
+# clk=0 rst=1 wr_re=1 address=29 din=101 dout=0 Empty=0 Full=0 Time=310
+# clk=1 rst=1 wr_re=1 address=29 din=101 dout=0 Empty=0 Full=0 Time=315
+# clk=0 rst=1 wr_re=1 address=30 din=99 dout=0 Empty=0 Full=0 Time=320
+# clk=1 rst=1 wr_re=1 address=30 din=99 dout=0 Empty=0 Full=0 Time=325
+# clk=0 rst=1 wr_re=1 address=31 din=10 dout=0 Empty=0 Full=0 Time=330
+# clk=1 rst=1 wr_re=1 address=31 din=10 dout=0 Empty=0 Full=1 Time=335
+# clk=0 rst=1 wr_re=0 address=0 din=10 dout=0 Empty=0 Full=1 Time=340
+# clk=1 rst=1 wr_re=0 address=0 din=10 dout=36 Empty=0 Full=0 Time=345
+# clk=0 rst=1 wr_re=0 address=1 din=10 dout=36 Empty=0 Full=0 Time=350
+# clk=1 rst=1 wr_re=0 address=1 din=10 dout=129 Empty=0 Full=0 Time=355
+# clk=0 rst=1 wr_re=0 address=2 din=10 dout=129 Empty=0 Full=0 Time=360
+# clk=1 rst=1 wr_re=0 address=2 din=10 dout=9 Empty=0 Full=0 Time=365
+# clk=0 rst=1 wr_re=0 address=3 din=10 dout=9 Empty=0 Full=0 Time=370
+# clk=1 rst=1 wr_re=0 address=3 din=10 dout=99 Empty=0 Full=0 Time=375
+# clk=0 rst=1 wr_re=0 address=4 din=10 dout=99 Empty=0 Full=0 Time=380
+# clk=1 rst=1 wr_re=0 address=4 din=10 dout=13 Empty=0 Full=0 Time=385
+# clk=0 rst=1 wr_re=0 address=5 din=10 dout=13 Empty=0 Full=0 Time=390
+# clk=1 rst=1 wr_re=0 address=5 din=10 dout=141 Empty=0 Full=0 Time=395
+# clk=0 rst=1 wr_re=0 address=6 din=10 dout=141 Empty=0 Full=0 Time=400
+# clk=1 rst=1 wr_re=0 address=6 din=10 dout=101 Empty=0 Full=0 Time=405
+# clk=0 rst=1 wr_re=0 address=7 din=10 dout=101 Empty=0 Full=0 Time=410
+# clk=1 rst=1 wr_re=0 address=7 din=10 dout=18 Empty=0 Full=0 Time=415
+# clk=0 rst=1 wr_re=0 address=8 din=10 dout=18 Empty=0 Full=0 Time=420
+# clk=1 rst=1 wr_re=0 address=8 din=10 dout=1 Empty=0 Full=0 Time=425
+# clk=0 rst=1 wr_re=0 address=9 din=10 dout=1 Empty=0 Full=0 Time=430
+# clk=1 rst=1 wr_re=0 address=9 din=10 dout=13 Empty=0 Full=0 Time=435
+# clk=0 rst=1 wr_re=0 address=10 din=10 dout=13 Empty=0 Full=0 Time=440
+# clk=1 rst=1 wr_re=0 address=10 din=10 dout=118 Empty=0 Full=0 Time=445
+# clk=0 rst=1 wr_re=0 address=11 din=10 dout=118 Empty=0 Full=0 Time=450
+# clk=1 rst=1 wr_re=0 address=11 din=10 dout=61 Empty=0 Full=0 Time=455
+# clk=0 rst=1 wr_re=0 address=12 din=10 dout=61 Empty=0 Full=0 Time=460
+# clk=1 rst=1 wr_re=0 address=12 din=10 dout=237 Empty=0 Full=0 Time=465
+# clk=0 rst=1 wr_re=0 address=13 din=10 dout=237 Empty=0 Full=0 Time=470
+# clk=1 rst=1 wr_re=0 address=13 din=10 dout=140 Empty=0 Full=0 Time=475
+# clk=0 rst=1 wr_re=0 address=14 din=10 dout=140 Empty=0 Full=0 Time=480
+# clk=1 rst=1 wr_re=0 address=14 din=10 dout=249 Empty=0 Full=0 Time=485
+# clk=0 rst=1 wr_re=0 address=15 din=10 dout=249 Empty=0 Full=0 Time=490
+# clk=1 rst=1 wr_re=0 address=15 din=10 dout=198 Empty=0 Full=0 Time=495
+# clk=0 rst=1 wr_re=0 address=16 din=10 dout=198 Empty=0 Full=0 Time=500
+# clk=1 rst=1 wr_re=0 address=16 din=10 dout=197 Empty=0 Full=0 Time=505
+# clk=0 rst=1 wr_re=0 address=17 din=10 dout=197 Empty=0 Full=0 Time=510
+# clk=1 rst=1 wr_re=0 address=17 din=10 dout=170 Empty=0 Full=0 Time=515
+# clk=0 rst=1 wr_re=0 address=18 din=10 dout=170 Empty=0 Full=0 Time=520
+# clk=1 rst=1 wr_re=0 address=18 din=10 dout=229 Empty=0 Full=0 Time=525
+# clk=0 rst=1 wr_re=0 address=19 din=10 dout=229 Empty=0 Full=0 Time=530
+# clk=1 rst=1 wr_re=0 address=19 din=10 dout=119 Empty=0 Full=0 Time=535
+# clk=0 rst=1 wr_re=0 address=20 din=10 dout=119 Empty=0 Full=0 Time=540
+# clk=1 rst=1 wr_re=0 address=20 din=10 dout=18 Empty=0 Full=0 Time=545
+# clk=0 rst=1 wr_re=0 address=21 din=10 dout=18 Empty=0 Full=0 Time=550
+# clk=1 rst=1 wr_re=0 address=21 din=10 dout=143 Empty=0 Full=0 Time=555
+# clk=0 rst=1 wr_re=0 address=22 din=10 dout=143 Empty=0 Full=0 Time=560
+# clk=1 rst=1 wr_re=0 address=22 din=10 dout=242 Empty=0 Full=0 Time=565
+# clk=0 rst=1 wr_re=0 address=23 din=10 dout=242 Empty=0 Full=0 Time=570
+# clk=1 rst=1 wr_re=0 address=23 din=10 dout=206 Empty=0 Full=0 Time=575
+# clk=0 rst=1 wr_re=0 address=24 din=10 dout=206 Empty=0 Full=0 Time=580
+# clk=1 rst=1 wr_re=0 address=24 din=10 dout=232 Empty=0 Full=0 Time=585
+# clk=0 rst=1 wr_re=0 address=25 din=10 dout=232 Empty=0 Full=0 Time=590
+# clk=1 rst=1 wr_re=0 address=25 din=10 dout=197 Empty=0 Full=0 Time=595
+# clk=0 rst=1 wr_re=0 address=26 din=10 dout=197 Empty=0 Full=0 Time=600
+# clk=1 rst=1 wr_re=0 address=26 din=10 dout=92 Empty=0 Full=0 Time=605
+# clk=0 rst=1 wr_re=0 address=27 din=10 dout=92 Empty=0 Full=0 Time=610
+# clk=1 rst=1 wr_re=0 address=27 din=10 dout=189 Empty=0 Full=0 Time=615
+# clk=0 rst=1 wr_re=0 address=28 din=10 dout=189 Empty=0 Full=0 Time=620
+# clk=1 rst=1 wr_re=0 address=28 din=10 dout=45 Empty=0 Full=0 Time=625
+# clk=0 rst=1 wr_re=0 address=29 din=10 dout=45 Empty=0 Full=0 Time=630
+# clk=1 rst=1 wr_re=0 address=29 din=10 dout=101 Empty=0 Full=0 Time=635
+# clk=0 rst=1 wr_re=0 address=30 din=10 dout=101 Empty=0 Full=0 Time=640
+# clk=1 rst=1 wr_re=0 address=30 din=10 dout=99 Empty=0 Full=0 Time=645
+# clk=0 rst=1 wr_re=0 address=31 din=10 dout=99 Empty=0 Full=0 Time=650
+# clk=1 rst=1 wr_re=0 address=31 din=10 dout=10 Empty=1 Full=0 Time=655
+# ** Note: $stop    : ram.v(103)
+#    Time: 660 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at ram.v line 103
+# End time: 11:25:45 on Sep 21,2025, Elapsed time: 0:52:23
+# Errors: 0, Warnings: 0

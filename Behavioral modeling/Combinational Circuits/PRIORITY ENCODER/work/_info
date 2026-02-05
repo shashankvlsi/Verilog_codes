@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/Combinational Circuits/PRIORITY ENCODER
+T_opt
+!s110 1758265431
+VR?[Q[PViT]5AHFG69IG_V1
+Z1 04 2 4 work tb fast 0
+=1-4c0f3ec0fd23-68cd0057-2b3-3be8
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+Z5 !s110 1760247408
+VMKf0]]QPE=^L^cBE^h8zj0
+R1
+=1-4c0f3ec0fd23-68eb3e70-24d-25a8
+R2
+R3
+n@_opt1
+R4
+venc
+R5
+!i10b 1
+!s100 IPFPRhREUE0?KHR^lzZio0
+IhAegRz21JO[hW=W@U0`G71
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1758265407
+Z8 8enc.v
+Z9 Fenc.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1760247407.000000
+Z12 !s107 enc.v|
+Z13 !s90 -reportprogress|300|enc.v|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtb
+R5
+!i10b 1
+!s100 S^gHo=_h1AT4iB<K<d7z<3
+IDXkha?k@9oJENJ_9Y2gDn3
+R6
+R0
+R7
+R8
+R9
+L0 52
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Gate-Level Modeling/BINARY-GRAY
+T_opt
+!s110 1756363809
+VBZd6il0c?hCi5>PnX6KbK0
+Z1 04 12 4 work bintogray_tb fast 0
+=1-4c0f3ec0fd23-68affc20-348-3b04
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756366985
+VlcmSXMA3KB]f;3Ed>fS6<3
+R1
+=1-4c0f3ec0fd23-68b00889-1f7-2e80
+R2
+R3
+n@_opt1
+R4
+vbintogray
+Z5 !s110 1756366981
+!i10b 1
+!s100 ec>BSWE6<L]bLT1GC4XZe1
+IIXQmL_eOBmidK`d1dQIZd2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1756366850
+Z8 8bintogray.v
+Z9 Fbintogray.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1756366981.000000
+Z12 !s107 bintogray.v|
+Z13 !s90 -reportprogress|300|bintogray.v|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vbintogray_tb
+R5
+!i10b 1
+!s100 Tn3:;YZGWO7o6Pm8aL58C1
+IGmb;3aVbTkC_eS7A7jGeP2
+R6
+R0
+R7
+R8
+R9
+L0 9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

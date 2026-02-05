@@ -1,0 +1,51 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:53:46 on Sep 10,2025
+# vlog -reportprogress 300 srff.v "+acc" 
+# -- Compiling module srl
+# -- Compiling module srff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:53:46 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 15:53:46 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srff(fast)
+# Loading work.srl(fast)
+# clk=1 s=x r=x Q=0 Qbar=1 Time=0
+# clk=0 s=x r=x Q=0 Qbar=1 Time=10
+# clk=0 s=0 r=1 Q=0 Qbar=1 Time=17
+# clk=1 s=0 r=1 Q=0 Qbar=1 Time=20
+# clk=0 s=0 r=1 Q=0 Qbar=1 Time=30
+# clk=0 s=1 r=1 Q=0 Qbar=1 Time=34
+# clk=1 s=1 r=1 Q=x Qbar=x Time=40
+# clk=0 s=1 r=1 Q=x Qbar=x Time=50
+# clk=1 s=1 r=1 Q=x Qbar=x Time=60
+# clk=1 s=1 r=0 Q=x Qbar=x Time=68
+# clk=0 s=1 r=0 Q=x Qbar=x Time=70
+# clk=1 s=1 r=0 Q=1 Qbar=0 Time=80
+# clk=1 s=1 r=1 Q=1 Qbar=0 Time=85
+# clk=0 s=1 r=1 Q=1 Qbar=0 Time=90
+# ** Note: $stop    : srff.v(52)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srff.v line 52
+# End time: 15:54:34 on Sep 10,2025, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0

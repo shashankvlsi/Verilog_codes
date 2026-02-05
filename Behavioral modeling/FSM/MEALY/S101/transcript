@@ -1,0 +1,454 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:41:39 on Oct 08,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module s101
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:41:39 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:41:39 on Oct 08,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "s101(fast)".
+# Loading work.tb(fast)
+# Loading work.s101(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 13176
+#           Attempting to use alternate WLF file "./wlft60yhny".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft60yhny
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=0 y=0 Time=30
+# clk=1 rst=1 x=0 y=0 Time=35
+# clk=0 rst=1 x=0 y=0 Time=40
+# clk=1 rst=1 x=0 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=0 y=0 Time=110
+# clk=1 rst=1 x=0 y=0 Time=115
+# clk=0 rst=1 x=1 y=1 Time=120
+# clk=1 rst=1 x=1 y=0 Time=125
+# clk=0 rst=1 x=1 y=0 Time=130
+# clk=1 rst=1 x=1 y=0 Time=135
+# clk=0 rst=1 x=0 y=0 Time=140
+# clk=1 rst=1 x=0 y=0 Time=145
+# clk=0 rst=1 x=1 y=1 Time=150
+# clk=1 rst=1 x=1 y=0 Time=155
+# clk=0 rst=1 x=1 y=0 Time=160
+# clk=1 rst=1 x=1 y=0 Time=165
+# clk=0 rst=1 x=0 y=0 Time=170
+# clk=1 rst=1 x=0 y=0 Time=175
+# clk=0 rst=1 x=1 y=1 Time=180
+# clk=1 rst=1 x=1 y=0 Time=185
+# clk=0 rst=1 x=0 y=0 Time=190
+# clk=1 rst=1 x=0 y=0 Time=195
+# clk=0 rst=1 x=1 y=1 Time=200
+# clk=1 rst=1 x=1 y=0 Time=205
+# clk=0 rst=1 x=0 y=0 Time=210
+# clk=1 rst=1 x=0 y=0 Time=215
+# clk=0 rst=1 x=1 y=1 Time=220
+# clk=1 rst=1 x=1 y=0 Time=225
+# clk=0 rst=1 x=1 y=0 Time=230
+# clk=1 rst=1 x=1 y=0 Time=235
+# clk=0 rst=1 x=0 y=0 Time=240
+# clk=1 rst=1 x=0 y=0 Time=245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:56:59 on Oct 08,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module s101
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:56:59 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:57:00 on Oct 08,2025, Elapsed time: 0:15:21
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:57:00 on Oct 08,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb(fast)
+# Loading work.s101(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 13176
+#           Attempting to use alternate WLF file "./wlftnbkd9h".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnbkd9h
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=0 y=0 Time=30
+# clk=1 rst=1 x=0 y=0 Time=35
+# clk=0 rst=1 x=0 y=0 Time=40
+# clk=1 rst=1 x=0 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=0 y=0 Time=110
+# clk=1 rst=1 x=0 y=0 Time=115
+# clk=0 rst=1 x=1 y=1 Time=120
+# clk=1 rst=1 x=1 y=0 Time=125
+# clk=0 rst=1 x=1 y=0 Time=130
+# clk=1 rst=1 x=1 y=0 Time=135
+# clk=0 rst=1 x=0 y=0 Time=140
+# clk=1 rst=1 x=0 y=0 Time=145
+# clk=0 rst=1 x=1 y=1 Time=150
+# clk=1 rst=1 x=1 y=0 Time=155
+# clk=0 rst=1 x=1 y=0 Time=160
+# clk=1 rst=1 x=1 y=0 Time=165
+# clk=0 rst=1 x=0 y=0 Time=170
+# clk=1 rst=1 x=0 y=0 Time=175
+# clk=0 rst=1 x=1 y=1 Time=180
+# clk=1 rst=1 x=1 y=0 Time=185
+# clk=0 rst=1 x=0 y=0 Time=190
+# clk=1 rst=1 x=0 y=0 Time=195
+# clk=0 rst=1 x=1 y=1 Time=200
+# clk=1 rst=1 x=1 y=0 Time=205
+# clk=0 rst=1 x=0 y=0 Time=210
+# clk=1 rst=1 x=0 y=0 Time=215
+# clk=0 rst=1 x=1 y=1 Time=220
+# clk=1 rst=1 x=1 y=0 Time=225
+# clk=0 rst=1 x=1 y=0 Time=230
+# clk=1 rst=1 x=1 y=0 Time=235
+# clk=0 rst=1 x=0 y=0 Time=240
+# clk=1 rst=1 x=0 y=0 Time=245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:57:28 on Oct 08,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module s101
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:57:28 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:57:29 on Oct 08,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:57:29 on Oct 08,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb(fast)
+# Loading work.s101(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 13176
+#           Attempting to use alternate WLF file "./wlftfn3ed7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfn3ed7
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=0 y=0 Time=30
+# clk=1 rst=1 x=0 y=0 Time=35
+# clk=0 rst=1 x=0 y=0 Time=40
+# clk=1 rst=1 x=0 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=0 y=0 Time=110
+# clk=1 rst=1 x=0 y=0 Time=115
+# clk=0 rst=1 x=1 y=1 Time=120
+# clk=1 rst=1 x=1 y=0 Time=125
+# clk=0 rst=1 x=1 y=0 Time=130
+# clk=1 rst=1 x=1 y=0 Time=135
+# clk=0 rst=1 x=0 y=0 Time=140
+# clk=1 rst=1 x=0 y=0 Time=145
+# clk=0 rst=1 x=1 y=1 Time=150
+# clk=1 rst=1 x=1 y=0 Time=155
+# clk=0 rst=1 x=1 y=0 Time=160
+# clk=1 rst=1 x=1 y=0 Time=165
+# clk=0 rst=1 x=0 y=0 Time=170
+# clk=1 rst=1 x=0 y=0 Time=175
+# clk=0 rst=1 x=1 y=1 Time=180
+# clk=1 rst=1 x=1 y=0 Time=185
+# clk=0 rst=1 x=0 y=0 Time=190
+# clk=1 rst=1 x=0 y=0 Time=195
+# clk=0 rst=1 x=1 y=1 Time=200
+# clk=1 rst=1 x=1 y=0 Time=205
+# clk=0 rst=1 x=0 y=0 Time=210
+# clk=1 rst=1 x=0 y=0 Time=215
+# clk=0 rst=1 x=1 y=1 Time=220
+# clk=1 rst=1 x=1 y=0 Time=225
+# clk=0 rst=1 x=1 y=0 Time=230
+# clk=1 rst=1 x=1 y=0 Time=235
+# clk=0 rst=1 x=0 y=0 Time=240
+# clk=1 rst=1 x=0 y=0 Time=245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:58:32 on Oct 08,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module s101
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:58:32 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:58:32 on Oct 08,2025, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:58:32 on Oct 08,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.s101(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 13176
+#           Attempting to use alternate WLF file "./wlftkh3jy9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkh3jy9
+# clk=1 rst=0 x=0 y=0 Time=0
+# clk=0 rst=0 x=0 y=0 Time=5
+# clk=1 rst=0 x=0 y=0 Time=10
+# clk=0 rst=0 x=0 y=0 Time=15
+# clk=1 rst=1 x=0 y=0 Time=20
+# clk=0 rst=1 x=0 y=0 Time=25
+# clk=1 rst=1 x=0 y=0 Time=30
+# clk=0 rst=1 x=0 y=0 Time=35
+# clk=1 rst=1 x=0 y=0 Time=40
+# clk=0 rst=1 x=0 y=0 Time=45
+# clk=1 rst=1 x=1 y=0 Time=50
+# clk=0 rst=1 x=1 y=0 Time=55
+# clk=1 rst=1 x=1 y=0 Time=60
+# clk=0 rst=1 x=1 y=0 Time=65
+# clk=1 rst=1 x=1 y=0 Time=70
+# clk=0 rst=1 x=1 y=0 Time=75
+# clk=1 rst=1 x=1 y=0 Time=80
+# clk=0 rst=1 x=1 y=0 Time=85
+# clk=1 rst=1 x=1 y=0 Time=90
+# clk=0 rst=1 x=1 y=0 Time=95
+# clk=1 rst=1 x=1 y=0 Time=100
+# clk=0 rst=1 x=1 y=0 Time=105
+# clk=1 rst=1 x=0 y=0 Time=110
+# clk=0 rst=1 x=0 y=0 Time=115
+# clk=1 rst=1 x=1 y=1 Time=120
+# clk=0 rst=1 x=1 y=1 Time=125
+# clk=1 rst=1 x=1 y=0 Time=130
+# clk=0 rst=1 x=1 y=0 Time=135
+# clk=1 rst=1 x=0 y=0 Time=140
+# clk=0 rst=1 x=0 y=0 Time=145
+# clk=1 rst=1 x=1 y=1 Time=150
+# clk=0 rst=1 x=1 y=1 Time=155
+# clk=1 rst=1 x=1 y=0 Time=160
+# clk=0 rst=1 x=1 y=0 Time=165
+# clk=1 rst=1 x=0 y=0 Time=170
+# clk=0 rst=1 x=0 y=0 Time=175
+# clk=1 rst=1 x=1 y=1 Time=180
+# clk=0 rst=1 x=1 y=1 Time=185
+# clk=1 rst=1 x=0 y=0 Time=190
+# clk=0 rst=1 x=0 y=0 Time=195
+# clk=1 rst=1 x=1 y=1 Time=200
+# clk=0 rst=1 x=1 y=1 Time=205
+# clk=1 rst=1 x=0 y=0 Time=210
+# clk=0 rst=1 x=0 y=0 Time=215
+# clk=1 rst=1 x=1 y=1 Time=220
+# clk=0 rst=1 x=1 y=1 Time=225
+# clk=1 rst=1 x=1 y=0 Time=230
+# clk=0 rst=1 x=1 y=0 Time=235
+# clk=1 rst=1 x=0 y=0 Time=240
+# clk=0 rst=1 x=0 y=0 Time=245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:59:33 on Oct 08,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module s101
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:59:33 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:59:34 on Oct 08,2025, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:59:34 on Oct 08,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.s101(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 13176
+#           Attempting to use alternate WLF file "./wlftenr4g0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftenr4g0
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=0 y=0 Time=30
+# clk=1 rst=1 x=0 y=0 Time=35
+# clk=0 rst=1 x=0 y=0 Time=40
+# clk=1 rst=1 x=0 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=0 y=0 Time=110
+# clk=1 rst=1 x=0 y=0 Time=115
+# clk=0 rst=1 x=1 y=0 Time=120
+# clk=1 rst=1 x=1 y=0 Time=125
+# clk=0 rst=1 x=1 y=0 Time=130
+# clk=1 rst=1 x=1 y=0 Time=135
+# clk=0 rst=1 x=0 y=0 Time=140
+# clk=1 rst=1 x=0 y=0 Time=145
+# clk=0 rst=1 x=1 y=0 Time=150
+# clk=1 rst=1 x=1 y=0 Time=155
+# clk=0 rst=1 x=1 y=0 Time=160
+# clk=1 rst=1 x=1 y=0 Time=165
+# clk=0 rst=1 x=0 y=0 Time=170
+# clk=1 rst=1 x=0 y=0 Time=175
+# clk=0 rst=1 x=1 y=0 Time=180
+# clk=1 rst=1 x=1 y=0 Time=185
+# clk=0 rst=1 x=0 y=0 Time=190
+# clk=1 rst=1 x=0 y=0 Time=195
+# clk=0 rst=1 x=1 y=0 Time=200
+# clk=1 rst=1 x=1 y=1 Time=205
+# clk=0 rst=1 x=0 y=1 Time=210
+# clk=1 rst=1 x=0 y=0 Time=215
+# clk=0 rst=1 x=1 y=0 Time=220
+# clk=1 rst=1 x=1 y=1 Time=225
+# clk=0 rst=1 x=1 y=1 Time=230
+# clk=1 rst=1 x=1 y=0 Time=235
+# clk=0 rst=1 x=0 y=0 Time=240
+# clk=1 rst=1 x=0 y=0 Time=245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:00:11 on Oct 08,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module s101
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:00:11 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:00:12 on Oct 08,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 12:00:12 on Oct 08,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "s101(fast)".
+# Loading work.tb(fast)
+# Loading work.s101(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 13176
+#           Attempting to use alternate WLF file "./wlftniargv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftniargv
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=0 y=0 Time=30
+# clk=1 rst=1 x=0 y=0 Time=35
+# clk=0 rst=1 x=0 y=0 Time=40
+# clk=1 rst=1 x=0 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=0 y=0 Time=110
+# clk=1 rst=1 x=0 y=0 Time=115
+# clk=0 rst=1 x=1 y=0 Time=120
+# clk=1 rst=1 x=1 y=0 Time=125
+# clk=0 rst=1 x=1 y=0 Time=130
+# clk=1 rst=1 x=1 y=1 Time=135
+# clk=0 rst=1 x=0 y=1 Time=140
+# clk=1 rst=1 x=0 y=0 Time=145
+# clk=0 rst=1 x=1 y=0 Time=150
+# clk=1 rst=1 x=1 y=0 Time=155
+# clk=0 rst=1 x=1 y=0 Time=160
+# clk=1 rst=1 x=1 y=1 Time=165
+# clk=0 rst=1 x=0 y=1 Time=170
+# clk=1 rst=1 x=0 y=0 Time=175
+# clk=0 rst=1 x=1 y=0 Time=180
+# clk=1 rst=1 x=1 y=0 Time=185
+# clk=0 rst=1 x=0 y=0 Time=190
+# clk=1 rst=1 x=0 y=0 Time=195
+# clk=0 rst=1 x=1 y=0 Time=200
+# clk=1 rst=1 x=1 y=0 Time=205
+# clk=0 rst=1 x=0 y=0 Time=210
+# clk=1 rst=1 x=0 y=0 Time=215
+# clk=0 rst=1 x=1 y=0 Time=220
+# clk=1 rst=1 x=1 y=0 Time=225
+# clk=0 rst=1 x=1 y=0 Time=230
+# clk=1 rst=1 x=1 y=0 Time=235
+# clk=0 rst=1 x=0 y=0 Time=240
+# clk=1 rst=1 x=0 y=0 Time=245
+# End time: 12:44:12 on Oct 08,2025, Elapsed time: 0:44:00
+# Errors: 0, Warnings: 2

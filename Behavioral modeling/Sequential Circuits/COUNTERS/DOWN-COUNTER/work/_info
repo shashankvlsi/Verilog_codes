@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/COUNTERS/DOWN-COUNTER
+T_opt
+!s110 1758005949
+VJkh@lLQE8fan6MAKU6U4_2
+04 2 4 work tb fast 0
+=1-4c0f3ec0fd23-68c90abc-33f-13e8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdown
+Z2 !s110 1760249946
+!i10b 1
+!s100 7VEIEEje7`?I0J<SU^IK11
+IN;nYG0aU25SnnbH=a19Q[0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758005939
+Z5 8down.v
+Z6 Fdown.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1760249946.000000
+!s107 down.v|
+Z9 !s90 -reportprogress|300|down.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb
+R2
+!i10b 1
+!s100 DTCz0ZEC;5gek5LeC1F8C3
+I1CFL1cNbjZMF[T=@M?^ND3
+R3
+R0
+R4
+R5
+R6
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 down.v|
+R9
+!i113 0
+R10
+R1

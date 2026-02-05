@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Data Flow-Level Modeling/ENCODER/4-2 ENCODER
+T_opt
+Z1 !s110 1756568742
+VzLm:_MhFok;65X4QRA6nJ2
+04 6 4 work enc_tb fast 0
+=1-4c0f3ec0fd23-68b31ca6-2e0-44dc
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+venc
+R1
+!i10b 1
+!s100 ANb_^5D5bS?J]Fg0Pa8g81
+I[M[LjD`UfDEi[3EOR7cZ:1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756568739
+Z5 8enc.v
+Z6 Fenc.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756568742.000000
+Z9 !s107 enc.v|
+Z10 !s90 -reportprogress|300|enc.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+venc_tb
+R1
+!i10b 1
+!s100 egSBbg]^iEbl86GUo1GbG1
+IoHaCJBjVDXcK9R?=jgNN_2
+R3
+R0
+R4
+R5
+R6
+L0 8
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2

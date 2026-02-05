@@ -1,0 +1,302 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:05:04 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:05:04 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:05:04 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=1011 y2=1 y1=1
+# ** Note: $stop    : enc.v(31)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 31
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:07:50 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:07:50 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:07:53 on Sep 19,2025, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:07:53 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=1011 y2=1 y1=1
+# ** Note: $stop    : enc.v(52)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 52
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:08:59 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:08:59 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:09:01 on Sep 19,2025, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:09:01 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=1011 y2=1 y1=1
+# in=1111 y2=1 y1=1
+# in=0011 y2=0 y1=1
+# in=0001 y2=0 y1=0
+# in=0111 y2=1 y1=0
+# ** Note: $stop    : enc.v(57)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 57
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:12:40 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:12:40 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:12:43 on Sep 19,2025, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:12:43 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=1011 y2=1 y1=1
+# in=1111 y2=1 y1=1
+# in=0011 y2=0 y1=1
+# in=0001 y2=0 y1=0
+# in=0111 y2=1 y1=0
+# ** Note: $stop    : enc.v(63)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 63
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:18:44 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# ** Error: (vlog-13069) enc.v(42): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) enc.v(43): near ":": syntax error, unexpected ':', expecting ';'.
+# ** Error: (vlog-13069) enc.v(44): near ":": syntax error, unexpected ':', expecting ';'.
+# ** Error: (vlog-13069) enc.v(45): near ":": syntax error, unexpected ':', expecting ';'.
+# -- Compiling module tb
+# End time: 12:18:44 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog enc.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:20:15 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:20:16 on Sep 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:20:18 on Sep 19,2025, Elapsed time: 0:07:35
+# Errors: 7, Warnings: 0
+# vsim tb 
+# Start time: 12:20:18 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=1011 y2=x y1=x
+# in=1111 y2=x y1=x
+# in=0011 y2=x y1=x
+# in=0001 y2=0 y1=0
+# in=0111 y2=0 y1=0
+# ** Note: $stop    : enc.v(73)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 73
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:39 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# ** Error: (vlog-13069) enc.v(42): near "=": syntax error, unexpected '=', expecting ++ or --.
+# ** Error: (vlog-13069) enc.v(43): near ":": syntax error, unexpected ':', expecting ';'.
+# ** Error: (vlog-13069) enc.v(44): near ":": syntax error, unexpected ':', expecting ';'.
+# ** Error: (vlog-13069) enc.v(45): near ":": syntax error, unexpected ':', expecting ';'.
+# -- Compiling module tb
+# End time: 12:24:39 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog enc.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:58 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:24:58 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:25:00 on Sep 19,2025, Elapsed time: 0:04:42
+# Errors: 7, Warnings: 0
+# vsim tb 
+# Start time: 12:25:01 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=1011 y2=x y1=x
+# in=1111 y2=x y1=x
+# in=0011 y2=x y1=x
+# in=0001 y2=0 y1=0
+# in=0111 y2=0 y1=0
+# ** Note: $stop    : enc.v(73)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 73
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:31:17 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:31:17 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:31:20 on Sep 19,2025, Elapsed time: 0:06:19
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:31:20 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=1011 y2=1 y1=1
+# in=1111 y2=1 y1=1
+# in=0011 y2=0 y1=1
+# in=0001 y2=0 y1=0
+# in=0111 y2=1 y1=0
+# ** Note: $stop    : enc.v(73)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 73
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:32:31 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:32:31 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:32:35 on Sep 19,2025, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:32:35 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=0100 y2=1 y1=0
+# in=0001 y2=0 y1=0
+# in=1001 y2=1 y1=1
+# in=0011 y2=0 y1=1
+# in=1101 y2=1 y1=1
+# ** Note: $stop    : enc.v(69)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 69
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:33:06 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:33:06 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:33:08 on Sep 19,2025, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:33:08 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=0100 y2=1 y1=0 Time=0
+# in=0001 y2=0 y1=0 Time=10
+# in=1001 y2=1 y1=1 Time=20
+# in=0011 y2=0 y1=1 Time=30
+# in=1101 y2=1 y1=1 Time=40
+# ** Note: $stop    : enc.v(69)
+#    Time: 50 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 69
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:33:38 on Sep 19,2025
+# vlog -reportprogress 300 enc.v "+acc" 
+# -- Compiling module enc
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:33:38 on Sep 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:33:51 on Sep 19,2025, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 12:33:51 on Sep 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.enc(fast)
+# in=0100 y2=1 y1=0 Time=0
+# in=0001 y2=0 y1=0 Time=10
+# in=1001 y2=1 y1=1 Time=20
+# in=0011 y2=0 y1=1 Time=30
+# in=1101 y2=1 y1=1 Time=40
+# in=0101 y2=1 y1=0 Time=60
+# in=0010 y2=0 y1=1 Time=70
+# in=0001 y2=0 y1=0 Time=80
+# in=1101 y2=1 y1=1 Time=90
+# ** Note: $stop    : enc.v(69)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at enc.v line 69

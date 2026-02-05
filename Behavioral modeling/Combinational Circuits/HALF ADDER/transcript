@@ -1,0 +1,54 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:49 on Sep 10,2025
+# vlog -reportprogress 300 ha.v "+acc" 
+# ** Error: (vlog-13069) ha.v(1): near "ha": syntax error, unexpected IDENTIFIER.
+# ** Error: ha.v(1): (vlog-13205) Syntax error found in the scope following 'mdule'. Is there a missing '::'?
+# End time: 17:04:49 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog ha.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:05:13 on Sep 10,2025
+# vlog -reportprogress 300 ha.v "+acc" 
+# -- Compiling module ha
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:05:13 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 17:05:13 on Sep 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.ha(fast)
+# a=0 b=1 sum=1 carry=0 Time=0
+# a=1 b=1 sum=0 carry=1 Time=10
+# a=1 b=0 sum=1 carry=0 Time=30
+# a=1 b=1 sum=0 carry=1 Time=40
+# a=0 b=1 sum=1 carry=0 Time=50
+# a=1 b=0 sum=1 carry=0 Time=60
+# ** Note: $stop    : ha.v(42)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ha.v line 42
+# End time: 17:16:04 on Sep 10,2025, Elapsed time: 0:10:51
+# Errors: 0, Warnings: 0

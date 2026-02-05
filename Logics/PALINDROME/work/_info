@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Logics/PALINDROME
+T_opt
+!s110 1758269438
+VMdU@8=z>a3]X:k:h16Qm22
+04 2 4 work tb fast 0
+=1-4c0f3ec0fd23-68cd0ffe-214-3cec
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vpalin
+Z2 !s110 1758269437
+!i10b 1
+!s100 93zmh^nSIgi;JSOO3@I9n0
+IT;nA]R6=:LNARfk=;J=Q70
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758269432
+Z5 8palin.v
+Z6 Fpalin.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758269437.000000
+Z9 !s107 palin.v|
+Z10 !s90 -reportprogress|300|palin.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb
+R2
+!i10b 1
+!s100 8jXPNzh=IG@jX347dD22B2
+I^[:5<;KYjdG29Jc6>VkGf3
+R3
+R0
+R4
+R5
+R6
+L0 16
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

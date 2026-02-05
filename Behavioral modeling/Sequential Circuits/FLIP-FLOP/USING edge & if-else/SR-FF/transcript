@@ -1,0 +1,227 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:59:12 on Sep 11,2025
+# vlog -reportprogress 300 srff.v "+acc" 
+# -- Compiling module srff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:59:12 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:59:13 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.srff(fast)
+# clk=0 rst=0 s=0 r=0 q=x qbar=z Time=0
+# clk=1 rst=1 s=0 r=1 q=0 qbar=z Time=10
+# clk=0 rst=1 s=0 r=1 q=0 qbar=z Time=20
+# clk=1 rst=1 s=1 r=1 q=x qbar=z Time=30
+# clk=0 rst=1 s=0 r=1 q=x qbar=z Time=40
+# clk=1 rst=1 s=0 r=1 q=0 qbar=z Time=50
+# clk=0 rst=1 s=0 r=1 q=0 qbar=z Time=60
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=70
+# clk=0 rst=1 s=0 r=1 q=1 qbar=z Time=80
+# clk=1 rst=1 s=0 r=1 q=0 qbar=z Time=90
+# clk=0 rst=1 s=1 r=0 q=0 qbar=z Time=100
+# clk=1 rst=1 s=0 r=1 q=0 qbar=z Time=110
+# clk=0 rst=1 s=0 r=1 q=0 qbar=z Time=120
+# clk=1 rst=1 s=0 r=0 q=0 qbar=z Time=130
+# clk=0 rst=1 s=0 r=1 q=0 qbar=z Time=140
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=150
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=160
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=170
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=180
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=190
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=200
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=210
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=220
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=230
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=240
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=250
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=260
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=270
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=280
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=290
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=300
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=310
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=320
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=330
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=340
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=350
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=360
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=370
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=380
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=390
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=400
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=410
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=420
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=430
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=440
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=450
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=460
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=470
+# clk=0 rst=1 s=1 r=0 q=1 qbar=z Time=480
+# clk=1 rst=1 s=1 r=0 q=1 qbar=z Time=490
+# ** Note: $stop    : srff.v(45)
+#    Time: 500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srff.v line 45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:59:55 on Sep 11,2025
+# vlog -reportprogress 300 srff.v "+acc" 
+# -- Compiling module srff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:59:55 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:59:56 on Sep 11,2025, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:59:56 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srff(fast)
+# clk=0 rst=0 s=0 r=0 q=x qbar=x Time=0
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 Time=10
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 Time=20
+# clk=1 rst=1 s=1 r=1 q=x qbar=x Time=30
+# clk=0 rst=1 s=0 r=1 q=x qbar=x Time=40
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 Time=50
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 Time=60
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=70
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 Time=80
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 Time=90
+# clk=0 rst=1 s=1 r=0 q=0 qbar=1 Time=100
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 Time=110
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 Time=120
+# clk=1 rst=1 s=0 r=0 q=0 qbar=1 Time=130
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 Time=140
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=150
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=160
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=170
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=180
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=190
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=200
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=210
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=220
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=230
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=240
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=250
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=260
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=270
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=280
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=290
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=300
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=310
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=320
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=330
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=340
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=350
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=360
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=370
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=380
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=390
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=400
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=410
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=420
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=430
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=440
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=450
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=460
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=470
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=480
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=490
+# ** Note: $stop    : srff.v(47)
+#    Time: 500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srff.v line 47
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:02:13 on Sep 11,2025
+# vlog -reportprogress 300 srff.v "+acc" 
+# -- Compiling module srff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:02:13 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:02:16 on Sep 11,2025, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 17:02:16 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.srff(fast)
+# clk=0 rst=0 s=0 r=0 q=x qbar=x Time=0
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 Time=10
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 Time=20
+# clk=1 rst=1 s=1 r=1 q=x qbar=x Time=30
+# clk=0 rst=1 s=0 r=1 q=x qbar=x Time=40
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 Time=50
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 Time=60
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=70
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 Time=80
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 Time=90
+# clk=0 rst=1 s=1 r=0 q=0 qbar=1 Time=100
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=110
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=120
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=130
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=140
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=150
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=160
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=170
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=180
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=190
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=200
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=210
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=220
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=230
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=240
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=250
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=260
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=270
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=280
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=290
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=300
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=310
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=320
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=330
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=340
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=350
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=360
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=370
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=380
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=390
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=400
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=410
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=420
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=430
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=440
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=450
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=460
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=470
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 Time=480
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 Time=490
+# ** Note: $stop    : srff.v(47)
+#    Time: 500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at srff.v line 47
+# End time: 17:02:44 on Sep 11,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0

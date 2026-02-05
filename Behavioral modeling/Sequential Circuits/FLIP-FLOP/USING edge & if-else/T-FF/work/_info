@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/FLIP-FLOP/USING edge & if-else/T-FF
+T_opt
+!s110 1757593742
+V]zd@o2>6<NXeD?INC8io02
+04 2 4 work tb fast 0
+=1-4c0f3ec0fd23-68c2c08d-35b-438c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtb
+Z2 !s110 1757593739
+!i10b 1
+!s100 bdiB9d3;RQP`k0g9=_Fk@0
+IH@MT<P6UhJI984>gZNQ3V0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757593732
+Z5 8tff.v
+Z6 Ftff.v
+L0 20
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757593739.000000
+Z9 !s107 tff.v|
+Z10 !s90 -reportprogress|300|tff.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtff
+R2
+!i10b 1
+!s100 Vi2W?03ZU[Nzi?8fgjI=23
+IJf?[=X<L06AUco=iNNVg00
+R3
+R0
+R4
+R5
+R6
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

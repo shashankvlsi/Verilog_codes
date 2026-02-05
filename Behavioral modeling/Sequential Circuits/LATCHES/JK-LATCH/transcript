@@ -1,0 +1,1062 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:32:48 on Oct 12,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module jkl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:32:49 on Oct 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:32:49 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.jkl(fast)
+# rst=0 clk=0 j=x k=x q=0 qbar=1 time=0
+# rst=1 clk=1 j=0 k=1 q=0 qbar=1 time=10
+# rst=1 clk=0 j=1 k=1 q=0 qbar=1 time=20
+# rst=1 clk=1 j=1 k=1 q=1 qbar=0 time=30
+# rst=1 clk=0 j=1 k=0 q=1 qbar=0 time=40
+# rst=1 clk=1 j=1 k=1 q=0 qbar=1 time=50
+# rst=1 clk=0 j=0 k=1 q=0 qbar=1 time=60
+# rst=1 clk=1 j=1 k=0 q=1 qbar=0 time=70
+# rst=1 clk=0 j=1 k=0 q=1 qbar=0 time=80
+# rst=1 clk=1 j=1 k=0 q=1 qbar=0 time=90
+# ** Note: $stop    : tb.v(27)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at tb.v line 27
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:34:00 on Oct 12,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module jkl
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:34:00 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:34:01 on Oct 12,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:34:01 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.jkl(fast)
+# rst=0 clk=0 j=x k=x q=0 qbar=1 time=0
+# rst=1 clk=1 j=0 k=1 q=0 qbar=1 time=10
+# rst=1 clk=0 j=1 k=1 q=0 qbar=1 time=20
+# rst=1 clk=1 j=1 k=1 q=1 qbar=0 time=30
+# rst=1 clk=0 j=1 k=0 q=1 qbar=0 time=40
+# rst=1 clk=1 j=1 k=1 q=0 qbar=1 time=50
+# rst=1 clk=0 j=0 k=1 q=0 qbar=1 time=60
+# rst=1 clk=1 j=1 k=0 q=1 qbar=0 time=70
+# rst=1 clk=0 j=1 k=0 q=1 qbar=0 time=80
+# rst=1 clk=1 j=1 k=0 q=1 qbar=0 time=90
+# ** Note: $stop    : tb.v(27)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at tb.v line 27
+cd {D:\VLSI\Verilog\Behavioral modeling\Sequential Circuits\FLIP-FLOP\USING edge & if-else\D-FF}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 11:43:38 on Oct 12,2025, Elapsed time: 0:09:37
+# Errors: 1, Warnings: 0
+cd {D:\VLSI\Verilog\Behavioral modeling\Sequential Circuits\FLIP-FLOP\USING edge & if-else\D-FF}
+ls
+# dff.v  run.do  transcript  vsim.wlf  work        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:43:46 on Oct 12,2025
+# vlog -reportprogress 300 dff.v "+acc" 
+# -- Compiling module dff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:43:47 on Oct 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:43:47 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.dff(fast)
+# clk=0 rst=0 d=0 q=x qbar=x Time=0
+# clk=1 rst=1 d=1 q=1 qbar=0 Time=10
+# clk=0 rst=1 d=1 q=1 qbar=0 Time=20
+# clk=1 rst=1 d=1 q=1 qbar=0 Time=30
+# clk=0 rst=1 d=1 q=1 qbar=0 Time=40
+# clk=1 rst=1 d=1 q=1 qbar=0 Time=50
+# clk=0 rst=1 d=1 q=1 qbar=0 Time=60
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=70
+# clk=0 rst=1 d=1 q=0 qbar=1 Time=80
+# clk=1 rst=1 d=1 q=1 qbar=0 Time=90
+# clk=0 rst=1 d=0 q=1 qbar=0 Time=100
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=110
+# clk=0 rst=1 d=0 q=0 qbar=1 Time=120
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=130
+# clk=0 rst=1 d=0 q=0 qbar=1 Time=140
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=150
+# clk=0 rst=1 d=0 q=0 qbar=1 Time=160
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=170
+# clk=0 rst=1 d=0 q=0 qbar=1 Time=180
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=190
+# ** Note: $stop    : dff.v(49)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at dff.v line 49
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:44:23 on Oct 12,2025
+# vlog -reportprogress 300 dff.v "+acc" 
+# -- Compiling module dff
+# ** Error: (vlog-13069) dff.v(10): near "or": syntax error, unexpected or.
+# -- Compiling module tb
+# End time: 11:44:23 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog dff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:44:46 on Oct 12,2025
+# vlog -reportprogress 300 dff.v "+acc" 
+# -- Compiling module dff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:44:46 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:44:54 on Oct 12,2025, Elapsed time: 0:01:07
+# Errors: 4, Warnings: 0
+# vsim tb 
+# Start time: 11:44:54 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.dff(fast)
+# clk=0 rst=0 d=0 q=x qbar=x Time=0
+# clk=1 rst=1 d=1 q=1 qbar=0 Time=10
+# clk=0 rst=1 d=1 q=1 qbar=0 Time=20
+# clk=1 rst=1 d=1 q=1 qbar=0 Time=30
+# clk=0 rst=1 d=1 q=1 qbar=0 Time=40
+# clk=1 rst=1 d=1 q=1 qbar=0 Time=50
+# clk=0 rst=1 d=1 q=1 qbar=0 Time=60
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=70
+# clk=0 rst=1 d=1 q=0 qbar=1 Time=80
+# clk=1 rst=1 d=1 q=1 qbar=0 Time=90
+# clk=0 rst=1 d=0 q=1 qbar=0 Time=100
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=110
+# clk=0 rst=1 d=0 q=0 qbar=1 Time=120
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=130
+# clk=0 rst=1 d=0 q=0 qbar=1 Time=140
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=150
+# clk=0 rst=1 d=0 q=0 qbar=1 Time=160
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=170
+# clk=0 rst=1 d=0 q=0 qbar=1 Time=180
+# clk=1 rst=1 d=0 q=0 qbar=1 Time=190
+# ** Note: $stop    : dff.v(49)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at dff.v line 49
+quit -sim
+# End time: 11:47:39 on Oct 12,2025, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 0
+cd {D:\VLSI\Verilog\Behavioral modeling\Sequential Circuits\COUNTERS\UP-COUNTER}
+ls
+# run.do  transcript  up.v  vsim.wlf  work        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:47:51 on Oct 12,2025
+# vlog -reportprogress 300 up.v "+acc" 
+# -- Compiling module up
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:47:51 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:47:51 on Oct 12,2025
+# ** Error: (vsim-7) Failed to open info file "D:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/COUNTERS/UP-COUNTERS/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: (vopt-7) Failed to open info file "D:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/COUNTERS/UP-COUNTERS/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# Optimization failed
+# ** Error: (vopt-1933) Unable to create temporary directory D:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/COUNTERS/UP-COUNTERS/work/_tempmsg
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:48:07 on Oct 12,2025
+# vlog -reportprogress 300 up.v "+acc" 
+# -- Compiling module up
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:48:08 on Oct 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:47:51 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.up(fast)
+# count=0
+# count=1
+# count=2
+# count=3
+# count=4
+# count=5
+# count=6
+# count=7
+# count=8
+# count=9
+# count=10
+# count=11
+# count=12
+# count=13
+# count=14
+# count=15
+# count=16
+# count=17
+# count=18
+# count=19
+# count=20
+# count=21
+# count=22
+# count=23
+# count=24
+# count=25
+# count=26
+# count=27
+# count=28
+# count=29
+# count=30
+# count=31
+# count=32
+# count=33
+# count=34
+# count=35
+# count=36
+# count=37
+# count=38
+# count=39
+# count=40
+# count=41
+# count=42
+# count=43
+# count=44
+# count=45
+# count=46
+# count=47
+# count=48
+# count=49
+# count=50
+# count=51
+# count=52
+# count=53
+# count=54
+# count=55
+# count=56
+# count=57
+# count=58
+# count=59
+# count=60
+# count=61
+# count=62
+# count=63
+# count=64
+# count=65
+# count=66
+# count=67
+# count=68
+# count=69
+# count=70
+# count=71
+# count=72
+# count=73
+# count=74
+# count=75
+# count=76
+# count=77
+# count=78
+# count=79
+# count=80
+# count=81
+# count=82
+# count=83
+# count=84
+# count=85
+# count=86
+# count=87
+# count=88
+# count=89
+# count=90
+# count=91
+# count=92
+# count=93
+# count=94
+# count=95
+# count=96
+# count=97
+# count=98
+# count=99
+# count=100
+# ** Note: $stop    : up.v(35)
+#    Time: 2 us  Iteration: 0  Instance: /tb
+# Break in Module tb at up.v line 35
+quit -sim
+# End time: 11:48:54 on Oct 12,2025, Elapsed time: 0:01:03
+# Errors: 1, Warnings: 0
+cd {D:\VLSI\Verilog\Behavioral modeling\Sequential Circuits\COUNTERS\DOWN-COUNTER}
+ls
+# down.v  run.do  transcript  vsim.wlf  work        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:49:06 on Oct 12,2025
+# vlog -reportprogress 300 down.v "+acc" 
+# -- Compiling module down
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:49:06 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:49:06 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.down(fast)
+# count=15
+# count=14
+# count=13
+# count=12
+# count=11
+# count=10
+# count=9
+# count=8
+# count=7
+# count=6
+# count=5
+# count=4
+# count=3
+# count=2
+# count=1
+# ** Note: $stop    : down.v(35)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at down.v line 35
+quit -sim
+# End time: 11:51:02 on Oct 12,2025, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 0
+cd {D:\VLSI\Verilog\Behavioral modeling\Sequential Circuits\COUNTERS\UPDOWN-COUNTER}
+ls
+# run.do  transcript  updown.v  vsim.wlf  work        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:51:16 on Oct 12,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module updown
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:51:16 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:51:16 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.updown(fast)
+# count=0
+# count=1
+# count=2
+# count=3
+# count=4
+# count=5
+# count=6
+# count=7
+# count=8
+# count=9
+# count=10
+# count=11
+# count=12
+# count=13
+# count=14
+# count=15
+# count=16
+# count=17
+# count=18
+# count=19
+# count=20
+# count=21
+# count=22
+# count=23
+# count=24
+# count=25
+# count=26
+# count=27
+# count=28
+# count=29
+# count=30
+# count=31
+# count=32
+# count=33
+# count=34
+# count=35
+# count=36
+# count=37
+# count=38
+# count=39
+# count=40
+# count=41
+# count=42
+# count=43
+# count=44
+# count=45
+# count=46
+# count=47
+# count=48
+# count=49
+# count=50
+# count=49
+# count=48
+# count=47
+# count=46
+# count=45
+# count=44
+# count=43
+# count=42
+# count=41
+# count=40
+# count=39
+# count=38
+# count=37
+# count=36
+# count=35
+# count=34
+# count=33
+# count=32
+# count=31
+# count=30
+# count=29
+# count=28
+# count=27
+# count=26
+# count=25
+# count=24
+# count=23
+# count=22
+# count=21
+# count=20
+# count=19
+# count=18
+# count=17
+# count=16
+# count=15
+# count=14
+# count=13
+# count=12
+# count=11
+# count=10
+# count=9
+# count=8
+# count=7
+# count=6
+# count=5
+# count=4
+# count=3
+# count=2
+# count=1
+# count=0
+# ** Note: $stop    : updown.v(51)
+#    Time: 2 us  Iteration: 0  Instance: /tb
+# Break in Module tb at updown.v line 51
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:51:41 on Oct 12,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module updown
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:51:41 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:51:44 on Oct 12,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:51:44 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.updown(fast)
+# count=0
+# count=1
+# count=2
+# count=3
+# count=4
+# count=5
+# count=6
+# count=7
+# count=8
+# count=9
+# count=10
+# count=11
+# count=12
+# count=13
+# count=14
+# count=15
+# count=16
+# count=17
+# count=18
+# count=19
+# count=20
+# count=21
+# count=22
+# count=23
+# count=24
+# count=25
+# count=26
+# count=27
+# count=28
+# count=29
+# count=30
+# count=31
+# count=32
+# count=33
+# count=34
+# count=35
+# count=36
+# count=37
+# count=38
+# count=39
+# count=40
+# count=41
+# count=42
+# count=43
+# count=44
+# count=45
+# count=46
+# count=47
+# count=48
+# count=49
+# count=50
+# count=49
+# count=48
+# count=47
+# count=46
+# count=45
+# count=44
+# count=43
+# count=42
+# count=41
+# count=40
+# count=39
+# count=38
+# count=37
+# count=36
+# count=35
+# count=34
+# count=33
+# count=32
+# count=31
+# count=30
+# count=29
+# count=28
+# count=27
+# count=26
+# count=25
+# count=24
+# count=23
+# count=22
+# count=21
+# count=20
+# count=19
+# count=18
+# count=17
+# count=16
+# count=15
+# count=14
+# count=13
+# count=12
+# count=11
+# count=10
+# count=9
+# count=8
+# count=7
+# count=6
+# count=5
+# count=4
+# count=3
+# count=2
+# count=1
+# count=0
+# ** Note: $stop    : updown.v(51)
+#    Time: 2 us  Iteration: 0  Instance: /tb
+# Break in Module tb at updown.v line 51
+quit -sim
+# End time: 11:53:05 on Oct 12,2025, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0
+cd {D:\VLSI\Verilog\Behavioral modeling\Sequential Circuits\COUNTERS\18-27}
+ls
+# run.do  test.v  transcript  vsim.wlf  work        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:53:17 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:53:17 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:53:17 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.test(fast)
+# count=18
+# count=19
+# count=20
+# count=21
+# count=22
+# count=23
+# count=24
+# count=25
+# count=26
+# count=27
+# count=18
+# count=19
+# count=20
+# count=21
+# count=22
+# count=23
+# count=24
+# count=25
+# count=26
+# count=27
+# count=18
+# count=19
+# count=20
+# count=21
+# count=22
+# count=23
+# ** Note: $stop    : test.v(38)
+#    Time: 500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at test.v line 38
+quit -sim
+# End time: 13:06:45 on Oct 12,2025, Elapsed time: 1:13:28
+# Errors: 0, Warnings: 0
+cd {D:\VLSI\Verilog\Behavioral modeling\Sequential Circuits\SHIFT-REGISTOR\SISO using DFF}
+ls
+# dff.v  run.do  siso.v  transcript  vsim.wlf  work      
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:56 on Oct 12,2025
+# vlog -reportprogress 300 siso.v "+acc" 
+# -- Compiling module dff
+# -- Compiling module siso
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:06:56 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:06:56 on Oct 12,2025
+# ** Error: (vsim-7) Failed to open info file "D:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/SISO/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: (vopt-7) Failed to open info file "D:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/SISO/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# Optimization failed
+# ** Error: (vopt-1933) Unable to create temporary directory D:/VLSI/Verilog/Behavioral modeling/Sequential Circuits/SISO/work/_tempmsg
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:07:16 on Oct 12,2025
+# vlog -reportprogress 300 siso.v "+acc" 
+# -- Compiling module dff
+# -- Compiling module siso
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:07:16 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:06:56 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.siso(fast)
+# Loading work.dff(fast)
+# clk=0 rst=0 a=0 y1=0 y2=0 y3=0 y4=0 Time=0
+# clk=0 rst=1 a=1 y1=0 y2=0 y3=0 y4=0 Time=5
+# clk=1 rst=1 a=1 y1=1 y2=0 y3=0 y4=0 Time=10
+# clk=0 rst=1 a=1 y1=1 y2=0 y3=0 y4=0 Time=20
+# clk=0 rst=1 a=0 y1=1 y2=0 y3=0 y4=0 Time=25
+# clk=1 rst=1 a=0 y1=0 y2=1 y3=0 y4=0 Time=30
+# clk=0 rst=1 a=0 y1=0 y2=1 y3=0 y4=0 Time=40
+# clk=0 rst=1 a=1 y1=0 y2=1 y3=0 y4=0 Time=45
+# clk=1 rst=1 a=1 y1=1 y2=0 y3=1 y4=0 Time=50
+# clk=0 rst=1 a=1 y1=1 y2=0 y3=1 y4=0 Time=60
+# clk=0 rst=1 a=0 y1=1 y2=0 y3=1 y4=0 Time=65
+# clk=1 rst=1 a=0 y1=0 y2=1 y3=0 y4=1 Time=70
+# clk=0 rst=1 a=0 y1=0 y2=1 y3=0 y4=1 Time=80
+# clk=1 rst=1 a=0 y1=0 y2=0 y3=1 y4=0 Time=90
+# clk=0 rst=1 a=0 y1=0 y2=0 y3=1 y4=0 Time=100
+# clk=1 rst=1 a=0 y1=0 y2=0 y3=0 y4=1 Time=110
+# clk=0 rst=1 a=0 y1=0 y2=0 y3=0 y4=1 Time=120
+# clk=1 rst=1 a=0 y1=0 y2=0 y3=0 y4=0 Time=130
+# clk=0 rst=1 a=0 y1=0 y2=0 y3=0 y4=0 Time=140
+# ** Note: $stop    : siso.v(49)
+#    Time: 150 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at siso.v line 49
+quit -sim
+# End time: 13:13:15 on Oct 12,2025, Elapsed time: 0:06:19
+# Errors: 1, Warnings: 0
+cd {D:\VLSI\Verilog\Behavioral modeling\Sequential Circuits\SHIFT-REGISTOR\UNIVERSAL}
+ls
+# run.do  transcript  uni.v  vsim.wlf  work        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:13:33 on Oct 12,2025
+# vlog -reportprogress 300 uni.v "+acc" 
+# -- Compiling module uni
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:13:33 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:13:33 on Oct 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.uni(fast)
+# clk=0 opcode=x in=x out=0
+# clk=1 opcode=x in=x out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=0 out=0
+# clk=0 opcode=1 in=0 out=0
+# clk=1 opcode=1 in=0 out=0
+# clk=0 opcode=1 in=0 out=0
+# clk=1 opcode=1 in=0 out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=1
+# clk=0 opcode=1 in=1 out=1
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=1
+# clk=0 opcode=1 in=1 out=1
+# clk=1 opcode=1 in=1 out=1
+# ** Note: $stop    : uni.v(87)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at uni.v line 87
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:14:14 on Oct 12,2025
+# vlog -reportprogress 300 uni.v "+acc" 
+# -- Compiling module uni
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:14:14 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:14:18 on Oct 12,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:14:18 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.uni(fast)
+# clk=0 opcode=x in=x out=0
+# clk=1 opcode=x in=x out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=0 out=0
+# clk=0 opcode=1 in=0 out=0
+# clk=1 opcode=1 in=0 out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=1
+# clk=0 opcode=1 in=1 out=1
+# clk=1 opcode=1 in=1 out=1
+# clk=0 opcode=1 in=1 out=1
+# clk=1 opcode=1 in=1 out=0
+# clk=0 opcode=1 in=1 out=0
+# clk=1 opcode=1 in=1 out=1
+# clk=0 opcode=1 in=1 out=1
+# clk=1 opcode=1 in=1 out=1
+# ** Note: $stop    : uni.v(87)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at uni.v line 87
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:14:39 on Oct 12,2025
+# vlog -reportprogress 300 uni.v "+acc" 
+# -- Compiling module uni
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:14:39 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:14:43 on Oct 12,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:14:43 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.uni(fast)
+# clk=0 opcode=x in=x out=0
+# clk=1 opcode=x in=x out=0
+# clk=1 opcode=2 in=1 out=0
+# clk=0 opcode=2 in=1 out=0
+# clk=1 opcode=2 in=1 out=0
+# clk=0 opcode=2 in=1 out=0
+# clk=1 opcode=2 in=1 out=0
+# clk=1 opcode=2 in=0 out=0
+# clk=0 opcode=2 in=0 out=0
+# clk=1 opcode=2 in=0 out=0
+# clk=1 opcode=2 in=1 out=0
+# clk=0 opcode=2 in=1 out=0
+# clk=1 opcode=2 in=1 out=0
+# clk=0 opcode=2 in=1 out=0
+# clk=1 opcode=2 in=1 out=1
+# clk=0 opcode=2 in=1 out=1
+# clk=1 opcode=2 in=1 out=1
+# clk=0 opcode=2 in=1 out=1
+# clk=1 opcode=2 in=1 out=0
+# clk=0 opcode=2 in=1 out=0
+# clk=1 opcode=2 in=1 out=1
+# clk=0 opcode=2 in=1 out=1
+# clk=1 opcode=2 in=1 out=1
+# ** Note: $stop    : uni.v(87)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at uni.v line 87
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:15:07 on Oct 12,2025
+# vlog -reportprogress 300 uni.v "+acc" 
+# -- Compiling module uni
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:15:07 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:15:10 on Oct 12,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:15:10 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.uni(fast)
+# clk=0 opcode=x in=x out=0
+# clk=1 opcode=x in=x out=0
+# clk=1 opcode=3 in=1 out=0
+# clk=0 opcode=3 in=1 out=0
+# clk=1 opcode=3 in=1 out=0
+# clk=0 opcode=3 in=1 out=0
+# clk=1 opcode=3 in=1 out=1
+# clk=1 opcode=3 in=0 out=1
+# clk=0 opcode=3 in=0 out=1
+# clk=1 opcode=3 in=0 out=1
+# clk=1 opcode=3 in=1 out=1
+# clk=0 opcode=3 in=1 out=1
+# clk=1 opcode=3 in=1 out=0
+# clk=0 opcode=3 in=1 out=0
+# clk=1 opcode=3 in=1 out=1
+# clk=0 opcode=3 in=1 out=1
+# clk=1 opcode=3 in=1 out=1
+# clk=0 opcode=3 in=1 out=1
+# clk=1 opcode=3 in=1 out=1
+# clk=0 opcode=3 in=1 out=1
+# clk=1 opcode=3 in=1 out=1
+# clk=0 opcode=3 in=1 out=1
+# clk=1 opcode=3 in=1 out=1
+# ** Note: $stop    : uni.v(87)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at uni.v line 87
+quit -sim
+# End time: 16:52:04 on Oct 12,2025, Elapsed time: 3:36:54
+# Errors: 0, Warnings: 0
+quit -sim
+cd {D:\VLSI\Verilog\Behavioral modeling\Generate-Block\RCS}
+ls
+# rcs.v  run.do  test.v  transcript  vsim.wlf  work      
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:52:43 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module fa
+# ** Error: (vlog-13069) test.v(9): near "#": syntax error, unexpected '#'.
+# End time: 16:52:43 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# E:/questasim-64 10.7c/win64/vlog failed.
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:53:33 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rca
+# ** Error: test.v(13): Register is illegal in left-hand side of continuous assignment
+# -- Compiling module tb
+# ** Error: test.v(30): (vlog-13282) 'width' already declared in this scope.
+# End time: 16:53:33 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# E:/questasim-64 10.7c/win64/vlog failed.
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:01:26 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rca
+# ** Error: test.v(13): Register is illegal in left-hand side of continuous assignment
+# -- Compiling module tb
+# ** Error: test.v(30): (vlog-13282) 'width' already declared in this scope.
+# End time: 17:01:26 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# E:/questasim-64 10.7c/win64/vlog failed.
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:02:03 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rca
+# -- Compiling module tb
+# ** Error: test.v(30): (vlog-13282) 'width' already declared in this scope.
+# End time: 17:02:03 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# E:/questasim-64 10.7c/win64/vlog failed.
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:02:26 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rca
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:02:26 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# vsim tb 
+# Start time: 17:02:33 on Oct 12,2025
+# ** Error: (vsim-7) Failed to open info file "D:/VLSI/Verilog/Behavioral modeling/Generate-Block/BINARY SUBTRACTOR/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: (vopt-7) Failed to open info file "D:/VLSI/Verilog/Behavioral modeling/Generate-Block/BINARY SUBTRACTOR/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# Optimization failed
+# ** Error: (vopt-1933) Unable to create temporary directory D:/VLSI/Verilog/Behavioral modeling/Generate-Block/BINARY SUBTRACTOR/work/_tempmsg
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+vsim tb
+# vsim tb 
+# Start time: 17:02:33 on Oct 12,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:03:28 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rca
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:03:28 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# vsim tb 
+# Start time: 17:02:33 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.rca(fast)
+# Loading work.fa(fast)
+add wave *
+run -all
+# Simulation may not continue after final blocks are run.
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:40 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rca
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:04:40 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# End time: 17:04:49 on Oct 12,2025, Elapsed time: 0:02:16
+# Errors: 2, Warnings: 0
+# vsim tb 
+# Start time: 17:04:49 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.rca(fast)
+# Loading work.fa(fast)
+run -all
+# a=13 b=91 cin=0 sum=       104 carry=0
+# a=43 b=63 cin=1 sum=       107 carry=0
+# a=47 b=91 cin=1 sum=       139 carry=0
+# a=23 b=23 cin=1 sum=        47 carry=0
+# a=92 b=59 cin=1 sum=       152 carry=0
+# a=59 b=29 cin=1 sum=        89 carry=0
+# a=56 b=83 cin=1 sum=       140 carry=0
+# a=74 b=65 cin=0 sum=       139 carry=0
+# a=3 b=22 cin=1 sum=        26 carry=0
+# a=12 b=50 cin=1 sum=        63 carry=0
+# End time: 17:05:31 on Oct 12,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0

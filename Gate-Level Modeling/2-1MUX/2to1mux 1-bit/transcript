@@ -1,0 +1,107 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# 2to1mux.v  transcript              
+vlog 2to1mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 08:14:51 on Aug 25,2025
+# vlog -reportprogress 300 2to1mux.v "+acc" 
+# ** Error: (vlog-13069) 2to1mux.v(1): near "2": syntax error, unexpected INTEGER NUMBER.
+# End time: 08:14:51 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# E:/questasim-64 10.7c/win64/vlog failed.
+vlog 2to1mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 08:15:47 on Aug 25,2025
+# vlog -reportprogress 300 2to1mux.v "+acc" 
+# -- Compiling module _2to1mux
+# ** Error: 2to1mux.v(9): Primitive output connection must be a scalar net.
+# -- Compiling module _2to1mux_tb
+# ** Error: (vlog-13069) 2to1mux.v(19): near "2": syntax error, unexpected INTEGER NUMBER.
+# End time: 08:15:47 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# E:/questasim-64 10.7c/win64/vlog failed.
+vlog 2to1mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 08:16:34 on Aug 25,2025
+# vlog -reportprogress 300 2to1mux.v "+acc" 
+# -- Compiling module _2to1mux
+# -- Compiling module _2to1mux_tb
+# 
+# Top level modules:
+# 	_2to1mux_tb
+# End time: 08:16:34 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim _2to1mux_tb
+# vsim _2to1mux_tb 
+# Start time: 08:16:57 on Aug 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work._2to1mux_tb(fast)
+# Loading work._2to1mux(fast)
+add wave *
+run -all
+# a=0011 b=0100 s0=0 s1=1 y=0 Time=                   0
+# a=0011 b=0100 s0=1 s1=1 y=1 Time=                  10
+# a=0011 b=0100 s0=1 s1=0 y=1 Time=                  30
+# a=0011 b=0100 s0=1 s1=1 y=1 Time=                  40
+# a=0011 b=0100 s0=0 s1=1 y=0 Time=                  50
+vlog 2to1mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 08:20:12 on Aug 25,2025
+# vlog -reportprogress 300 2to1mux.v "+acc" 
+# -- Compiling module _2to1mux
+# -- Compiling module _2to1mux_tb
+# 
+# Top level modules:
+# 	_2to1mux_tb
+# End time: 08:20:12 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim _2to1mux_tb
+# End time: 08:20:15 on Aug 25,2025, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 0
+# vsim _2to1mux_tb 
+# Start time: 08:20:15 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work._2to1mux_tb(fast)
+# Loading work._2to1mux(fast)
+add wave *
+run -all
+# a=0011 b=0100 s=0 y=1 Time=                   0
+# a=0011 b=0100 s=1 y=0 Time=                  10
+vlog 2to1mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 08:34:45 on Aug 25,2025
+# vlog -reportprogress 300 2to1mux.v "+acc" 
+# -- Compiling module _2to1mux
+# -- Compiling module _2to1mux_tb
+# 
+# Top level modules:
+# 	_2to1mux_tb
+# End time: 08:34:45 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim _2to1mux_tb
+# End time: 08:34:48 on Aug 25,2025, Elapsed time: 0:14:33
+# Errors: 0, Warnings: 0
+# vsim _2to1mux_tb 
+# Start time: 08:34:48 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work._2to1mux_tb(fast)
+# Loading work._2to1mux(fast)
+add wave *
+run -all
+# a=1 b=0 s=0 y=1 Time=                   0
+# a=1 b=0 s=1 y=0 Time=                  10
+# End time: 08:36:35 on Aug 25,2025, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0

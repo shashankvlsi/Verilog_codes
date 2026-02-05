@@ -1,0 +1,188 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:56:53 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# ** Error: test.v(6): 'i' is an invalid type in Generate loop. Must be a genvar.
+# ** Error: test.v(9): (vlog-13161) unexpected '$display'
+# End time: 12:56:53 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:57:27 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 12:57:27 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 12:57:27 on Sep 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:18 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 12:58:18 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:58:19 on Sep 14,2025, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 12:58:19 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+# Even_Number=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:59 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 12:58:59 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:58:59 on Sep 14,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 12:58:59 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Even_Number=0
+# Even_Number=2
+# Even_Number=4
+# Even_Number=6
+# Even_Number=8
+# Even_Number=10
+# Even_Number=12
+# Even_Number=14
+# Even_Number=16
+# Even_Number=18
+# Even_Number=20
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:59:46 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 12:59:46 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:59:46 on Sep 14,2025, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 12:59:46 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Even_Number=0
+# Even_Number=2
+# Even_Number=4
+# Even_Number=6
+# Even_Number=8
+# Even_Number=10
+# Even_Number=12
+# Even_Number=14
+# Even_Number=16
+# Even_Number=18
+# Even_Number=20
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:07 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 13:00:07 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:00:07 on Sep 14,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 13:00:07 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Even_Number=2
+# Even_Number=4
+# Even_Number=6
+# Even_Number=8
+# Even_Number=10
+# Even_Number=12
+# Even_Number=14
+# Even_Number=16
+# Even_Number=18
+# Even_Number=20
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:08:15 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 13:08:15 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:08:16 on Sep 14,2025, Elapsed time: 0:08:09
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 13:08:16 on Sep 14,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test(fast)
+# Even_Number=2
+# Even_Number=4
+# Even_Number=6
+# Even_Number=8
+# Even_Number=10
+# Even_Number=12
+# Even_Number=14
+# Even_Number=16
+# Even_Number=18
+# Even_Number=20
+# End time: 13:08:22 on Sep 14,2025, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0

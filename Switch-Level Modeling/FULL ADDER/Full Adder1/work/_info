@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Switch-Level style/Full Adder1
+T_opt
+!s110 1755614358
+VkM1PYBjU0Cz?I^d8[N]H31
+04 13 4 work fulladder1_tb fast 0
+=1-4c0f3ec0fd23-68a48c96-131-bd0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vand1
+Z2 !s110 1755614354
+!i10b 1
+!s100 O_;;Wl7NM`=?8UXhI_<TE1
+IWkJ_zijK^ao;J;_oRhV^V2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1755614022
+8andgate1.v
+Fandgate1.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1755614354.000000
+Z7 !s107 xorgate1.v|orgate1.v|halfadder2.v|halfadder1.v|andgate1.v|Fulladder1.v|
+Z8 !s90 -reportprogress|300|Fulladder1.v|andgate1.v|halfadder1.v|halfadder2.v|orgate1.v|xorgate1.v|+acc|
+!i113 0
+Z9 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfulladder1
+R2
+!i10b 1
+!s100 eEWG`ZS6kAQ<z:B3oa91^2
+I8;?>e47z4Le=i<:gJnz>@3
+R3
+R0
+Z10 w1755614340
+Z11 8Fulladder1.v
+Z12 FFulladder1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vfulladder1_tb
+R2
+!i10b 1
+!s100 Cb^CS62]5^>6QhddO[7[B2
+ID1TTV0e`OTDec3mSHdcjb3
+R3
+R0
+R10
+R11
+R12
+L0 24
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vhalfadder1
+R2
+!i10b 1
+!s100 c<>15@b;Q=SBb:YbM8N?Y2
+IZZ3F>RNFFfnHgH2CL5QFI2
+R3
+R0
+R4
+8halfadder1.v
+Fhalfadder1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vhalfadder2
+R2
+!i10b 1
+!s100 l^E:EETAO9=P>n51=lLB=3
+IG=HCQWD1XgTYKGA>So:F@0
+R3
+R0
+R4
+8halfadder2.v
+Fhalfadder2.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vor1
+R2
+!i10b 1
+!s100 5`bB3Wiz`Fzab>`B?S:J90
+IzUSi:BzKN3XQYNf0P;L4X0
+R3
+R0
+R4
+8orgate1.v
+Forgate1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vxor1
+R2
+!i10b 1
+!s100 m4lShG[::kTm]IU8SW?N13
+IEFTCSi:2JnMH1S?V<YVNh0
+R3
+R0
+R4
+8xorgate1.v
+Fxorgate1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

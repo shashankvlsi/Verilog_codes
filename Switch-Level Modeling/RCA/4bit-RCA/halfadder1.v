@@ -1,0 +1,14 @@
+module halfadder(input a,b,output sum,carry);
+xor1 gate1(
+	.a(a),
+	.b(b),
+	.y(sum)
+	);
+and1 gate2(
+	.a(a),
+	.b(b),
+	.y(carry)
+);
+
+endmodule
+

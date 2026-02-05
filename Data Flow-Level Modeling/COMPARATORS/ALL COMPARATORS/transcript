@@ -1,0 +1,44 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:31:25 on Sep 18,2025
+# vlog -reportprogress 300 allcomp.v "+acc" 
+# -- Compiling module allcomp
+# -- Compiling module allcomp_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:31:25 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:31:25 on Sep 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.allcomp(fast)
+# Loading work.allcomp_tb(fast)
+# a=0100100100 b=1010000001 g=0 l=1 e=0 Time=0
+# a=1000001001 b=1001100011 g=0 l=1 e=0 Time=10
+# a=1100001101 b=0110001101 g=1 l=0 e=0 Time=20
+# a=0001100101 b=1000010010 g=0 l=1 e=0 Time=30
+# a=1100000001 b=0100001101 g=1 l=0 e=0 Time=40
+# a=0101110110 b=0100111101 g=1 l=0 e=0 Time=50
+# a=1111101101 b=1110001100 g=1 l=0 e=0 Time=60
+# a=0111111001 b=0011000110 g=1 l=0 e=0 Time=70
+# a=0011000101 b=1010101010 g=0 l=1 e=0 Time=80
+# a=1111100101 b=1001110111 g=1 l=0 e=0 Time=90
+# End time: 12:31:56 on Sep 18,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0

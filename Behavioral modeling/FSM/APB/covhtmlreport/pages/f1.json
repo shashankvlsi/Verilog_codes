@@ -1,0 +1,36 @@
+var g_data = {
+f3:{
+scopes:[{link:'z.htm?f=0&s=3',val:'work.apb'}]
+,FSMs:[{dummy:0}
+,{anchor:'cvg36',items:[{c:'Y',p:'70.00',z:'cs'}
+,{cr:'c',s:'1',z:'ideal',h:'2',c:'g'}
+,{cr:'c',z:'ideal -&gt; setup',h:'1',c:'g'}
+,{cr:'c',s:'1',z:'setup',h:'1',c:'g'}
+,{cr:'m',z:'setup -&gt; ideal',h:'0',c:'r'}
+,{cr:'c',z:'setup -&gt; access',h:'1',c:'g'}
+,{cr:'c',s:'1',z:'access',h:'2',c:'g'}
+,{cr:'m',z:'access -&gt; ideal',h:'0',c:'r'}
+,{cr:'m',z:'access -&gt; setup',h:'0',c:'r'}
+]}
+
+],
+},
+f21:{
+scopes:[{s:'4',b:'0',val:'tb'},{link:'z.htm?f=0&s=21',val:'rtl'}]
+,FSMs:[{dummy:0}
+,{anchor:'cvg36',items:[{c:'Y',p:'70.00',z:'cs'}
+,{cr:'c',s:'1',z:'ideal',h:'2',c:'g'}
+,{cr:'c',z:'ideal -&gt; setup',h:'1',c:'g'}
+,{cr:'c',s:'1',z:'setup',h:'1',c:'g'}
+,{cr:'m',z:'setup -&gt; ideal',h:'0',c:'r'}
+,{cr:'c',z:'setup -&gt; access',h:'1',c:'g'}
+,{cr:'c',s:'1',z:'access',h:'2',c:'g'}
+,{cr:'m',z:'access -&gt; ideal',h:'0',c:'r'}
+,{cr:'m',z:'access -&gt; setup',h:'0',c:'r'}
+]}
+
+],
+},
+dummyEnd:0
+};
+processFsmData(g_data);

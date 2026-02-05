@@ -1,0 +1,65 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+
+ls
+# hs.v  transcript              
+vlog hs.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:02:18 on Aug 30,2025
+# vlog -reportprogress 300 hs.v "+acc" 
+# -- Compiling module hs
+# -- Compiling module hs_tb
+# 
+# Top level modules:
+# 	hs_tb
+# End time: 13:02:18 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim hs_tb
+# vsim hs_tb 
+# Start time: 13:03:12 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.hs_tb(fast)
+# Loading work.hs(fast)
+add wave *
+run -all
+# a=0 b=1 diff=1 bout=z Time=0
+# a=1 b=1 diff=0 bout=z Time=10
+# a=1 b=0 diff=x bout=z Time=30
+vlog hs.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:04 on Aug 30,2025
+# vlog -reportprogress 300 hs.v "+acc" 
+# -- Compiling module hs
+# -- Compiling module hs_tb
+# 
+# Top level modules:
+# 	hs_tb
+# End time: 13:04:04 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim hs_tb
+# End time: 13:04:05 on Aug 30,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# vsim hs_tb 
+# Start time: 13:04:05 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.hs_tb(fast)
+# Loading work.hs(fast)
+add wave *
+run -all
+# a=0 b=1 diff=1 bout=1 Time=0
+# a=1 b=1 diff=0 bout=0 Time=10
+# a=1 b=0 diff=1 bout=0 Time=30
+# End time: 13:04:29 on Aug 30,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0

@@ -1,0 +1,291 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# addsub.v  fulladder.v  run.do  transcript        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:45:03 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# ** Error: addsub.v(12): x2 already declared in this scope
+# ** Error: addsub.v(13): x2 already declared in this scope
+# -- Compiling module addsub_tb
+# End time: 20:45:03 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog addsub.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:45:31 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 20:45:31 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim addsub_tb 
+# Start time: 20:45:31 on Aug 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: addsub.v(40): (vopt-2123) Missing argument for format specification '%t'.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+ls
+# addsub.v  fulladder.v  run.do  transcript  work      
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:46:14 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 20:46:14 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim addsub_tb 
+# Start time: 20:45:31 on Aug 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 7 b= 3 cin=0 s=0 sum= X cout=0 Time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:46:42 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 20:46:42 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:46:43 on Aug 28,2025, Elapsed time: 0:01:12
+# Errors: 2, Warnings: 0
+# vsim addsub_tb 
+# Start time: 20:46:43 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 7 b= 3 cin=0 s=0 sum=10 cout=0 Time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:47:05 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 20:47:05 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:47:05 on Aug 28,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim addsub_tb 
+# Start time: 20:47:05 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 7 b= 3 cin=1 s=1 sum= 4 cout=1 Time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:54:46 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 20:54:46 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:54:46 on Aug 28,2025, Elapsed time: 0:07:41
+# Errors: 0, Warnings: 0
+# vsim addsub_tb 
+# Start time: 20:54:46 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 4 b= 1 cin=1 s=1 sum= 3 cout=1 Time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:55:19 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 20:55:19 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:55:20 on Aug 28,2025, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
+# vsim addsub_tb 
+# Start time: 20:55:20 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 4 b= 1 cin=1 s=1 sum= 3 cout=1 Time=0
+# a=13 b=13 cin=1 s=0 sum=11 cout=1 Time=10
+# a= 1 b=13 cin=0 s=1 sum= 3 cout=0 Time=20
+# a=13 b=12 cin=1 s=0 sum=10 cout=1 Time=30
+# a= 5 b=10 cin=1 s=1 sum=11 cout=0 Time=40
+# a= 2 b=15 cin=0 s=0 sum= 1 cout=1 Time=50
+# a= 8 b= 5 cin=0 s=1 sum= 2 cout=1 Time=60
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:58:27 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 20:58:27 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:58:27 on Aug 28,2025, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 0
+# vsim addsub_tb 
+# Start time: 20:58:27 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 7 b= 3 cin=0 s=1 sum= 3 cout=1 Time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:59:04 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# ** Error: (vlog-13069) addsub.v(37): near ";": syntax error, unexpected ';'.
+# End time: 20:59:04 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog addsub.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:59:17 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 20:59:17 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:59:18 on Aug 28,2025, Elapsed time: 0:00:51
+# Errors: 4, Warnings: 0
+# vsim addsub_tb 
+# Start time: 20:59:18 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 7 b= 3 cin=1 s=0 sum=11 cout=0 Time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:08:28 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 21:08:28 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:08:29 on Aug 28,2025, Elapsed time: 0:09:11
+# Errors: 0, Warnings: 0
+# vsim addsub_tb 
+# Start time: 21:08:29 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 7 b= 3 cin=0 s=0 sum=10 cout=0 Time=0
+# a= 7 b= 3 cin=1 s=1 sum= 4 cout=1 Time=10
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:11:01 on Aug 28,2025
+# vlog -reportprogress 300 addsub.v "+acc" 
+# -- Compiling module fulladder1
+# -- Compiling module fulladder1_tb
+# -- Compiling module addsub
+# -- Compiling module addsub_tb
+# 
+# Top level modules:
+# 	fulladder1_tb
+# 	addsub_tb
+# End time: 21:11:01 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:11:01 on Aug 28,2025, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 0
+# vsim addsub_tb 
+# Start time: 21:11:02 on Aug 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.addsub_tb(fast)
+# Loading work.addsub(fast)
+# Loading work.fulladder1(fast)
+# a= 7 b= 3 cin=0 s=0 sum=10 cout=0 Time=0
+# a= 7 b= 3 cin=1 s=0 sum=11 cout=0 Time=10
+# a= 7 b= 3 cin=1 s=1 sum= 4 cout=1 Time=20
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/Verilog/Gate-Level Modeling/ADDER-SUBTRACTOR/wave.do}
+# End time: 21:13:48 on Aug 28,2025, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 0

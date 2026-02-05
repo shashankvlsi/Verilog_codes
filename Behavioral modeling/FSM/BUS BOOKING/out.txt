@@ -1,0 +1,38 @@
+---------Open App
+clk=0 rst=0 x=0 y=0 Time=0
+clk=1 rst=0 x=0 y=0 Time=5
+clk=0 rst=0 x=0 y=0 Time=10
+clk=1 rst=0 x=0 y=0 Time=15
+clk=0 rst=1 x=0 y=0 Time=20
+clk=1 rst=1 x=0 y=0 Time=25
+clk=0 rst=1 x=1 y=0 Time=30
+---------- Bus Portal Opened
+clk=1 rst=1 x=1 y=0 Time=35
+clk=0 rst=1 x=1 y=0 Time=40
+---------- Select Current Location
+clk=1 rst=1 x=1 y=0 Time=45
+clk=0 rst=1 x=1 y=0 Time=50
+-------------Location Selected
+ --------Applying Filters......
+clk=1 rst=1 x=1 y=0 Time=55
+clk=0 rst=1 x=1 y=0 Time=60
+-------------Filteres Applied
+---------- Select Bus.....
+clk=1 rst=1 x=1 y=0 Time=65
+clk=0 rst=1 x=1 y=0 Time=70
+------------ Select Seats
+clk=1 rst=1 x=1 y=0 Time=75
+clk=0 rst=1 x=1 y=0 Time=80
+----------- Select Source & Destination
+clk=1 rst=1 x=1 y=0 Time=85
+clk=0 rst=1 x=1 y=0 Time=90
+------------ Applying Coupon
+clk=1 rst=1 x=1 y=0 Time=95
+clk=0 rst=1 x=1 y=0 Time=100
+----------Coupen Applied
+---------- Making Payment.....
+clk=1 rst=1 x=1 y=0 Time=105
+clk=0 rst=1 x=1 y=0 Time=110
+-------------Payment Done
+--------------Booking Completed...
+....Tickets are sent to your registered Email....

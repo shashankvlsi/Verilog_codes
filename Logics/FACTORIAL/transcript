@@ -1,0 +1,430 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:47:53 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# ** Error: test.v(10): 'i' is an invalid type in Generate loop. Must be a genvar.
+# ** Error: (vlog-13069) test.v(12): near "=": syntax error, unexpected '='.
+# ** Error: test.v(12): (vlog-13205) Syntax error found in the scope following 'fac'. Is there a missing '::'?
+# End time: 13:47:53 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:48:27 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) test.v(11): near "fac": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: test.v(16): (vlog-13120) Unterminated block comment.
+# test.v(23): Verilog Compiler exiting
+# End time: 13:48:27 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:51:09 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# ** Error: test.v(16): (vlog-13120) Unterminated block comment.
+# test.v(23): Verilog Compiler exiting
+# End time: 13:51:09 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:51:33 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 13:51:33 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 13:51:34 on Sep 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:51:55 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 13:51:55 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:51:56 on Sep 14,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 13:51:56 on Sep 14,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test(fast)
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:52:56 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# ** Error: test.v(9): 'i' is an invalid type in Generate loop. Must be a genvar.
+# ** Error: (vlog-13069) test.v(11): near "=": syntax error, unexpected '='.
+# ** Error: test.v(11): (vlog-13205) Syntax error found in the scope following 'fac'. Is there a missing '::'?
+# End time: 13:52:56 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:53:13 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 13:53:13 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:53:13 on Sep 14,2025, Elapsed time: 0:01:17
+# Errors: 6, Warnings: 0
+# vsim test 
+# Start time: 13:53:13 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=0
+# FACTORIAL=1
+# FACTORIAL=4
+# FACTORIAL=9
+# FACTORIAL=16
+# FACTORIAL=25
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:00:46 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) test.v(12): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';'.
+# ** Error: (vlog-13069) test.v(15): near "initial": syntax error, unexpected initial.
+# End time: 14:00:46 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:01:33 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:01:33 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:01:34 on Sep 14,2025, Elapsed time: 0:08:21
+# Errors: 5, Warnings: 0
+# vsim test 
+# Start time: 14:01:34 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=0
+# FACTORIAL=0
+# FACTORIAL=0
+# FACTORIAL=0
+# FACTORIAL=0
+# FACTORIAL=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:03:14 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:03:14 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:03:15 on Sep 14,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:03:15 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=0
+# FACTORIAL=0
+# FACTORIAL=0
+# FACTORIAL=0
+# FACTORIAL=0
+# FACTORIAL=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:04:44 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# ** Error: test.v(20): (vlog-2730) Undefined variable: 'n'.
+# End time: 14:04:44 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:04:59 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:04:59 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:04:59 on Sep 14,2025, Elapsed time: 0:01:44
+# Errors: 4, Warnings: 0
+# vsim test 
+# Start time: 14:04:59 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=1
+# FACTORIAL=2
+# FACTORIAL=6
+# FACTORIAL=24
+# FACTORIAL=120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:05:43 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:05:44 on Sep 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:05:44 on Sep 14,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:05:44 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:05:59 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:05:59 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:05:59 on Sep 14,2025, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:05:59 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:06:26 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:06:26 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:06:26 on Sep 14,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:06:27 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:06:41 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:06:41 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:06:41 on Sep 14,2025, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:06:41 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:07:27 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:07:27 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:07:27 on Sep 14,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:07:27 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=5
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:07:49 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:07:49 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:07:49 on Sep 14,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:07:49 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=5
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:08:23 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:08:23 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:08:24 on Sep 14,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:08:24 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# FACTORIAL=120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:09:47 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:09:47 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:09:48 on Sep 14,2025, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:09:48 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): test.v(19): (vopt-7063) Failed to find 'num' in hierarchical name 'num'.
+#         Region: test
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:10:57 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:10:57 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:09:48 on Sep 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+# Factorial-of=[5] is=[120]
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:11:32 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:11:32 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:11:33 on Sep 14,2025, Elapsed time: 0:01:45
+# Errors: 1, Warnings: 0
+# vsim test 
+# Start time: 14:11:33 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Factorial_of=[5] is=[120]
+# Factorial_of=[12] is=[479001600]
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:11:44 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:11:44 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:11:44 on Sep 14,2025, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:11:44 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Factorial_of=[5] is=[120]
+# Factorial_of=[9] is=[362880]
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:11:58 on Sep 14,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 14:11:58 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:11:59 on Sep 14,2025, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0
+# vsim test 
+# Start time: 14:11:59 on Sep 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test(fast)
+# Factorial_of=[5] is=[120]
+# Factorial_of=[6] is=[720]
+# End time: 14:32:11 on Sep 14,2025, Elapsed time: 0:20:12
+# Errors: 0, Warnings: 0

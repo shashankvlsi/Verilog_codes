@@ -1,0 +1,43 @@
+{D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder2.v} {1 {vlog -work work -vopt -stats=none {D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder2.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module halfadder2
+
+Top level modules:
+	halfadder2
+
+} {} {}} {D:/VLSI/Verilog/Switch-Level style/Full Adder1/andgate1.v} {1 {vlog -work work -vopt -stats=none {D:/VLSI/Verilog/Switch-Level style/Full Adder1/andgate1.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module and1
+
+Top level modules:
+	and1
+
+} {} {}} {D:/VLSI/Verilog/Switch-Level style/Full Adder2/Fulladder1_tb.v} {1 {vlog -work work -vopt -stats=none {D:/VLSI/Verilog/Switch-Level style/Full Adder2/Fulladder1_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fulladder1_tb
+
+Top level modules:
+	fulladder1_tb
+
+} {} {}} {D:/VLSI/Verilog/Switch-Level style/Full Adder1/xorgate1.v} {1 {vlog -work work -vopt -stats=none {D:/VLSI/Verilog/Switch-Level style/Full Adder1/xorgate1.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module xor1
+
+Top level modules:
+	xor1
+
+} {} {}} {D:/VLSI/Verilog/Switch-Level style/Full Adder1/orgate1.v} {1 {vlog -work work -vopt -stats=none {D:/VLSI/Verilog/Switch-Level style/Full Adder1/orgate1.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module or1
+
+Top level modules:
+	or1
+
+} {} {}} {D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder1.v} {1 {vlog -work work -vopt -stats=none {D:/VLSI/Verilog/Switch-Level style/Full Adder1/halfadder1.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module halfadder1
+
+Top level modules:
+	halfadder1
+
+} {} {}}

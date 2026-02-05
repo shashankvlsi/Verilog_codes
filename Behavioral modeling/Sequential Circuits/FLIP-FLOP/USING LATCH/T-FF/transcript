@@ -1,0 +1,305 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:14:17 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# -- Compiling module tff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:14:17 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:14:17 on Sep 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.tff(fast)
+# Loading work.tl(fast)
+# rst=0 clk=0 t=x  Q=0 Qbar=1 Time=0
+# rst=1 clk=1 t=x  Q=0 Qbar=1 Time=10
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=17
+# rst=1 clk=0 t=0  Q=0 Qbar=1 Time=20
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=30
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=34
+# rst=1 clk=0 t=1  Q=0 Qbar=1 Time=40
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=50
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=60
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=70
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=80
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=90
+# ** Note: $stop    : tff.v(42)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at tff.v line 42
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:17:56 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# -- Compiling module tff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:17:56 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:17:58 on Sep 10,2025, Elapsed time: 0:03:41
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:17:58 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.tff(fast)
+# Loading work.tl(fast)
+# rst=0 clk=0 t=x  Q=0 Qbar=1 Time=0
+# rst=1 clk=1 t=x  Q=0 Qbar=1 Time=10
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=17
+# rst=1 clk=0 t=0  Q=0 Qbar=1 Time=20
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=30
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=34
+# rst=1 clk=0 t=1  Q=0 Qbar=1 Time=40
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=50
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=60
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=70
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=80
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=90
+# ** Note: $stop    : tff.v(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at tff.v line 45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:25:04 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# -- Compiling module tff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:25:04 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:25:05 on Sep 10,2025, Elapsed time: 0:07:07
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:25:05 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.tff(fast)
+# Loading work.tl(fast)
+# rst=0 clk=0 t=x  Q=0 Qbar=1 Time=0
+# rst=1 clk=1 t=x  Q=0 Qbar=1 Time=10
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=17
+# rst=1 clk=0 t=0  Q=0 Qbar=1 Time=20
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=30
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=34
+# rst=1 clk=0 t=1  Q=0 Qbar=1 Time=40
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=50
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=60
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=70
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=80
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=90
+# ** Note: $stop    : tff.v(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at tff.v line 45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:35:14 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# -- Compiling module tff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:35:14 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:35:15 on Sep 10,2025, Elapsed time: 0:10:10
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:35:15 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.tff(fast)
+# Loading work.tl(fast)
+# rst=0 clk=0 t=x  Q=0 Qbar=1 Time=0
+# rst=1 clk=1 t=x  Q=0 Qbar=1 Time=10
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=17
+# rst=1 clk=0 t=0  Q=0 Qbar=1 Time=20
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=30
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=34
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=40
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=50
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=60
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=70
+# rst=1 clk=0 t=1  Q=0 Qbar=1 Time=80
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=90
+# ** Note: $stop    : tff.v(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at tff.v line 45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:39:22 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# ** Error: (vlog-13069) ** while parsing file included at tff.v(1)
+# ** at tl.v(23): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: tff.v(4): Checker 'tl' not found.  Instantiation 'gate1' must be of a visible checker.
+# ** Error: tff.v(5): (vlog-2730) Undefined variable: 'Q'.
+# ** Error: tff.v(5): (vlog-2730) Undefined variable: 'Qbar'.
+# ** Error: tff.v(5): Checker 'tl' not found.  Instantiation 'gate2' must be of a visible checker.
+# ** Error: (vlog-13069) tff.v(19): near "endmodule": syntax error, unexpected endmodule.
+# ** Error (suppressible): tff.v(22): (vlog-2388) 'clk' already declared in this scope (tl).
+# ** Error (suppressible): tff.v(22): (vlog-2388) 'rst' already declared in this scope (tl).
+# ** Error (suppressible): tff.v(22): (vlog-2388) 't' already declared in this scope (tl).
+# ** Error: tff.v(22): Declarations not allowed in unnamed block.
+# ** Error: tff.v(23): Illegal declaration after the statement near line '21'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: tff.v(25): Checker 'tff' not found.  Instantiation 'gate' must be of a visible checker.
+# ** Error: (vlog-13069) tff.v(27): near "initial": syntax error, unexpected initial.
+# ** Error: tff.v(25): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# End time: 16:39:22 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog tff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:43:13 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# ** Error: (vlog-13069) ** while parsing file included at tff.v(1)
+# ** at tl.v(23): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: tff.v(4): Checker 'tl' not found.  Instantiation 'gate1' must be of a visible checker.
+# ** Error: tff.v(5): (vlog-2730) Undefined variable: 'Q'.
+# ** Error: tff.v(5): (vlog-2730) Undefined variable: 'Qbar'.
+# ** Error: tff.v(5): Checker 'tl' not found.  Instantiation 'gate2' must be of a visible checker.
+# ** Error: (vlog-13069) tff.v(19): near "endmodule": syntax error, unexpected endmodule.
+# ** Error (suppressible): tff.v(22): (vlog-2388) 'clk' already declared in this scope (tl).
+# ** Error (suppressible): tff.v(22): (vlog-2388) 'rst' already declared in this scope (tl).
+# ** Error (suppressible): tff.v(22): (vlog-2388) 't' already declared in this scope (tl).
+# ** Error: tff.v(22): Declarations not allowed in unnamed block.
+# ** Error: tff.v(23): Illegal declaration after the statement near line '21'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: tff.v(25): Checker 'tff' not found.  Instantiation 'gate' must be of a visible checker.
+# ** Error: (vlog-13069) tff.v(27): near "initial": syntax error, unexpected initial.
+# ** Error: tff.v(25): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# End time: 16:43:13 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog tff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:44:26 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# ** Error: (vlog-13069) ** while parsing file included at tff.v(1)
+# ** at tl.v(23): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: tff.v(4): Checker 'tl' not found.  Instantiation 'gate1' must be of a visible checker.
+# ** Error: tff.v(5): (vlog-2730) Undefined variable: 'Q'.
+# ** Error: tff.v(5): (vlog-2730) Undefined variable: 'Qbar'.
+# ** Error: tff.v(5): Checker 'tl' not found.  Instantiation 'gate2' must be of a visible checker.
+# ** Error: (vlog-13069) tff.v(19): near "endmodule": syntax error, unexpected endmodule.
+# ** Error (suppressible): tff.v(22): (vlog-2388) 'clk' already declared in this scope (tl).
+# ** Error (suppressible): tff.v(22): (vlog-2388) 'rst' already declared in this scope (tl).
+# ** Error (suppressible): tff.v(22): (vlog-2388) 't' already declared in this scope (tl).
+# ** Error: tff.v(22): Declarations not allowed in unnamed block.
+# ** Error: tff.v(23): Illegal declaration after the statement near line '21'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: tff.v(25): Checker 'tff' not found.  Instantiation 'gate' must be of a visible checker.
+# ** Error: (vlog-13069) tff.v(27): near "initial": syntax error, unexpected initial.
+# ** Error: tff.v(25): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# End time: 16:44:26 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog tff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:45:33 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# -- Compiling module tff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:45:33 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:45:34 on Sep 10,2025, Elapsed time: 0:10:19
+# Errors: 42, Warnings: 0
+# vsim tb 
+# Start time: 16:45:35 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.tff(fast)
+# Loading work.tl(fast)
+# rst=0 clk=0 t=x  Q=0 Qbar=1 Time=0
+# rst=1 clk=1 t=x  Q=0 Qbar=1 Time=10
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=17
+# rst=1 clk=0 t=0  Q=0 Qbar=1 Time=20
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=30
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=34
+# rst=1 clk=0 t=1  Q=0 Qbar=1 Time=40
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=50
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=60
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=70
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=80
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=90
+# ** Note: $stop    : tff.v(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at tff.v line 45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:59:18 on Sep 10,2025
+# vlog -reportprogress 300 tff.v "+acc" 
+# -- Compiling module tl
+# -- Compiling module tff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:59:18 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:59:18 on Sep 10,2025, Elapsed time: 0:13:43
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 16:59:18 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.tff(fast)
+# Loading work.tl(fast)
+# rst=0 clk=0 t=x  Q=0 Qbar=1 Time=0
+# rst=1 clk=1 t=x  Q=0 Qbar=1 Time=10
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=17
+# rst=1 clk=0 t=0  Q=0 Qbar=1 Time=20
+# rst=1 clk=1 t=0  Q=0 Qbar=1 Time=30
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=34
+# rst=1 clk=0 t=1  Q=0 Qbar=1 Time=40
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=50
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=60
+# rst=1 clk=1 t=1  Q=1 Qbar=0 Time=70
+# rst=1 clk=0 t=1  Q=1 Qbar=0 Time=80
+# rst=1 clk=1 t=1  Q=0 Qbar=1 Time=90
+# ** Note: $stop    : tff.v(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at tff.v line 45
+# End time: 16:59:54 on Sep 10,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0

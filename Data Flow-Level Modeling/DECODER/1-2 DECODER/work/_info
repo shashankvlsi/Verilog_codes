@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Data Flow-Level Modeling/DECODER/1-2 DECODER
+T_opt
+!s110 1756570216
+V:7j^o34Y_:4hJ=bDB15G02
+04 6 4 work dec_tb fast 0
+=1-4c0f3ec0fd23-68b32268-1df-42e8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdec
+Z2 !s110 1760288117
+!i10b 1
+!s100 TV<cUB:NjfYOHo7zTZN7k3
+ITNaodn:06eC=88YYKacEA3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756570213
+Z5 8dec.v
+Z6 Fdec.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1760288117.000000
+!s107 dec.v|
+Z9 !s90 -reportprogress|300|dec.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdec_tb
+R2
+!i10b 1
+!s100 hYNO<Q_cc>b9kSdcb8fG]3
+I^nZ5CImz^iTGA27ZAbW:D3
+R3
+R0
+R4
+R5
+R6
+L0 7
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 dec.v|
+R9
+!i113 0
+R10
+R1

@@ -1,0 +1,7 @@
+a=13 b=91 cin=0 Time=0
+a=43 b=63 cin=1 Time=11
+a=47 b=91 cin=1 Time=22
+a=23 b=23 cin=1 Time=33
+a=92 b=59 cin=1 Time=44
+a=59 b=29 cin=1 Time=55
+a=56 b=83 cin=1 Time=66

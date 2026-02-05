@@ -1,0 +1,52 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# bintobin.v   graytobinary.v  vsim.wlf  work    
+# bintogray.v  transcript      wave.do           
+vlog bintobin.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:18:53 on Aug 28,2025
+# vlog -reportprogress 300 bintobin.v "+acc" 
+# -- Compiling module bintogray
+# -- Compiling module bintogray_tb
+# -- Compiling module graytobinary
+# -- Compiling module graytobinary_tb
+# -- Compiling module bintobin
+# -- Compiling module bintobin_tb
+# 
+# Top level modules:
+# 	bintogray_tb
+# 	graytobinary_tb
+# 	bintobin_tb
+# End time: 13:18:53 on Aug 28,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim bintobin_tb
+# vsim bintobin_tb 
+# Start time: 13:19:10 on Aug 28,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.bintobin_tb(fast)
+# Loading work.bintobin(fast)
+# Loading work.bintogray(fast)
+# Loading work.graytobinary(fast)
+add wave *
+run -all
+# b=0100 y=0100 Time=0
+# b=0001 y=0001 Time=10
+# b=1001 y=1001 Time=20
+# b=0011 y=0011 Time=30
+# b=1101 y=1101 Time=40
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/Verilog/Gate-Level Modeling/BINARY-BINARY/wave.do}
+# End time: 13:19:59 on Aug 28,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0

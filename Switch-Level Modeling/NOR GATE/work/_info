@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Switch-Level style/NAND GATE
+T_opt
+!s110 1755525852
+V]IkVW:^8cSDSI=O;G37F=0
+Z1 04 6 4 work or1_tb fast 0
+=1-4c0f3ec0fd23-68a332da-3dd-2f58
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755526155
+V]^V4Lmf`PSbQdk]Ng[h_C3
+R1
+=1-4c0f3ec0fd23-68a3340b-17d-43fc
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vor1
+Z4 !s110 1755526132
+!i10b 1
+!s100 Vg>@1zJGDR_L;hA^0^EVc3
+If9OGI3QB7K_:Xkd94BPi32
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/VLSI/Verilog/Switch-Level style/OR GATE
+w1755524701
+8D:\VLSI\Verilog\Switch-Level style\OR GATE\or_gate.v
+FD:\VLSI\Verilog\Switch-Level style\OR GATE\or_gate.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1755526132.000000
+!s107 D:\VLSI\Verilog\Switch-Level style\OR GATE\or_gate.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\VLSI\Verilog\Switch-Level style\OR GATE\or_gate.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vor1_tb
+R4
+!i10b 1
+!s100 =2ijg80kMJn>1:`?VQ<f23
+IA;aWWz2MzfFafIfhVf@TA2
+R5
+R6
+w1755526122
+8D:/VLSI/Verilog/Switch-Level style/OR GATE/or_gate_tb.v
+FD:/VLSI/Verilog/Switch-Level style/OR GATE/or_gate_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/VLSI/Verilog/Switch-Level style/OR GATE/or_gate_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VLSI/Verilog/Switch-Level style/OR GATE/or_gate_tb.v|
+!i113 0
+R9
+R2

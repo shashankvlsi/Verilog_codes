@@ -1,0 +1,7 @@
+ sum=104 carry=0 Time=1
+ sum=107 carry=0 Time=12
+ sum=139 carry=0 Time=23
+ sum=47 carry=0 Time=34
+ sum=152 carry=0 Time=45
+ sum=89 carry=0 Time=56
+ sum=140 carry=0 Time=67

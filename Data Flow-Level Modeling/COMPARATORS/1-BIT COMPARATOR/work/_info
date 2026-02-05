@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Data Flow-Level Modeling/COMPARATORS/1-BIT COMPARATOR
+T_opt
+!s110 1756552573
+VF[?S5X_nnPMT_l8ZV[g@M1
+Z1 04 7 4 work comp_tb fast 0
+=1-4c0f3ec0fd23-68b2dd7c-3a5-3688
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+Z5 !s110 1756554338
+V]W8KZ@b0W_We4n_gjN[XR3
+R1
+=1-4c0f3ec0fd23-68b2e462-21c-d00
+R2
+R3
+n@_opt1
+R4
+vcomp
+R5
+!i10b 1
+!s100 ODBdO^jzB[YGha3JVzV;92
+I2oO7HNkEXl2;YcL1WK=0i1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1756552525
+Z8 8comp.v
+Z9 Fcomp.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1756554338.000000
+Z12 !s107 comp.v|
+Z13 !s90 -reportprogress|300|comp.v|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vcomp_tb
+R5
+!i10b 1
+!s100 <@E2H5z@5f:<<OkZ`alV;2
+Izl5m;oGPzPdUM=e^>RQE13
+R6
+R0
+R7
+R8
+R9
+L0 9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

@@ -1,0 +1,347 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:18:52 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# ** Error: (vlog-13069) jkff.v(14): near "default": syntax error, unexpected default, expecting ';'.
+# ** Error (suppressible): jkff.v(24): (vlog-2388) 'clk' already declared in this scope (jkff).
+# ** Error (suppressible): jkff.v(24): (vlog-2388) 'rst' already declared in this scope (jkff).
+# ** Error (suppressible): jkff.v(24): (vlog-2388) 'j' already declared in this scope (jkff).
+# ** Error (suppressible): jkff.v(24): (vlog-2388) 'k' already declared in this scope (jkff).
+# ** Error: jkff.v(24): Declarations not allowed in unnamed block.
+# ** Error: jkff.v(25): Illegal declaration after the statement near line '23'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: jkff.v(27): Checker 'jkff' not found.  Instantiation 'gate' must be of a visible checker.
+# ** Error: (vlog-13069) jkff.v(29): near "initial": syntax error, unexpected initial.
+# ** Error: jkff.v(27): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) jkff.v(37): near "initial": syntax error, unexpected initial.
+# End time: 18:18:52 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog jkff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:19:28 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# ** Error: (vlog-13069) jkff.v(15): near "end": syntax error, unexpected end.
+# ** Error (suppressible): jkff.v(24): (vlog-2388) 'clk' already declared in this scope (jkff).
+# ** Error (suppressible): jkff.v(24): (vlog-2388) 'rst' already declared in this scope (jkff).
+# ** Error (suppressible): jkff.v(24): (vlog-2388) 'j' already declared in this scope (jkff).
+# ** Error (suppressible): jkff.v(24): (vlog-2388) 'k' already declared in this scope (jkff).
+# ** Error: jkff.v(24): Declarations not allowed in unnamed block.
+# ** Error: jkff.v(25): Illegal declaration after the statement near line '23'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: jkff.v(27): Checker 'jkff' not found.  Instantiation 'gate' must be of a visible checker.
+# ** Error: (vlog-13069) jkff.v(29): near "initial": syntax error, unexpected initial.
+# ** Error: jkff.v(27): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) jkff.v(37): near "initial": syntax error, unexpected initial.
+# End time: 18:19:28 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog jkff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:20:04 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:20:04 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 18:20:04 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.jkff(fast)
+# clk=0 rst=0 j=0 k=0 q=x qbar=x Time=0
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=10
+# clk=0 rst=1 j=0 k=1 q=0 qbar=1 Time=20
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=30
+# clk=0 rst=1 j=0 k=1 q=1 qbar=0 Time=40
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=50
+# clk=0 rst=1 j=0 k=1 q=0 qbar=1 Time=60
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=70
+# clk=0 rst=1 j=0 k=1 q=1 qbar=0 Time=80
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=90
+# clk=0 rst=1 j=1 k=0 q=0 qbar=1 Time=100
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=110
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=120
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=130
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=140
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=150
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=160
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=170
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=180
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=190
+# ** Note: $stop    : jkff.v(51)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at jkff.v line 51
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:21:45 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:21:45 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:21:47 on Sep 11,2025, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 18:21:47 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.jkff(fast)
+# clk=0 rst=0 j=0 k=0 q=x qbar=x Time=0
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=10
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=20
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=30
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=40
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=50
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=60
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=70
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=80
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=90
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=100
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=110
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=120
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=130
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=140
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=150
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=160
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=170
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=180
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=190
+# ** Note: $stop    : jkff.v(51)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at jkff.v line 51
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:22:54 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:22:54 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:22:57 on Sep 11,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 18:22:57 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.jkff(fast)
+# clk=0 rst=0 j=0 k=0 q=x qbar=x Time=0
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=10
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=20
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=30
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=40
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=50
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=60
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=70
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=80
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=90
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=100
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=110
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=120
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=130
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=140
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=150
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=160
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=170
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=180
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=190
+# ** Note: $stop    : jkff.v(51)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at jkff.v line 51
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:24:42 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:24:42 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:24:44 on Sep 11,2025, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 18:24:44 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.jkff(fast)
+# clk=0 rst=0 j=0 k=0 q=x qbar=x Time=0
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=10
+# clk=0 rst=1 j=1 k=0 q=0 qbar=1 Time=20
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=30
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=40
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=50
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=60
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=70
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=80
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=90
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=100
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=110
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=120
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=130
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=140
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=150
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=160
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=170
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=180
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=190
+# ** Note: $stop    : jkff.v(52)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at jkff.v line 52
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:25:50 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:25:50 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:25:53 on Sep 11,2025, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 18:25:53 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.jkff(fast)
+# clk=0 rst=0 j=x k=x q=x qbar=x Time=0
+# clk=1 rst=1 j=0 k=0 q=x qbar=x Time=10
+# clk=0 rst=1 j=0 k=1 q=x qbar=x Time=20
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=30
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=40
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=50
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=60
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=70
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=80
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=90
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=100
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=110
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=120
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=130
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=140
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=150
+# clk=0 rst=1 j=1 k=1 q=1 qbar=0 Time=160
+# clk=1 rst=1 j=1 k=1 q=0 qbar=1 Time=170
+# clk=0 rst=1 j=1 k=1 q=0 qbar=1 Time=180
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=190
+# ** Note: $stop    : jkff.v(53)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at jkff.v line 53
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:27:16 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:27:16 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:27:18 on Sep 11,2025, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 18:27:18 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.jkff(fast)
+# clk=0 rst=0 j=0 k=0 q=x qbar=x Time=0
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=10
+# clk=0 rst=1 j=0 k=0 q=x qbar=x Time=20
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=30
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=40
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=50
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=60
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=70
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=80
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=90
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=100
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=110
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=120
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=130
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=140
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=150
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=160
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=170
+# clk=0 rst=1 j=1 k=1 q=x qbar=x Time=180
+# clk=1 rst=1 j=1 k=1 q=x qbar=x Time=190
+# ** Note: $stop    : jkff.v(53)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at jkff.v line 53
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:28:14 on Sep 11,2025
+# vlog -reportprogress 300 jkff.v "+acc" 
+# -- Compiling module jkff
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:28:14 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:28:15 on Sep 11,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 18:28:15 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.jkff(fast)
+# clk=0 rst=0 j=0 k=0 q=x qbar=x Time=0
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=10
+# clk=0 rst=1 j=0 k=1 q=0 qbar=1 Time=20
+# clk=1 rst=1 j=1 k=1 q=1 qbar=0 Time=30
+# clk=0 rst=1 j=0 k=1 q=1 qbar=0 Time=40
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=50
+# clk=0 rst=1 j=0 k=1 q=0 qbar=1 Time=60
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=70
+# clk=0 rst=1 j=0 k=1 q=1 qbar=0 Time=80
+# clk=1 rst=1 j=0 k=1 q=0 qbar=1 Time=90
+# clk=0 rst=1 j=1 k=0 q=0 qbar=1 Time=100
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=110
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=120
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=130
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=140
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=150
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=160
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=170
+# clk=0 rst=1 j=1 k=0 q=1 qbar=0 Time=180
+# clk=1 rst=1 j=1 k=0 q=1 qbar=0 Time=190
+# ** Note: $stop    : jkff.v(48)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at jkff.v line 48
+# End time: 18:28:28 on Sep 11,2025, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0

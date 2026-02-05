@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Behavioral modeling/FSM/MEALY/S1010
+T_opt
+Z1 !s110 1759733619
+V>jaNTJHSlfQ[a]NWnUQO23
+04 2 4 work tb fast 0
+=2-4c0f3ec0fd23-68e36773-217-5060
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vs1010
+R1
+!i10b 1
+!s100 4Gnb2gS71Z`UJK61Hec:>1
+I_Wl]RHi:nZbLSGeSVAV5@3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1759733616
+Z5 8s1010.v
+Z6 Fs1010.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1759733619.000000
+Z9 !s107 s1010.v|
+Z10 !s90 -reportprogress|300|s1010.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb
+R1
+!i10b 1
+!s100 UTe8`GdcYNg9JmiP3h^Q13
+Ikb[UUK6^2TIV_19c5DYXe2
+R3
+R0
+R4
+R5
+R6
+L0 76
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2

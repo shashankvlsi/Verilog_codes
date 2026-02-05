@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Codes/Behavioral modeling/Combinational Circuits/Self Checking TB
+T_opt
+!s110 1762942951
+VeGh84DP=gm`b<o8^D;FbD2
+04 3 4 work top fast 0
+=1-4c0f3ec0fd23-69145fe7-304-5a10
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdut
+Z2 !s110 1762942950
+!i10b 1
+!s100 XhhGQ@XmicUgF9>k[C`JZ2
+IH6JKAXTXP=E`dFB^nDKKT3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1762942024
+8dut.v
+Fdut.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1762942950.000000
+Z6 !s107 tb.v|dut.v|top.v|
+Z7 !s90 -reportprogress|300|top.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb
+R2
+!i10b 1
+!s100 L4mG1AkiOOeBj:aWn>Pf^0
+ILcDQUZ>aFO@?mCU6]Lf?o1
+R3
+R0
+w1762942944
+8tb.v
+Ftb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vtop
+R2
+!i10b 1
+!s100 ;X?FRnZ48B>=BT0E=[<BB2
+Icm1[n8Xk97RINZl0E5n`m1
+R3
+R0
+w1762942435
+8top.v
+Ftop.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1

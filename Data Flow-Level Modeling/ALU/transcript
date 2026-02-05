@@ -1,0 +1,401 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:06:13 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# ** Error: (vlog-13069) alu.v(20): near "repeat": syntax error, unexpected repeat.
+# ** Error: alu.v(22): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 15:06:13 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog alu.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:08:13 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:08:13 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top "+z=2" 
+# Start time: 15:08:14 on Sep 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# a=0100 b=0001 opcode=0 y=00000101 Time=0
+# a=0100 b=0001 opcode=1 y=00000011 Time=10
+# a=0100 b=0001 opcode=2 y=00000100 Time=20
+# a=0100 b=0001 opcode=3 y=00000100 Time=30
+# a=0100 b=0001 opcode=4 y=00000001 Time=40
+# a=0100 b=0001 opcode=5 y=00000000 Time=50
+# a=0100 b=0001 opcode=6 y=00000000 Time=60
+# a=0100 b=0001 opcode=7 y=01000001 Time=70
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:09:05 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# ** Error: (vlog-13069) alu.v(20): near "repeat": syntax error, unexpected repeat.
+# ** Error: alu.v(22): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 15:09:05 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog alu.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:09:47 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:09:47 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:09:48 on Sep 02,2025, Elapsed time: 0:01:34
+# Errors: 5, Warnings: 0
+# vsim top "+z=2" 
+# Start time: 15:09:48 on Sep 02,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+# a=0100 b=0001 opcode=0 y=00000101 Time=0
+# a=0100 b=0001 opcode=1 y=00000011 Time=10
+# a=0100 b=0001 opcode=2 y=00000100 Time=20
+# a=0100 b=0001 opcode=3 y=00000100 Time=30
+# a=0100 b=0001 opcode=4 y=00000001 Time=40
+# a=0100 b=0001 opcode=5 y=00000000 Time=50
+# a=0100 b=0001 opcode=6 y=00000000 Time=60
+# a=0100 b=0001 opcode=7 y=01000001 Time=70
+# a=1001 b=0011 opcode=0 y=00001100 Time=80
+# a=1001 b=0011 opcode=1 y=00000110 Time=90
+# a=1001 b=0011 opcode=2 y=00011011 Time=100
+# a=1001 b=0011 opcode=3 y=00000011 Time=110
+# a=1001 b=0011 opcode=4 y=00000001 Time=120
+# a=1001 b=0011 opcode=5 y=00000001 Time=130
+# a=1001 b=0011 opcode=6 y=00000000 Time=140
+# a=1001 b=0011 opcode=7 y=10010011 Time=150
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:11:35 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:11:35 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:11:35 on Sep 02,2025, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 1
+# vsim top "+z=0" 
+# Start time: 15:11:36 on Sep 02,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+# a=xxxx b=xxxx opcode=x y=xxxxxxxx Time=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:14:03 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:14:03 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:14:03 on Sep 02,2025, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 1
+# vsim top "+z=1" 
+# Start time: 15:14:03 on Sep 02,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+# a=0100 b=0001 opcode=0 y=00000101 Time=0
+# a=0100 b=0001 opcode=1 y=00000011 Time=10
+# a=0100 b=0001 opcode=2 y=00000100 Time=20
+# a=0100 b=0001 opcode=3 y=00000100 Time=30
+# a=0100 b=0001 opcode=4 y=00000001 Time=40
+# a=0100 b=0001 opcode=5 y=00000000 Time=50
+# a=0100 b=0001 opcode=6 y=00000000 Time=60
+# a=0100 b=0001 opcode=7 y=01000001 Time=70
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:14:27 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:14:27 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:14:28 on Sep 02,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+# vsim top "+z=3" 
+# Start time: 15:14:28 on Sep 02,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+# a=0100 b=0001 opcode=0 y=00000101 Time=0
+# a=0100 b=0001 opcode=1 y=00000011 Time=10
+# a=0100 b=0001 opcode=2 y=00000100 Time=20
+# a=0100 b=0001 opcode=3 y=00000100 Time=30
+# a=0100 b=0001 opcode=4 y=00000001 Time=40
+# a=0100 b=0001 opcode=5 y=00000000 Time=50
+# a=0100 b=0001 opcode=6 y=00000000 Time=60
+# a=0100 b=0001 opcode=7 y=01000001 Time=70
+# a=1001 b=0011 opcode=0 y=00001100 Time=80
+# a=1001 b=0011 opcode=1 y=00000110 Time=90
+# a=1001 b=0011 opcode=2 y=00011011 Time=100
+# a=1001 b=0011 opcode=3 y=00000011 Time=110
+# a=1001 b=0011 opcode=4 y=00000001 Time=120
+# a=1001 b=0011 opcode=5 y=00000001 Time=130
+# a=1001 b=0011 opcode=6 y=00000000 Time=140
+# a=1001 b=0011 opcode=7 y=10010011 Time=150
+# a=1101 b=1101 opcode=0 y=00011010 Time=160
+# a=1101 b=1101 opcode=1 y=00000000 Time=170
+# a=1101 b=1101 opcode=2 y=10101001 Time=180
+# a=1101 b=1101 opcode=3 y=00000001 Time=190
+# a=1101 b=1101 opcode=4 y=00000001 Time=200
+# a=1101 b=1101 opcode=5 y=00001101 Time=210
+# a=1101 b=1101 opcode=6 y=00000000 Time=220
+# a=1101 b=1101 opcode=7 y=11011101 Time=230
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:15:45 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# ** Error: alu.v(19): (vlog-13161) unexpected '$value$plusargs'
+# -- Compiling module top
+# End time: 15:15:45 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog alu.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:16:14 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# ** Error: (vlog-13069) alu.v(21): near "repeat": syntax error, unexpected repeat.
+# ** Error: alu.v(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 15:16:14 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/questasim-64 10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# E:/questasim-64 10.7c/win64/vlog failed.
+#     while executing
+# "vlog alu.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:17:15 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:17:15 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:17:16 on Sep 02,2025, Elapsed time: 0:02:48
+# Errors: 9, Warnings: 1
+# vsim top "+z=3" 
+# Start time: 15:17:16 on Sep 02,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+# ** Error (suppressible): (vsim-PLI-3073) $value$plusargs : Wrong number of arguments.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:18:54 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:18:54 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top "+z=3" 
+# Start time: 15:17:16 on Sep 02,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+# a=0100 b=0001 opcode=0 y=00000101 Time=0
+# a=0100 b=0001 opcode=1 y=00000011 Time=10
+# a=0100 b=0001 opcode=2 y=00000100 Time=20
+# a=0100 b=0001 opcode=3 y=00000100 Time=30
+# a=0100 b=0001 opcode=4 y=00000001 Time=40
+# a=0100 b=0001 opcode=5 y=00000000 Time=50
+# a=0100 b=0001 opcode=6 y=00000000 Time=60
+# a=0100 b=0001 opcode=7 y=01000001 Time=70
+# a=1001 b=0011 opcode=0 y=00001100 Time=80
+# a=1001 b=0011 opcode=1 y=00000110 Time=90
+# a=1001 b=0011 opcode=2 y=00011011 Time=100
+# a=1001 b=0011 opcode=3 y=00000011 Time=110
+# a=1001 b=0011 opcode=4 y=00000001 Time=120
+# a=1001 b=0011 opcode=5 y=00000001 Time=130
+# a=1001 b=0011 opcode=6 y=00000000 Time=140
+# a=1001 b=0011 opcode=7 y=10010011 Time=150
+# a=1101 b=1101 opcode=0 y=00011010 Time=160
+# a=1101 b=1101 opcode=1 y=00000000 Time=170
+# a=1101 b=1101 opcode=2 y=10101001 Time=180
+# a=1101 b=1101 opcode=3 y=00000001 Time=190
+# a=1101 b=1101 opcode=4 y=00000001 Time=200
+# a=1101 b=1101 opcode=5 y=00001101 Time=210
+# a=1101 b=1101 opcode=6 y=00000000 Time=220
+# a=1101 b=1101 opcode=7 y=11011101 Time=230
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:23:21 on Sep 02,2025
+# vlog -reportprogress 300 alu.v "+acc" 
+# -- Compiling module alu
+# -- Compiling module alu_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:23:21 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:23:22 on Sep 02,2025, Elapsed time: 0:06:06
+# Errors: 1, Warnings: 2
+# vsim top "+z=5" 
+# Start time: 15:23:22 on Sep 02,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+# a=0100 b=0001 opcode=0 y=00000101 Time=0
+# a=0100 b=0001 opcode=1 y=00000011 Time=10
+# a=0100 b=0001 opcode=2 y=00000100 Time=20
+# a=0100 b=0001 opcode=3 y=00000100 Time=30
+# a=0100 b=0001 opcode=4 y=00000001 Time=40
+# a=0100 b=0001 opcode=5 y=00000000 Time=50
+# a=0100 b=0001 opcode=6 y=00000000 Time=60
+# a=0100 b=0001 opcode=7 y=01000001 Time=70
+# a=1001 b=0011 opcode=0 y=00001100 Time=80
+# a=1001 b=0011 opcode=1 y=00000110 Time=90
+# a=1001 b=0011 opcode=2 y=00011011 Time=100
+# a=1001 b=0011 opcode=3 y=00000011 Time=110
+# a=1001 b=0011 opcode=4 y=00000001 Time=120
+# a=1001 b=0011 opcode=5 y=00000001 Time=130
+# a=1001 b=0011 opcode=6 y=00000000 Time=140
+# a=1001 b=0011 opcode=7 y=10010011 Time=150
+# a=1101 b=1101 opcode=0 y=00011010 Time=160
+# a=1101 b=1101 opcode=1 y=00000000 Time=170
+# a=1101 b=1101 opcode=2 y=10101001 Time=180
+# a=1101 b=1101 opcode=3 y=00000001 Time=190
+# a=1101 b=1101 opcode=4 y=00000001 Time=200
+# a=1101 b=1101 opcode=5 y=00001101 Time=210
+# a=1101 b=1101 opcode=6 y=00000000 Time=220
+# a=1101 b=1101 opcode=7 y=11011101 Time=230
+# a=0101 b=0010 opcode=0 y=00000111 Time=240
+# a=0101 b=0010 opcode=1 y=00000011 Time=250
+# a=0101 b=0010 opcode=2 y=00001010 Time=260
+# a=0101 b=0010 opcode=3 y=00000010 Time=270
+# a=0101 b=0010 opcode=4 y=00000001 Time=280
+# a=0101 b=0010 opcode=5 y=00000000 Time=290
+# a=0101 b=0010 opcode=6 y=00000000 Time=300
+# a=0101 b=0010 opcode=7 y=01010010 Time=310
+# a=0001 b=1101 opcode=0 y=00001110 Time=320
+# a=0001 b=1101 opcode=1 y=11110100 Time=330
+# a=0001 b=1101 opcode=2 y=00001101 Time=340
+# a=0001 b=1101 opcode=3 y=00000000 Time=350
+# a=0001 b=1101 opcode=4 y=00000001 Time=360
+# a=0001 b=1101 opcode=5 y=00000001 Time=370
+# a=0001 b=1101 opcode=6 y=00000000 Time=380
+# a=0001 b=1101 opcode=7 y=00011101 Time=390
+vsim top +z=2
+# End time: 15:24:52 on Sep 02,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 1
+# vsim top "+z=2" 
+# Start time: 15:24:52 on Sep 02,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.alu(fast)
+# Loading work.alu_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/gate2 File: alu.v Line: 19
+run -all
+# a=0100 b=0001 opcode=0 y=00000101 Time=0
+# a=0100 b=0001 opcode=1 y=00000011 Time=10
+# a=0100 b=0001 opcode=2 y=00000100 Time=20
+# a=0100 b=0001 opcode=3 y=00000100 Time=30
+# a=0100 b=0001 opcode=4 y=00000001 Time=40
+# a=0100 b=0001 opcode=5 y=00000000 Time=50
+# a=0100 b=0001 opcode=6 y=00000000 Time=60
+# a=0100 b=0001 opcode=7 y=01000001 Time=70
+# a=1001 b=0011 opcode=0 y=00001100 Time=80
+# a=1001 b=0011 opcode=1 y=00000110 Time=90
+# a=1001 b=0011 opcode=2 y=00011011 Time=100
+# a=1001 b=0011 opcode=3 y=00000011 Time=110
+# a=1001 b=0011 opcode=4 y=00000001 Time=120
+# a=1001 b=0011 opcode=5 y=00000001 Time=130
+# a=1001 b=0011 opcode=6 y=00000000 Time=140
+# a=1001 b=0011 opcode=7 y=10010011 Time=150
+# End time: 15:25:37 on Sep 02,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1

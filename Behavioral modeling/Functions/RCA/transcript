@@ -1,0 +1,80 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# frca.v  nrca.v  run.do  tb.v  test.v  transcript      
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:21:39 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module rca
+# ** Error: test.v(19): (vlog-2110) Illegal reference to net "sum".
+# ** Error: test.v(23): (vlog-2110) Illegal reference to net "sum".
+# ** Error: test.v(27): (vlog-2110) Illegal reference to net "sum".
+# ** Error: test.v(31): (vlog-2110) Illegal reference to net "sum".
+# ** Error: test.v(32): (vlog-2110) Illegal reference to net "carry".
+# -- Compiling module tb
+# End time: 19:21:39 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# E:/questasim-64 10.7c/win64/vlog failed.
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:22:18 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module rca
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:22:18 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# vsim tb 
+# Start time: 19:22:24 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb(fast)
+# Loading work.rca(fast)
+add wave *
+run -all
+# a=0 b=1 cin=1 fa=10
+# a=1 b=1 cin=1 fa=11
+# a=0 b=0 cin=1 fa=01
+# a=1 b=1 cin=0 fa=10
+# OUTPUT OF F RCA  a=1010 b=1011 cin=1  sum=0110 cout=1
+vlog test.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:23:21 on Oct 12,2025
+# vlog -reportprogress 300 test.v "+acc" 
+# -- Compiling module rca
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:23:21 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb
+# End time: 19:23:24 on Oct 12,2025, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:23:24 on Oct 12,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.rca(fast)
+add wave *
+run -all
+# a=0 b=1 cin=1 fa=2
+# a=1 b=1 cin=1 fa=3
+# a=0 b=0 cin=1 fa=1
+# a=1 b=1 cin=0 fa=2
+# OUTPUT OF F RCA  a=10 b=11 cin=1  sum= 6 cout=1

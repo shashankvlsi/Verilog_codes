@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Gate-Level Modeling/flip-flop test code/D-FF
+T_opt
+!s110 1756531840
+V?EiUk8l4fDgmG0H[MJ5Ha1
+04 6 4 work dff_tb fast 0
+=1-4c0f3ec0fd23-68b28c7e-304-2784
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdff
+!s110 1756532251
+!i10b 1
+!s100 g8<z^Jjn7oMRK`UO;AVP32
+IC1hmVTT6;L8S_j0NC9[j43
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1756531940
+Z3 8dff.v
+Z4 Fdff.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1756532251.000000
+Z6 !s107 dff.v|
+Z7 !s90 -reportprogress|300|dff.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdff_tb
+!s110 1756531837
+!i10b 1
+!s100 T<7zU:zH];AjPG2GK:[?=2
+I?[d?SXJaFjA0Y[CeJiA<D0
+R2
+R0
+w1756531834
+R3
+R4
+L0 11
+R5
+r1
+!s85 0
+31
+!s108 1756531837.000000
+R6
+R7
+!i113 0
+R8
+R1

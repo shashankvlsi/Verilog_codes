@@ -1,0 +1,105 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# mux.v  transcript              
+vlog mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:19:11 on Aug 30,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module mux_tb
+# 
+# Top level modules:
+# 	mux_tb
+# End time: 13:19:11 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux_tb
+# vsim mux_tb 
+# Start time: 13:19:19 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): mux.v(9): (vopt-13259) Missing instance name in instantiation of module/program/interface 'mux'.
+# Optimization failed
+# Error loading design
+# End time: 13:19:20 on Aug 30,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:19:38 on Aug 30,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module mux_tb
+# 
+# Top level modules:
+# 	mux_tb
+# End time: 13:19:38 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux_tb
+# vsim mux_tb 
+# Start time: 13:19:39 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux_tb(fast)
+# Loading work.mux(fast)
+add wave *
+run -all
+# i0=0 i1=1 s=0 y=&b Time=0                   0
+# i0=0 i1=1 s=1 y=&b Time=1                  10
+vlog mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:22:38 on Aug 30,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module mux_tb
+# 
+# Top level modules:
+# 	mux_tb
+# End time: 13:22:38 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux_tb
+# End time: 13:22:40 on Aug 30,2025, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 0
+# vsim mux_tb 
+# Start time: 13:22:40 on Aug 30,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.mux_tb(fast)
+# Loading work.mux(fast)
+add wave *
+run -all
+# i0=0 i1=1 s=0 y=&b Time=0                   0
+# i0=0 i1=1 s=1 y=&b Time=1                  10
+vlog mux.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:23:14 on Aug 30,2025
+# vlog -reportprogress 300 mux.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module mux_tb
+# 
+# Top level modules:
+# 	mux_tb
+# End time: 13:23:14 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux_tb
+# End time: 13:23:16 on Aug 30,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# vsim mux_tb 
+# Start time: 13:23:16 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux_tb(fast)
+# Loading work.mux(fast)
+add wave *
+run -all
+# i0=0 i1=1 s=0 y=0 Time=0
+# i0=0 i1=1 s=1 y=1 Time=10
+# End time: 13:23:40 on Aug 30,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0

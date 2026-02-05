@@ -1,0 +1,621 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:05:53 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:05:53 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 11:05:53 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlftb1hsq7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftb1hsq7
+#  Open App
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+#  Bus Portal Opened
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+#  Select Current Location
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# Location Selected
+#  Applying Filters......
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# Filteres Applied
+#  Select Bus.....
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+#  Select Seats
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+#  Select Source & Destination
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+#  Applying Coupon
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# Coupen Applied
+#  Making Payment.....
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# Payment Done
+# Booking Completed...
+# Tickets are sent to your registered Email....
+# ** Note: $stop    : bus.v(230)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 230
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:07:09 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:07:09 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:07:13 on Oct 11,2025, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:07:13 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlftr657zk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftr657zk
+#  Open App
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+#  Bus Portal Opened
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+#  Select Current Location
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# Location Selected
+#  Applying Filters......
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# Filteres Applied
+#  Select Bus.....
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+#  Select Seats
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+#  Select Source & Destination
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+#  Applying Coupon
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# Coupen Applied
+#  Making Payment.....
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# Payment Done
+# Booking Completed...
+# Tickets are sent to your registered Email....
+# ** Note: $stop    : bus.v(230)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 230
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:08:43 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:08:44 on Oct 11,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:08:46 on Oct 11,2025, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:08:46 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fmonitot' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /tb File: bus.v Line: 167
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlftqjx2dg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqjx2dg
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fmonitot'
+#    Time: 0 ns  Iteration: 0  Process: /tb/#INITIAL#143,161,226 File: bus.v Line: 167
+#  Open App
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+#  Bus Portal Opened
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+#  Select Current Location
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# Location Selected
+#  Applying Filters......
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# Filteres Applied
+#  Select Bus.....
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+#  Select Seats
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+#  Select Source & Destination
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+#  Applying Coupon
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# Coupen Applied
+#  Making Payment.....
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# Payment Done
+# Booking Completed...
+# Tickets are sent to your registered Email....
+# ** Note: $stop    : bus.v(231)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 231
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:09:35 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:09:35 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:09:37 on Oct 11,2025, Elapsed time: 0:00:51
+# Errors: 1, Warnings: 3
+# vsim tb 
+# Start time: 11:09:37 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlftxikgq4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxikgq4
+#  Open App
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+#  Bus Portal Opened
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+#  Select Current Location
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# Location Selected
+#  Applying Filters......
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# Filteres Applied
+#  Select Bus.....
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+#  Select Seats
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+#  Select Source & Destination
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+#  Applying Coupon
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# Coupen Applied
+#  Making Payment.....
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# Payment Done
+# Booking Completed...
+# Tickets are sent to your registered Email....
+# ** Note: $stop    : bus.v(231)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 231
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:10:54 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:10:54 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:10:57 on Oct 11,2025, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:10:57 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlftfqtjeh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfqtjeh
+#  Open App
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+#  Bus Portal Opened
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+#  Select Current Location
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# Location Selected
+#  Applying Filters......
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# Filteres Applied
+#  Select Bus.....
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+#  Select Seats
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+#  Select Source & Destination
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+#  Applying Coupon
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# Coupen Applied
+#  Making Payment.....
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# Payment Done
+# Booking Completed...
+# Tickets are sent to your registered Email....
+# clk=1 rst=1 x=1 y=1 Time=115
+# clk=0 rst=1 x=1 y=1 Time=120
+# ** Note: $stop    : bus.v(231)
+#    Time: 125 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at bus.v line 231
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:13:12 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:13:12 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:13:14 on Oct 11,2025, Elapsed time: 0:02:17
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:13:14 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlft3g7t40".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3g7t40
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+#  Bus Portal Opened
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+#  Select Current Location
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# Location Selected
+#  Applying Filters......
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# Filteres Applied
+#  Select Bus.....
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+#  Select Seats
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+#  Select Source & Destination
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+#  Applying Coupon
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# Coupen Applied
+#  Making Payment.....
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# Payment Done
+# Booking Completed...
+# Tickets are sent to your registered Email....
+# ** Note: $stop    : bus.v(231)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 231
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:17:07 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:17:07 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:17:10 on Oct 11,2025, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:17:10 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlfts8tnmw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts8tnmw
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+#  Bus Portal Opened
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+#  Select Current Location
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# Location Selected
+#  Applying Filters......
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# Filteres Applied
+#  Select Bus.....
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+#  Select Seats
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+#  Select Source & Destination
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+#  Applying Coupon
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# Coupen Applied
+#  Making Payment.....
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# Payment Done
+# Booking Completed...
+# Tickets are sent to your registered Email....
+# ** Note: $stop    : bus.v(229)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 229
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:18:51 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:18:51 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:18:54 on Oct 11,2025, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:18:54 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlfte5vefa".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte5vefa
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+#  Select Seats
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+#  Select Source & Destination
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+#  Applying Coupon
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# Coupen Applied
+#  Making Payment.....
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# Payment Done
+# Booking Completed...
+# Tickets are sent to your registered Email....
+# ** Note: $stop    : bus.v(229)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 229
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:20:40 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:20:40 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:20:43 on Oct 11,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:20:43 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlftjs8201".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjs8201
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# ** Note: $stop    : bus.v(229)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 229
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:22:37 on Oct 11,2025
+# vlog -reportprogress 300 bus.v "+acc" 
+# -- Compiling module bus
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 11:22:37 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:22:39 on Oct 11,2025, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 2
+# vsim tb 
+# Start time: 11:22:39 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.bus(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Shashank K S  Hostname: LAPTOP-15661E6O  ProcessID: 6452
+#           Attempting to use alternate WLF file "./wlftbd1re7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbd1re7
+# clk=0 rst=0 x=0 y=0 Time=0
+# clk=1 rst=0 x=0 y=0 Time=5
+# clk=0 rst=0 x=0 y=0 Time=10
+# clk=1 rst=0 x=0 y=0 Time=15
+# clk=0 rst=1 x=0 y=0 Time=20
+# clk=1 rst=1 x=0 y=0 Time=25
+# clk=0 rst=1 x=1 y=0 Time=30
+# clk=1 rst=1 x=1 y=0 Time=35
+# clk=0 rst=1 x=1 y=0 Time=40
+# clk=1 rst=1 x=1 y=0 Time=45
+# clk=0 rst=1 x=1 y=0 Time=50
+# clk=1 rst=1 x=1 y=0 Time=55
+# clk=0 rst=1 x=1 y=0 Time=60
+# clk=1 rst=1 x=1 y=0 Time=65
+# clk=0 rst=1 x=1 y=0 Time=70
+# clk=1 rst=1 x=1 y=0 Time=75
+# clk=0 rst=1 x=1 y=0 Time=80
+# clk=1 rst=1 x=1 y=0 Time=85
+# clk=0 rst=1 x=1 y=0 Time=90
+# clk=1 rst=1 x=1 y=0 Time=95
+# clk=0 rst=1 x=1 y=0 Time=100
+# clk=1 rst=1 x=1 y=0 Time=105
+# clk=0 rst=1 x=1 y=0 Time=110
+# ** Note: $stop    : bus.v(229)
+#    Time: 115 ns  Iteration: 4  Instance: /tb
+# Break in Module tb at bus.v line 229
+# End time: 11:23:09 on Oct 11,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2

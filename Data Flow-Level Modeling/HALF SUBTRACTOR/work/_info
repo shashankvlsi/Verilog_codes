@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/Verilog/Data Flow-Level Modeling/HALF SUBTRACTOR
+T_opt
+!s110 1756539246
+Vl8?JJVGl0KkiMeF7nk`7h2
+04 5 4 work hs_tb fast 0
+=1-4c0f3ec0fd23-68b2a96e-bc-5220
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vhs
+Z2 !s110 1756539244
+!i10b 1
+!s100 GM0BE`Dg3W=O^0F``DzSl2
+I7]BlXd:aU9f4Qg6J_Iz<?0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756539241
+Z5 8hs.v
+Z6 Fhs.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756539244.000000
+Z9 !s107 hs.v|
+Z10 !s90 -reportprogress|300|hs.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vhs_tb
+R2
+!i10b 1
+!s100 8YP=HVhFl2XU;RCA3CNkJ0
+IgzmIkk=<N`WoDa0cjV4UF2
+R3
+R0
+R4
+R5
+R6
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
