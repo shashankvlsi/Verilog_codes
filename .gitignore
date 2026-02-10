@@ -1,8 +1,9 @@
-# Simulator / tool junk
-transcript
-*.log
-*.wlf
-*.vcd
-*.fsdb
-*.jou
 work/
+*.wlf
+*.vstf
+transcript
+run.do
+*.log
+*.html
+*.css
+*.js
