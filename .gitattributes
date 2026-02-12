@@ -1,14 +1,18 @@
+# Force SystemVerilog detection
 *.sv linguist-language=SystemVerilog
-*.sv linguist-language=SystemVerilog
-*.sv linguist-detectable=true
-# Ignore non-source files for language stats
+*.svh linguist-language=SystemVerilog
+*.v linguist-language=Verilog
+
+# Exclude documentation from language stats
 *.html linguist-documentation
 *.css linguist-documentation
 *.js linguist-documentation
 *.ppt linguist-documentation
 *.pptx linguist-documentation
 *.pdf linguist-documentation
+
+# Exclude simulator/tool generated files
 *.do linguist-vendored
 *.wlf linguist-vendored
 transcript linguist-vendored
-work/ linguist-vendored
+work/** linguist-vendored
