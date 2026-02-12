@@ -11,4 +11,4 @@
 *.do linguist-vendored
 *.wlf linguist-vendored
 transcript linguist-vendored
-work/ linguist-vendored  
+work/ linguist-vendored
